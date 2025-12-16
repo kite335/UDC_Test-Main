@@ -1,0 +1,150 @@
+/* ================= CSS ================= */
+/* ZohoPage.css */
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e8f0ff, #fff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+  text-align: center;
+  max-width: 800px;
+  z-index: 2;
+}
+
+.badge {
+  background: #0d6efd;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 20px;
+}
+
+.hero h1 {
+  font-size: 52px;
+}
+
+.hero h1 span {
+  background: linear-gradient(135deg, #0d6efd, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  color: #475569;
+}
+
+.hero-actions {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn-primary {
+  background: #0d6efd;
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 30px;
+  border: none;
+}
+
+.btn-outline {
+  border: 2px solid #0d6efd;
+  padding: 14px 32px;
+  border-radius: 30px;
+  background: transparent;
+}
+
+.blob {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, #0d6efd, transparent);
+  filter: blur(80px);
+}
+
+.b1 { top: 10%; left: -100px; }
+.b2 { bottom: 10%; right: -100px; }
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+  background: #0d6efd;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.apps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
+  gap: 20px;
+  padding: 80px 20px;
+}
+
+.app {
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.clients {
+  background: #f8fafc;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.track {
+  display: flex;
+  gap: 50px;
+  animation: slide 15s linear infinite;
+}
+
+@keyframes slide {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.lead {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.lead form {
+  max-width: 500px;
+  margin: auto;
+  display: grid;
+  gap: 15px;
+}
+
+.lead input, .lead textarea {
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #25d366;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-size: 26px;
+}

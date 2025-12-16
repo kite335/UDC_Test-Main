@@ -1,0 +1,284 @@
+/* ============================================================
+   GLOBAL
+   ============================================================ */
+.mainLanding {
+  overflow-x: hidden;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* ============================================================
+   HERO SECTION
+   ============================================================ */
+
+/* Fullscreen image that scales and doesn't stretch */
+.carouselImage {
+  height: 92vh;
+  object-fit: cover;
+}
+
+/* Dark overlay on hero */
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(3px);
+}
+
+/* Left text block on hero */
+.heroContent {
+  max-width: 45%;
+  margin-left: 6%;
+  color: #fff;
+}
+
+/* Large desktop heading */
+.heroContent h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.heroContent p {
+  text-align: justify;
+}
+
+.heroContent span {
+  color: #0d6efd;
+}
+
+.heroButtons {
+  margin-top: 20px;
+}
+
+/* Reusable CTA button */
+.primaryBtn {
+  background: #0d6efd;
+  color: #fff;
+  padding: 12px 32px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* ============================================================
+   ABOUT SECTION
+   ============================================================ */
+.aboutSection {
+  padding: 80px 20px;
+  background: #f8fbff;
+  text-align: center;
+}
+
+.aboutSection h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.aboutSection span {
+  color: #0d6efd;
+}
+
+.aboutSection p {
+  max-width: 700px;
+  margin: 0 auto 35px;
+  color: #333;
+  text-align: justify;
+}
+
+/* Card with CEO text + client number */
+.aboutCard {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+  max-width: 1100px;
+  margin: auto;
+  gap: 30px;
+}
+
+.aboutCard p {
+  text-align: justify;
+}
+
+.clientBox h1 {
+  font-size: 60px;
+  color: #0d6efd;
+}
+
+.clientBox span {
+  font-weight: 600;
+}
+
+
+/* ============================================================
+   GROWTH SECTION
+   ============================================================ */
+.growthSection {
+  padding: 90px 20px;
+  background-size: cover;
+}
+
+.growthGlass {
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(10px);
+  border-radius: 24px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1150px;
+  margin: auto;
+}
+
+.experienceCircle {
+  width: 160px;
+  height: 160px;
+  background: #0d6efd;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.experienceCircle h1 {
+  font-size: 45px;
+}
+
+/* Grid for CRM product icons */
+.productGrid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+}
+
+.productCard {
+  background: #fff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+
+/* ============================================================
+   RESPONSIVE DESIGN
+   ============================================================ */
+
+
+/* ============== Medium Screens (Tablets) ============== */
+@media (max-width: 992px) {
+
+  /* HERO */
+  .heroContent {
+    max-width: 70%;
+  }
+
+  .heroContent h1 {
+    font-size: 40px;
+  }
+
+  .carouselImage {
+    height: 70vh;
+  }
+
+  /* ABOUT */
+  .aboutCard {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  /* GROWTH */
+  .growthGlass {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .productGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+/* ============== Small Screens (Mobiles) ============== */
+@media (max-width: 768px) {
+
+  /* HERO MOBILE */
+  .heroContent {
+    max-width: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .heroContent h1 {
+    font-size: 40px;
+    text-align:justify;
+  }
+   .heroContent p{
+    
+    font-weight: 300;
+    text-align:left
+   }
+  .carouselImage {
+    height: 70vh !important ;
+  }
+
+  /* ABOUT */
+  .aboutSection h2 {
+    font-size: 32px;
+  }
+
+  .aboutCard {
+    padding: 25px;
+  }
+
+  /* GROWTH */
+  .experienceCircle {
+    width: 130px;
+    height: 130px;
+  }
+
+  .productGrid {
+    grid-template-columns: 1fr; /* Single column on mobile */
+  }
+}
+
+
+/* ============== Extra Small Screens ============== */
+@media (max-width: 611px) {
+   
+  .heroContent{
+    max-width:90%;
+    margin:auto;
+  }
+  .heroContent h1 {
+    font-size:10px;
+    text-align: center;
+  }
+  heroContent p {
+    font-size:10px;
+    text-align: justify;
+  }
+
+  .primaryBtn {
+    padding: 6px 7px;
+    font-size:15px;
+    
+  }
+
+  .clientBox h1 {
+    font-size: 45px;
+  }
+
+  .growthGlass {
+    padding: 30px;
+  }
+}

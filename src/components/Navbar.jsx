@@ -5,7 +5,7 @@ import "./Navbar.css";
 import b24icon from "../assets/theme/b24Icon.png";
 import zicon from "../assets/theme/zIcon.png";
 import Odoo from "../assets/theme/Odoo.png";
-import Zwcad from "../assets/theme/Zwcad.png";
+import Zwcad from "../assets/theme/zwcad.png";
 
 const Navbar = ({ onAuthOpen, onOpenForm }) => {
   const location = useLocation();
@@ -162,7 +162,7 @@ const Navbar = ({ onAuthOpen, onOpenForm }) => {
           <ul className={` ${panelStatus && "custom-dropdown-menu"}`}>
             {/* Bitrix24 icon + submenu */}
             <div className={`sideBarMenu`}>
-              <li className={`dropdown-submenu selected ${bitrixOpen ? "open" : ""}`}>
+              <li className={`dropdown-submenu  ${bitrixOpen ? "open" : ""} ${currentPath==="/"?"selected":''}`}>
                 <a
                   className="dropdown-toggle bitrixToggle bitrixArrowWrapper "
                   href="#"
@@ -170,7 +170,7 @@ const Navbar = ({ onAuthOpen, onOpenForm }) => {
                     !bitrixOpen ? setBitrixOpen(true) : setBitrixOpen(false);
                   }}
                 >
-                  <img src={b24icon} style={{ width: "80px" }} />
+                  <img src={b24icon} style={{ width: "80px",height:"15px" }} />
 
                   {/* ▼ Arrow */}
                   
@@ -178,13 +178,13 @@ const Navbar = ({ onAuthOpen, onOpenForm }) => {
               </li>
 
               {/* Zoho */}
-              <li>
+              <li className={`${currentPath==="/zoho-page"?"selected":''}`}>
                 <Link
                   to="/zoho-page"
-                  className="dropdown-item"
+                 
                   onClick={handleNavClick}
                 >
-                  <img src={zicon} style={{ width: "80px" }} />
+                  <img src={zicon} style={{ width: "80px",height:"15px",objectFit:"cover" }} />
                 </Link>
               </li>
 
@@ -192,10 +192,10 @@ const Navbar = ({ onAuthOpen, onOpenForm }) => {
               <li>
                 <Link
                   to="/Bitrix24CRM"
-                  className="dropdown-item"
+                  
                   onClick={handleNavClick}
                 >
-                  <img src={Odoo} style={{ width: "80px" }} />
+                  <img src={Odoo} style={{ width: "80px",height:"15px",objectFit:"cover" }} />
                 </Link>
               </li>
 
@@ -203,10 +203,10 @@ const Navbar = ({ onAuthOpen, onOpenForm }) => {
               <li>
                 <Link
                   to="/Bitrix24CRM"
-                  className="dropdown-item"
+                  
                   onClick={handleNavClick}
                 >
-                  <img src={Zwcad} style={{ width: "80px" }} />
+                  <img src={Zwcad} style={{ width: "80px",height:"15px",objectFit:"cover" }} />
                 </Link>
               </li>
             </div>

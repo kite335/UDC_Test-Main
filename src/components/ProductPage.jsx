@@ -3,7 +3,7 @@ import "./ProductPage.css";
 import b24Icon from "../assets/theme/b24Icon.png";
 import zIcon  from "../assets/theme/zIcon.png";
 import odooIcon from "../assets/theme/odooIcon.png";
-import Zwcad from "../assets/theme/Zwcad.png";
+import Zwcad from "../assets/theme/zwcad.png";
 import { Link, useLocation } from "react-router-dom";
 
 export default function ProductPage() {

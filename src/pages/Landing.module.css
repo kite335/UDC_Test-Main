@@ -1,6 +1,7 @@
 /* ============================================================
    GLOBAL
    ============================================================ */
+   
 .mainLanding {
   overflow-x: hidden;
   font-family: "Segoe UI", sans-serif;
@@ -11,10 +12,21 @@
    ============================================================ */
 
 /* Fullscreen image that scales and doesn't stretch */
+
 .carouselImage {
-  height: 92vh;
+   height: 92vh; 
   object-fit: cover;
+  width: 100%!important;
+  
+  
+
 }
+
+
+  .carouselItem { 
+  width: 100%;  
+}
+
 
 /* Dark overlay on hero */
 .heroOverlay {
@@ -23,6 +35,7 @@
   background: rgba(0,0,0,0.45);
   display: flex;
   align-items: center;
+  width:100%;
   backdrop-filter: blur(3px);
 }
 
@@ -185,9 +198,7 @@
     font-size: 40px;
   }
 
-  .carouselImage {
-    height: 70vh;
-  }
+  
 
   /* ABOUT */
   .aboutCard {
@@ -227,9 +238,7 @@
     font-weight: 300;
     text-align:left
    }
-  .carouselImage {
-    height: 70vh !important ;
-  }
+  
 
   /* ABOUT */
   .aboutSection h2 {

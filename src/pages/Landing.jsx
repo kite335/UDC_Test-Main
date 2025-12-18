@@ -1,18 +1,18 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from "react-router-dom";
-import themeBack from '../assets/theme/themeBack.jpg'
-import themeBack2 from '../assets/theme/themeBack2.jpg'
-import themeBack3 from '../assets/theme/themeBack3.jpg'
-import themeBack4 from '../assets/theme/themeBack4.jpg'
-import themeBack5 from '../assets/theme/themeBack5.jpg'
-import themeBack6 from '../assets/theme/themeBack6.jpg'
-import themeBack7 from '../assets/theme/themeBack7.jpg'
+import themeBack from '../assets/theme/themeback.jpg'
+import themeBack2 from '../assets/theme/themeback2.jpg'
+import themeBack3 from '../assets/theme/themeback3.jpg'
+import themeBack4 from '../assets/theme/themeback4.jpg'
+import themeBack5 from '../assets/theme/themeback5.jpg'
+import themeBack6 from '../assets/theme/themeback6.jpg'
+import themeBack7 from '../assets/theme/themeback7.jpg'
 import back1 from '../assets/theme/back1.png'
 
 import b24icon from '../assets/theme/b24Icon.png'
 import zicon from '../assets/theme/zIcon.png'
 import Odoo from '../assets/theme/Odoo.png'
-import Zwcad from '../assets/theme/Zwcad.png'
+import Zwcad from '../assets/theme/zwcad.png'
 import glass from "../assets/theme/glass.jpg"
 
 import css from './Landing.module.css'
@@ -46,15 +46,15 @@ const Landing = () => {
         id="carouselHero"
         className="carousel slide"
         data-bs-ride="carousel"
-        data-bs-interval="2500"
+        data-bs-interval="5500"
        >
         <div className="carousel-inner">
           {slides.map((img, index) => (
             <div
-              className={`carousel-item ${index === 0 ? 'active' : ''}`}
+              className={`carousel-item ${css.carouselItem} ${index === 0 ? 'active' : ''}`}
               key={index}
             >
-              <img src={img} className={`d-block w-100 ${css.carouselImage}`} />
+              <img src={img}   className={`d-block w-100  ${css.carouselImage}`} />
 
               {/* Overlay Content */}
               <div className={css.heroOverlay}>

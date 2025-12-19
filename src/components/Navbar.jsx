@@ -21,13 +21,22 @@ const Navbar = ({ onAuthOpen, onOpenForm }) => {
   const [bitrixOpen, setBitrixOpen] = useState(false);
 
   const [itemtoView,setItemToView]=useState({
-     panel:{topicIcon:crmIcon,
+     panel:{
+      topicIcon:crmIcon,
         topicHeading:"CRM",
-        topicTagLine:"Sale more",
+        topicTagLine:"Manage sales and clients effortlessly",
         topicContent:[
-          {contentHeading:"Main",des:"Desc"},
-          {contentHeading:"Main",des:"Desc"},
-          {contentHeading:"Main",des:"Desc"}
+          {contentHeading:"Sales management",des:"Manage leads, deals, contacts, pipelines, access permissions & roles"},
+          {contentHeading:"Contact center",des:"Omnichannel communications via CRM forms, website widget, live chat, WhatsApp, Instagram, telephony, email"},
+          {contentHeading:"Sales team collaboration",des:"Work with chat, video calls, tasks, calendar, file storage, online documents"},
+          {contentHeading:"Sales enablement",des:"Get estimates, invoices, payments, catalog, inventory, e-signature, CRM store"},
+          {contentHeading:"Analytics & reports",des:"Analyze sales funnel, employee performance, Sales Intelligence, BI Builder dashboards"},
+          {contentHeading:"Mobile CRM",des:"Leads, deals, invoices, payments, telephony, emails, inventory, calendar at your fingertips"},
+          {contentHeading:"Marketing",des:"Use email campaigns, social media ads, SMS, telemarketing, landing pages"},
+          {contentHeading:"Automation & integrations",des:"Set CRM rules and triggers, workflow automation, automated funnels, API"},
+          {contentHeading:"CoPilot in CRM",des:"Call audio-to-text transcription, call summary, field autocompletion in deals"},
+          
+          
         ]
       }
     })
@@ -161,9 +170,13 @@ const Navbar = ({ onAuthOpen, onOpenForm }) => {
           {/* MAIN MENU BAR END HERE */}
         </div>
       </nav>
+      
       <div className="importedProducts">
+     
+
       <Sidebar sidebarStatus={panelStatus} showDropDown={showDropdown}/>
       <DropdownPanel   sidebarStatus={panelStatus} viewItem={itemtoView}/>
+     
     </div>
     
     </>

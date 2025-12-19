@@ -12,7 +12,7 @@ return (
     {
    sidebarStatus&&   
     <div className="d-flex w-100  flex-column align-items-stretch flex-shrink-0 bg-white">
-      <div className=" px-5" py-5>
+      <div className=" px-5 pt-3" >
     <a href="/" className="d-flex align-items-center flex-shrink-0 p-0 link-dark text-decoration-none ">
               <img src={topicIcon}alt={"icon"}></img>
       <svg className="bi me-2" width="4" height="24"><use xlink:href="#bootstrap"></use></svg>

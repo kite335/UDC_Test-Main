@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import DropdownPanel from "./DropdownPanel";
+import Sidebar from "./Sidebar"
 import logo from "../assets/logo1 .png";
+import crmIcon from "../assets/SidebarSvg/crm.svg";
 import "./Navbar.css";
 import b24icon from "../assets/theme/b24Icon.png";
 import zicon from "../assets/theme/zIcon.png";
@@ -16,6 +19,21 @@ const Navbar = ({ onAuthOpen, onOpenForm }) => {
   // Bitrix submenu click toggle[]
   const [panelStatus, setPanelStatus] = useState(false);
   const [bitrixOpen, setBitrixOpen] = useState(false);
+
+  const [itemtoView,setItemToView]=useState({
+     panel:{topicIcon:crmIcon,
+        topicHeading:"CRM",
+        topicTagLine:"Sale more",
+        topicContent:[
+          {contentHeading:"Main",des:"Desc"},
+          {contentHeading:"Main",des:"Desc"},
+          {contentHeading:"Main",des:"Desc"}
+        ]
+      }
+    })
+  const showDropdown=(dataForItem)=>{
+        setItemToView(dataForItem)
+  }
   console.log(panelStatus);
 
   const toggleBitrix = (e) => {
@@ -44,13 +62,14 @@ const Navbar = ({ onAuthOpen, onOpenForm }) => {
   return (
     <>
       <nav className="navbar custom-navbar navbar-expand-lg px-3 px-lg-4 shadow sticky-top">
-        <div className="container-fluid">
+        <div className="container-fluid firstContainer">
           {/* Logo and sologon click redirect home page */}
-          <Link
+          <div className="navLeft">
+           <Link
             className="navbar-brand d-flex align-items-center"
             to="/"
             onClick={handleNavClick}
-          >
+           >
             <img
               src={logo}
               alt="UDC Logo"
@@ -58,37 +77,13 @@ const Navbar = ({ onAuthOpen, onOpenForm }) => {
               style={{ height: "40px" }}
             />
             <span className="custom-text d-none d-sm-inline">
-              Unique Design Consultant
+              UDC24
             </span>
-          </Link>
-          {/* END HERE REDIRECT LOGIC */}
-
-          {/* <button
-          className="navbar-toggler"
-          type="button"
-          onClick={() => setIsNavCollapsed(!isNavCollapsed)}
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button> */}
-
-          {/* MENU ITEM LOGIC START HERE */}
-
-          <div
-            // className={`${isNavCollapsed ? "collapse" : ""} navbar-collapse`}
-            id="navbarNav"
-          >
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+           </Link>
+           
+             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               {/* HOME */}
-              <li className="nav-item active">
-                <Link
-                  to="/"
-                  className={`nav-link px-3  ${currentPath === "/" ? "highlight" : ""
-                    }`}
-                  onClick={handleNavClick}
-                >
-                  HOME
-                </Link>
-              </li>
+             
 
               {/* PRODUCTS DROPDOWN (Mega menu) */}
               <li className={`nav-item dropdown custom-dropdown`}>
@@ -152,83 +147,25 @@ const Navbar = ({ onAuthOpen, onOpenForm }) => {
                 </Link>
               </li>
             </ul>
+          
           </div>
+          
+
+          {/* MENU ITEM LOGIC START HERE */}
+
+          <ul className="navRight">
+           <li><a href="">Whatsapp</a></li>
+           <li><a href="">Email</a></li>
+           <li><a href="">Facebook</a></li>
+          </ul>
           {/* MAIN MENU BAR END HERE */}
         </div>
       </nav>
-    {panelStatus && (<div className="panelStatusContainer" style={{position:"absolute", maxWidth:"93%",margin:"auto",zIndex:"1",
-  left:"50px",display:"flex",width:"100%",}}>
-          
-          <ul className={` ${panelStatus && "custom-dropdown-menu"}`}>
-            {/* Bitrix24 icon + submenu */}
-            <div className={`sideBarMenu`}>
-              <li className={`dropdown-submenu  ${bitrixOpen ? "open" : ""} ${currentPath==="/"?"selected":''}`}>
-                <a
-                  className="dropdown-toggle bitrixToggle bitrixArrowWrapper "
-                  href="#"
-                  onClick={() => {
-                    !bitrixOpen ? setBitrixOpen(true) : setBitrixOpen(false);
-                  }}
-                >
-                  <img src={b24icon} style={{ width: "80px",height:"15px" }} />
-
-                  {/* ▼ Arrow */}
-                  
-                </a>
-              </li>
-
-              {/* Zoho */}
-              <li className={`${currentPath==="/zoho-page"?"selected":''}`}>
-                <Link
-                  to="/zoho-page"
-                 
-                  onClick={handleNavClick}
-                >
-                  <img src={zicon} style={{ width: "80px",height:"15px",objectFit:"cover" }} />
-                </Link>
-              </li>
-
-              {/* Odoo */}
-              <li>
-                <Link
-                  to="/Bitrix24CRM"
-                  
-                  onClick={handleNavClick}
-                >
-                  <img src={Odoo} style={{ width: "80px",height:"15px",objectFit:"cover" }} />
-                </Link>
-              </li>
-
-              {/* ZWCAD */}
-              <li>
-                <Link
-                  to="/Bitrix24CRM"
-                  
-                  onClick={handleNavClick}
-                >
-                  <img src={Zwcad} style={{ width: "80px",height:"15px",objectFit:"cover" }} />
-                </Link>
-              </li>
-            </div>
-          </ul>
-        
-
-        {/* Bitrix submenu */}
-        {
-          
-        <ul className={` Bitrix24Submenu`}>
-          <div className="Bitrix24SubmenuGrid">
-            {bitrixSubmenu.map((item) => (
-              <li key={item.path}>
-                <Link to={item.path} className="bitrixDropdown" onClick={()=>{panelStatus?setPanelStatus(false):''}}>
-                  {item.content}
-                </Link>
-              </li>
-            ))}
-          </div>
-        </ul>}
-      </div>)
-}
+      <div className="importedProducts">
+      <Sidebar sidebarStatus={panelStatus} showDropDown={showDropdown}/>
+      <DropdownPanel   sidebarStatus={panelStatus} viewItem={itemtoView}/>
+    </div>
+    
     </>
   );
 };

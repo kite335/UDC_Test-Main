@@ -1,0 +1,7 @@
+.dropdownItems{
+    display: grid;;
+    grid-template-columns: repeat(3,300px);
+    gap:0px
+
+    
+}

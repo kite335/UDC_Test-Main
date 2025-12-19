@@ -14,6 +14,27 @@
   color: #00c6ff !important;
 }
 
+.firstContainer{
+
+}
+
+.navLeft{
+display:flex;
+}
+
+.navRight{
+  display:flex;
+  justify-content: space-around;
+  column-gap: 30px;
+  
+}
+.navRight li a{
+  color:white
+}
+
+.importedProducts{
+  display:flex;
+}
 /* ----------------------------
  MEGA MENU (PRODUCTS)
 -----------------------------*/

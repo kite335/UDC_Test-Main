@@ -2,7 +2,7 @@
  BASIC NAVBAR COLORS
 -----------------------------*/
 .custom-navbar {
-  background-color: #3c3c3c !important;
+  background-color:#87CEEB!important;
 }
 
 .custom-navbar .nav-link {
@@ -15,7 +15,7 @@
 }
 
 .firstContainer{
-
+align-items: center;
 }
 
 .navLeft{
@@ -26,7 +26,12 @@ display:flex;
   display:flex;
   justify-content: space-around;
   column-gap: 30px;
-  
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.navRight li {
+  list-style: none;
 }
 .navRight li a{
   color:white

@@ -1,4 +1,5 @@
 import {useState,useRef} from 'react';
+import './Sidebar.css'
 
 import crmIcon from "../assets/SidebarSvg/crm.svg";
 import collabIcon from "../assets/SidebarSvg/collaboration.svg";
@@ -199,8 +200,8 @@ const [activeClass,setactiveClass]=useState(false)
       {sidebarData.map((sideItem,index)=>(
         <div key={index} >
          <li class="nav-item">
-        <a href="#" className={`nav-link fw-bold fs-5 py-3 ${index===classActive.current?"active":""}` }  aria-current="page" id={index} onClick={(e)=>{handleDropDown(e,dropdown)}}>
-         <img src={sideItem.icon}></img>
+        <a href="#" className={`nav-link fw-bold fs-5 py-3  ${index===classActive.current?"select":"sideItem"}` }  aria-current="page" id={index} onClick={(e)=>{handleDropDown(e,dropdown)}}>
+         <img src={sideItem.icon} className={`${index===classActive.current?"svgSelect":""}`}></img>
             
           <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
           {sideItem.listItem}

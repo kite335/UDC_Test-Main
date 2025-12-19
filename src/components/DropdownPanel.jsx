@@ -26,7 +26,7 @@ return (
       {topicContent.map((page)=>(
       <a href="#" className="list-group-item list-group-item-action active py-3 lh-tight" aria-current="true">
         <div className="d-flex w-100 align-items-center justify-content-between">
-          <strong className="mb-1">{page.contentHeading}</strong>
+          <strong className="mb-1 headingPanel">{page.contentHeading}</strong>
           
         </div>
         <div className="col-10 mb-1 small">{page.des}</div>

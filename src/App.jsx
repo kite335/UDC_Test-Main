@@ -106,8 +106,9 @@ function App() {
                     <FeatureSlider />
                     <DepartmentSection onPopupOpen={() => popupFormRef.current.open()}/>
                      <Testimonial />
-                     <Pricing status={mountStatus} />
                      <Technology />
+                     <Pricing status={mountStatus} />
+                     
                       <FAQ faq={homeFAQ} />
                     </>} />
 

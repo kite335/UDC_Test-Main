@@ -1,11 +1,39 @@
 .select{
-    background-color:#87CEEB ;
+    background-color:#87CEEB !important;
     color:antiquewhite !important;
+    border:none;
+    border-radius:20px !important
 }
 .sideItem{
 color:black !important;
+background-color: #00000009 !important; 
+border:none;
+border-radius:20px !important
 }
+
+.sideItemClick{
+ display:flex !important;
+ justify-content: space-between;
+
+align-items: center !important;
+
+}
+
+.sideItemClick:hover{
+    color:white !important;
+    background-color:#87CEEB !important
+}
+
+
+   
+.rotateArrow{
+    transform:rotate(-90deg);  
+    /* color:#00000021; */
+    
+}
+
+
 .svgSelect{
-    background-color: antiquewhite;
+   filter: brightness(0) invert(1);
     
 }

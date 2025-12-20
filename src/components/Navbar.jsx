@@ -18,7 +18,7 @@ const Navbar = ({ onAuthOpen, onOpenForm }) => {
 
   // Bitrix submenu click toggle[]
   const [panelStatus, setPanelStatus] = useState(false);
-  const [bitrixOpen, setBitrixOpen] = useState(false);
+  
 
   const [itemtoView, setItemToView] = useState({
     panel: {
@@ -197,8 +197,8 @@ const Navbar = ({ onAuthOpen, onOpenForm }) => {
       </nav>
 
       <div className="importedProducts">
-        <Sidebar sidebarStatus={panelStatus} showDropDown={showDropdown} />
-        <DropdownPanel sidebarStatus={panelStatus} viewItem={itemtoView} />
+        <Sidebar sidebarStatus={panelStatus}  showDropDown={showDropdown} />
+        <DropdownPanel sidebarStatus={panelStatus} setDropdownStatus={setPanelStatus} viewItem={itemtoView} />
       </div>
     </>
   );

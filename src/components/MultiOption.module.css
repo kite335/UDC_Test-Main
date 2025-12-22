@@ -1,0 +1,157 @@
+.containerWrapper{
+    
+color:rgb(38, 38, 38);
+display:flex;
+font-size:16px;
+font-style:normal;
+font-weight:400;
+height:508px;
+justify-content:center;
+line-height:28.8px;
+text-align:start;
+text-size-adjust:100%;
+}
+
+.outerContainer_1{
+display:flex;
+flex-basis: 100%;
+flex-grow:0;
+flex-shrink:0;
+max-width:1180px;
+padding:41px 15px 47px 15px;
+}
+
+.innerContainer_1{
+    display:flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: space-between;
+
+}
+
+.mediaLeft{
+    max-width: 500px;
+}
+
+.leftUpper{
+    display:flex;
+    margin-bottom: 24px;
+}
+
+.leftUpperIconBox{
+ align-items:center;
+border-bottom-color:rgb(255, 255, 255);
+border-bottom-left-radius:15px;
+border-bottom-right-radius:15px;
+border-bottom-style:solid;
+border-bottom-width:1px;
+
+border-image-repeat:stretch;
+border-image-slice:100%;
+border-image-source:none;
+border-image-width:1;
+border-left-color:rgb(255, 255, 255);
+border-left-style:solid;
+border-left-width:1px;
+border-right-color:rgb(255, 255, 255);
+border-right-style:solid;
+border-right-width:1px;
+border-top-color:rgb(255, 255, 255);
+border-top-left-radius:15px;
+border-top-right-radius:15px;
+border-top-style:solid;
+border-top-width:1px;
+box-sizing:border-box;
+color:rgb(38, 38, 38);
+display:flex;
+
+font-size:16px;
+font-style:normal;
+font-weight:400;
+height:50px;
+line-height:28.8px;
+min-height:50px;
+padding-bottom:7px;
+padding-left:7px;
+padding-right:7px;
+padding-top:7px;
+text-align:start;
+text-size-adjust:100%;
+
+
+
+}
+.leftUpperIconSpan{
+    font-size: 16px;
+    margin-right:8px;
+}
+
+.leftUpperText{
+    font-size: 18px;
+    font-weight: 600;
+    margin-right:18px;
+    line-height: 18px;
+    text-align:start;
+}
+
+.mediaLeft h1{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: start;
+}
+
+.leftDescription{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top:40px;
+    text-align: start;
+}
+
+.sec1BtnWrapper{
+margin-top:59px;
+text-size-adjust: 100%;
+}
+
+.sec1Btn{
+
+font-size: 16px;
+font-weight: 700;
+text-align: center;
+padding: 12px 24px;
+margin-bottom:10px;
+outline-width:0 ;
+line-height: 21px;
+text-decoration-line: none;
+background-color: #bdf300;
+vertical-align: middle;
+border-radius: 30px;
+text-transform: uppercase;
+position: relative;
+}
+
+.commanBackContainer{
+    display:flex;
+     justify-content: flex-end;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 100%;
+
+}
+
+.commanBackInnerContainer{
+    max-width:600px;
+    flex-basis: 600px;
+    flex-grow: 0;
+    flex-shrink:0;
+}
+
+.commanBackInnerContainer img{
+max-width: 100%;
+overflow-y: clip;
+overflow-x: clip;
+
+}

@@ -41,6 +41,7 @@ import Calender from "./pages/Calender";
 import Landing from "./pages/Landing";
 import FAQ from './components/FAQ'
 import ZohoPage from './pages/Zoho'
+import MultiOptional from "./components/MultiOptional";
 
 import { Button } from "react-bootstrap"; 
 import ProductPage from "./components/ProductPage";
@@ -161,6 +162,7 @@ function App() {
           <Route path="/sales-automation" element={<SalesAutomationPage />} />
           <Route path="/communications" element={<CommunicationsPage />} />
           <Route path="/copilot" element={<CoPilotAIPage />} />
+          <Route path="/sales-management" element={<MultiOptional/>} />
         </Routes>
 
       

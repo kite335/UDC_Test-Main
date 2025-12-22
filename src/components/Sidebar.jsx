@@ -27,7 +27,9 @@ const dropdown = {
       topicContent: [
         {
           contentHeading: "Sales management",
+          navigateTo:"/sales-management",
           des: "Manage leads, deals, contacts, pipelines, access permissions & roles",
+          
         },
         {
           contentHeading: "Contact center",

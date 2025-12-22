@@ -5,6 +5,9 @@ import Sidebar from "./Sidebar";
 import logo from "../assets/logo1 .png";
 import crmIcon from "../assets/SidebarSvg/crm.svg";
 import "./Navbar.css";
+import whatsappicon from '../assets/option/whatsapp.png';
+import mailIcon from '../assets/option/google.png'
+import { SiFacebook } from "react-icons/si";
 import b24icon from "../assets/theme/b24Icon.png";
 import zicon from "../assets/theme/zIcon.png";
 import Odoo from "../assets/theme/Odoo.png";
@@ -110,7 +113,7 @@ const Navbar = ({ onAuthOpen, onOpenForm }) => {
                 className="me-2 size"
                 style={{ height: "40px" }}
               />
-              <span className="custom-text d-none d-sm-inline">UDC24</span>
+              <span className="custom-text d-none d-sm-inline">24x7</span>
             </Link>
 
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -183,13 +186,13 @@ const Navbar = ({ onAuthOpen, onOpenForm }) => {
 
           <ul className="navRight">
             <li>
-              <a href="">Whatsapp</a>
+              <a href=""><img src={whatsappicon} style={{width:"35px"}}/></a>
             </li>
             <li>
-              <a href="">Email</a>
+              <a href=""><img src={mailIcon} style={{width:"50px"}}/></a>
             </li>
             <li>
-              <a href="">Facebook</a>
+              <a href=""><SiFacebook style={{width:"35px",height:"35px",color:"#1877F2"}}/></a>
             </li>
           </ul>
           {/* MAIN MENU BAR END HERE */}

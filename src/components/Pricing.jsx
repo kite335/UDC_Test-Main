@@ -6,7 +6,7 @@ import { FaCheckCircle } from "react-icons/fa";
 import FAQ from './FAQ'
 
 const Pricing = ({status}) => {
-  console.log(status)
+  // console.log(status)
   const [billing, setBilling] = useState("monthly");
   const [enterpriseUsers, setEnterpriseUsers] = useState(250);
 

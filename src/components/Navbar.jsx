@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState,useContext } from "react";
+import { CommonDataContext } from "../store/CommonData";
 import { Link, useLocation } from "react-router-dom";
 import DropdownPanel from "./DropdownPanel";
 import Sidebar from "./Sidebar";
 import logo from "../assets/logo1 .png";
-import crmIcon from "../assets/SidebarSvg/crm.svg";
+
 import "./Navbar.css";
 import whatsappicon from '../assets/option/whatsapp.png';
 import mailIcon from '../assets/option/google.png'
@@ -13,90 +14,22 @@ import zicon from "../assets/theme/zIcon.png";
 import Odoo from "../assets/theme/Odoo.png";
 import Zwcad from "../assets/theme/zwcad.png";
 
-const Navbar = ({ onAuthOpen, onOpenForm }) => {
+const Navbar = ({ onAuthOpen, onOpenForm ,setMegaData}) => {
   const location = useLocation();
   const currentPath = location.pathname;
 
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
   // Bitrix submenu click toggle[]
-  const [panelStatus, setPanelStatus] = useState(false);
+
+  // console.log(panelStatus);
+
   
 
-  const [itemtoView, setItemToView] = useState({
-    panel: {
-      topicIcon: crmIcon,
-      topicHeading: "CRM",
-      topicTagLine: "Manage sales and clients effortlessly",
-      topicContent: [
-        {
-          contentHeading: "Sales management",
-          des: "Manage leads, deals, contacts, pipelines, access permissions & roles",
-        },
-        {
-          contentHeading: "Contact center",
-          des: "Omnichannel communications via CRM forms, website widget, live chat, WhatsApp, Instagram, telephony, email",
-        },
-        {
-          contentHeading: "Sales team collaboration",
-          des: "Work with chat, video calls, tasks, calendar, file storage, online documents",
-        },
-        {
-          contentHeading: "Sales enablement",
-          des: "Get estimates, invoices, payments, catalog, inventory, e-signature, CRM store",
-        },
-        {
-          contentHeading: "Analytics & reports",
-          des: "Analyze sales funnel, employee performance, Sales Intelligence, BI Builder dashboards",
-        },
-        {
-          contentHeading: "Mobile CRM",
-          des: "Leads, deals, invoices, payments, telephony, emails, inventory, calendar at your fingertips",
-        },
-        {
-          contentHeading: "Marketing",
-          des: "Use email campaigns, social media ads, SMS, telemarketing, landing pages",
-        },
-        {
-          contentHeading: "Automation & integrations",
-          des: "Set CRM rules and triggers, workflow automation, automated funnels, API",
-        },
-        {
-          contentHeading: "CoPilot in CRM",
-          des: "Call audio-to-text transcription, call summary, field autocompletion in deals",
-        },
-      ],
-    },
-  });
-  const showDropdown = (dataForItem) => {
-    setItemToView(dataForItem);
-  };
-  console.log(panelStatus);
-
-  const toggleBitrix = (e) => {
-    e.preventDefault();
-    setBitrixOpen((prev) => !prev);
-  };
-
-  const bitrixSubmenu = [
-    { path: "/bitrix24-crm", content: "CRM" },
-    { path: "/task-projects", content: "Task & Projects" },
-    { path: "/social-intranet", content: "Social Intranet" },
-
-    { path: "/documents", content: "Documents" },
-    { path: "/drive", content: "Drive" },
-    { path: "/calenders", content: "Calenders" },
-    { path: "/mail", content: "Mail" },
-    { path: "/clients", content: "Clients" },
-
-    { path: "hr", content: "HR" },
-    { path: "mobile", content: "Mobile" },
-    { path: "sites", content: "Sites" },
-  ];
-
   const handleNavClick = () => setIsNavCollapsed(true);
-
+  const {panelStatus,setPanelStatus}=useContext(CommonDataContext)
   return (
+    
     <>
       <nav className="navbar custom-navbar navbar-expand-lg px-3 px-lg-4 shadow sticky-top">
         <div className="container-fluid firstContainer">
@@ -199,10 +132,10 @@ const Navbar = ({ onAuthOpen, onOpenForm }) => {
         </div>
       </nav>
 
-      <div className="importedProducts">
+      {/* <div className="importedProducts">
         <Sidebar sidebarStatus={panelStatus}  showDropDown={showDropdown} />
-        <DropdownPanel sidebarStatus={panelStatus} setDropdownStatus={setPanelStatus} viewItem={itemtoView} />
-      </div>
+        <DropdownPanel sidebarStatus={panelStatus} setDropdownStatus={setPanelStatus} viewItem={itemtoView} sideId={idStatus} setMegaData={setMegaData} />
+      </div> */}
     </>
   );
 };

@@ -1,15 +1,14 @@
 .containerWrapper{
-    
 color:rgb(38, 38, 38);
 display:flex;
 font-size:16px;
 font-style:normal;
 font-weight:400;
-height:508px;
 justify-content:center;
 line-height:28.8px;
 text-align:start;
 text-size-adjust:100%;
+background-color:rgba(245, 245, 245, 0)
 }
 
 .outerContainer_1{
@@ -153,5 +152,139 @@ position: relative;
 max-width: 100%;
 overflow-y: clip;
 overflow-x: clip;
+}
 
+/* Section-2 */
+.customRow{
+background-color:  #E1EBEE;
+}
+.rowInner{
+    max-width: 1140px;
+    margin:auto;
+  
+    
+}
+
+.listGroupContainer{
+    max-width: 203px;
+    margin:120px 80px 0px  15px;
+     
+}
+
+.listInnerContainer{
+    width:100%;
+    position:sticky;
+    top:170px;
+    
+}
+
+.contentWrapper{
+    display: flex;
+    justify-content: center;
+    margin-top:120px;
+}
+.contentWrapper div{
+    padding-left:12px;
+    padding-right:12px;
+    max-width: 1440px;
+    
+    
+}
+.textWrapper{
+ text-align: center;
+ margin-bottom: 50px;
+}
+.textWrapper  h4{
+   font-size:36px;
+   font-weight: 400;
+}
+
+.textWrapper p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.mediaContentWrapper{
+    display:flex;
+    column-gap: 50px;
+
+}
+.mediaImgContainer{
+max-width:600px;
+
+}
+
+.mediaContentWrapper li{
+    list-style-type:none;
+    margin-bottom:50px
+}
+
+.mediaImgContainer img{
+    max-width:600px;
+    
+    
+}
+
+.mediaContentWrapper span{
+    margin-left: 5px;
+}
+
+.cardGrid{
+    margin-top:60px;
+    display:flex;
+    gap:70px;
+    
+    
+    
+}
+
+.cardGrid div{
+border-radius: 15px;
+border:none;
+max-width:300px;
+background-color:#F8F8F8;
+padding-right: 0;
+padding-left: 0;
+flex:1 1 300px;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+
+.cardText{
+padding-left: 20px!important;
+padding-right:20px!important;
+margin-bottom: 5px;
+}
+
+
+
+.cardGrid h5{
+    color:#2E2929;
+    text-align:start;
+    font-size:24px;
+    text-size-adjust: 100%;
+}
+
+.cardGrid p{
+    color:#2E2929;
+    text-align:start;
+    hyphens:auto;
+    text-align-last: left;
+    word-spacing: -0.03em;
+    margin-top:25px;
+    font-size:18px;
+    text-size-adjust: 100%;
+    
+}
+
+.cardGrid img{
+   width:100%;
+   object-fit:cover;
+   padding-left:20px;
+   border-top-left-radius:0px !important;
+border-top-right-radius:0px !important;
+   
+   
 }

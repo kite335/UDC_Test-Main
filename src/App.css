@@ -1,3 +1,11 @@
 *{
     font-family: "Montserrat Variable", "Helvetica Neue", Verdana, "Helvetica CY", "Nimbus Sans L",sans-serif;
 }
+
+.importedProducts{
+  display:flex;
+  position:absolute;
+  z-index:9999;
+  height:85vh;
+  box-shadow: 0 -5px 0 rgba(128, 128, 128, 0.055);
+}

@@ -228,8 +228,4745 @@ const side_1 = {
     c15h: "Smooth sales experience",
     c15p: "Manage the whole sales process inside the Bitrix24 CRM: reply to DMs, share product images, and send payment links.",
     c15i: "https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/contact-center/instagram-direct-card-3.png.webp?1764863685915",
+  },
+  page_3:{
+    h:"Sales team collaboration tools",
+    p:"Bitrix24 is so much more than just CRM – we have every tool you and your team may need to work together on your sales, clients, files, and other tasks.",
+    i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/header-human-sales-team-collaboration.1366w.png.webp?1764863685915",
+
+    h1:"Messenger",
+    p1:"Our messenger is a secure way of keeping all your communications inside the company, without having to resort to a third-party solution. Create chats and channels, launch polls, communicate with external users (freelancers, contractors) via Collab, share files and give reactions.",
+    i1:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/messenger.png.webp?1764863685915",
+
+    l1:"Likes, reactions, and emojis",
+    l2:"Chat history search",
+    l3:"Message auto-delete",
+    l4:"Polls to collect feedback & opinions",
+
+    c1h:"One team – one messenger",
+    c1p:"Bitrix24 Messenger ensures swift, productive, and secure communication that's organically tied in with the rest of our collaboration tools and CRM.",
+    c1i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/messenger-card-1.png.webp?1764863685915",
+    c2h:"Channels",
+    c2p:"Create a channel for company announcements, employee onboarding, or industry news to share information in a way that’s both organic and engaging.",
+    c2i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/messenger-card-2.png.webp?1764863685915",
+    c3h:"Auto-delete for peace of mind",
+    c3p:"Set custom expiration timers for messages that contain sensitive or time-limited info. Once deleted, it’s gone – permanently removed from our servers for true privacy.",
+    c3i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/messenger-card-3.png.webp?1764863685915",
+    
+    h2:"Bitrix24 Sync: video calls and conferences",
+    p2:"No need to use Zoom or Skype as Bitrix24 sales team software features HD-quality video calls. Organize online meetings with your sales team, set up individual calls with sales reps, schedule video calls with your clients right from a CRM deal or lead.",
+    i2:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/video-calls-and-conferences.png.webp?1764863685915",
+
+    l5:"HD audio and video quality",
+    l6:"100+ participants",
+    l7:"Screen sharing",
+    l8:"Custom backgrounds",
+    l9:"Call recording",
+
+    c4h:"Organize virtual meetings in one click",
+    c4p:"nvite your colleagues to a chat and start a video conference call with one click. Initiate a video conference right from a CRM deal/lead, task, or event in your calendar.",
+    c4i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/video-calls-and-conferences-card-1.png.webp?1764863685915",
+    c5h:"HD audio and video quality",
+    c5p:"Enjoy crisp clear audio and video quality even with slow Internet connection, from PC or smartphone.",
+    c5i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/video-calls-and-conferences-card-2.png.webp?1764863685915",
+    c6h:"Screen sharing and call recording",
+    c6p:"Share your screen during a daily sales meeting to show important information to your colleagues. The meeting can be recorded and saved to your Bitrix24 Drive.",
+    c6i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/video-calls-and-conferences-card-3.png.webp?1764863685915",
+
+
+    h3:"Tasks",
+    p3:"Bitrix24 sales collaboration software features tasks, projects, workgroups, Kanban boards, Gantt charts, and workload management to help you manage your sales team easier and more efficiently.",
+    i3:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/tasks.png.webp?1764863685915",
+
+    l10:"Kanban board",
+    l11:"Gantt chart",
+    l12:"Scrum",
+    l13:"Task automation",
+    l14:"Task templates",
+
+    c7h:"Automated tasks & task templates",
+    c7p:"You can set the system to create tasks automatically based on certain actions in CRM (e.g., when a deal is moved into the Invoice stage, you can set a task for accounting).",
+    c7i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/tasks-card-1.png.webp?1764863685915",
+    c8h:"Checklists and sub-tasks",
+    c8p:"Every task can be expanded to feature a number of sub-tasks or a checklist, which makes it easier to control the results.",
+    c8i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/tasks-card-2.png.webp?1764863685915",
+    c9h:"Different task view modes",
+    c9p:"Choose between 5 different task view modes, depending on your preferences: Scrum, List, Kanban, Planner, and Gantt chart.",
+    c9i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/tasks-card-3.png.webp?1764863685915",
+
+    h4:"File storage",
+    p4:"Bitrix24 Drive is the place where you create, edit, and share any work-related files. Easily accessible from any device, integrated with Google Docs, Office 365, and the rest of Bitrix24 sales productivity tools – everything you'd want from a file storage is here.",
+    i4:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/file-storage.png.webp?1764863685915",
+
+    l15:"24/7 online or offline access from PC or smartphone,",
+    l16:"Configurable access permissions",
+    l17:"Secure storage for all your data",
+    l18:"Integrated with Office 365 and Google Docs",
+    
+
+    c10h:"Convenient file management",
+    c10p:"Store important documents, co-edit and share them online with your team and external users. Create a group folder for your department or project and invite your teammates to collaborate online.",
+    c10i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/file-storage-card-1.png.webp?1764863685915",
+    c11h:"Access permissions",
+    c11p:"Certain files and folders in your company should not be accessible to everyone (e.g., sales figures or sensitive client data). With Bitrix24 Drive, you can restrict access to such files and/or lock them to avoid accidental changes.",
+    c11i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/file-storage-card-2.png.webp?1764863685915",
+    c12h:"Your data is 100% secure",
+    c12p:"Bitrix24 Drive features SSL-encrypted data transfer, daily backup, and version history/rollback. Our data centers are protected in accordance with SAS 70 Type II and conform to the Safe Harbor standard – the highest level of data security a civilian can get.",
+    c12i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/file-storage-card-3.png.webp?1764863685915",
+
+
+    h5:"Online documents",
+    p5:"Upload, create, view, co-edit, and share documents with both your colleagues and external users inside Bitrix24. It supports all popular file formats, which means you can work not only with plain text documents but also spreadsheets and presentations.",
+    i5:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/online-documents.png.webp?1764863685915",
+
+    l19:"Supports docx, pptx, xls, pdf, txt, csv",
+    l20:"Real-time co-editing",
+    l21:"Access permissions",
+    l22:"Document sharing",
+    
+
+    c13h:"Real-time document editing",
+    c13p:"Create and edit text documents, spreadsheets, and presentations in real-time. Invite other users (whether they have a Bitrix24 account or not) to co-edit your documents.",
+    c13i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/online-documents-card-1.png.webp?1764863685915",
+    c14h:"Real-time collaboration",
+    c14p:"No matter how many people are co-editing a document, you can always see who's worked on it recently and what changes have been made.",
+    c14i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/online-documents-card-2.png.webp?1764863685915",
+    c15h:"Document management",
+    c15p:"Manage your documents via a single dashboard wh ere you can view all the recent activity, changes, and updates. Enable document lock to prevent it from accidental editing.",
+    c15i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-team-collaboration/online-documents-card-3.png.webp?1764863685915"
+
+
+
+  },
+
+  page_4:{
+    h:"Sales enablement",
+    p:"Bitrix24 features every sales enablement marketing tool in the book – from estimates and invoices to e-signatures and online payments, and everything in between.",
+    i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/header-human-sales-enablement.png.webp?1764863685915",
+
+    h1:"Estimates",
+    p1:"When a person takes an interest in your products or services, you have to act quick and show what you've got and maybe even make a personalized offer – that's exactly why there are estimates in Bitrix24.",
+    i1:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/estimates.png.webp?1764863685915",
+
+    l1:"One-click estimate creation",
+    l2:"Estimates linked to deals and/or leads",
+    l3:"Kanban view",
+    l4:"Estimate templates and automation",
+
+    c1h:"Estimates integrated with CRM",
+    c1p:"Every estimate in the Bitrix24 digital sales enablement tool can be linked to a deal, lead, contact, or company. The history of your client interactions (including estimates) is automatically saved.",
+    c1i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/estimates-card-1.png.webp?1764863685915",
+    c2h:"Easy to create and send",
+    c2p:"When you create an estimate from a deal, certain information like client's name, products, deal amount, etc. gets automatically filled in – all you have to do is click on the â€˜Send' button.",
+    c2i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/estimates-card-2.png.webp?1764863685915",
+    c3h:"Templates and automation",
+    c3p:"To save time, you can create templates for the most popular estimates. Using rules and triggers, you can set the estimate to be automatically sent to a client once they submit a form on your website.",
+    c3i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/estimates-card-3.png.webp?1764863685915",
+    
+    h2:"Invoices",
+    p2:"When a deal is coming to its logical conclusion, it's time to bill the client. In the Bitrix24 sales enablement platform, you can create and send invoices right from a CRM deal, making it easier to close them successfully.",
+    i2:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/invoices.png.webp?1764863685915",
+
+    l5:"Integrated with CRM",
+    l6:"Integrated with Storecove (e-invoicing)",
+    l7:"Customizable fields",
+    l8:"Invoice templates",
+    l9:"Automated, rule-based invoicing",
+
+    c4h:"Easy to create",
+    c4p:"Pick an existing template or create your own invoice with custom fields – the system will automatically insert proper payment and product details. One click and your invoice is ready!",
+    c4i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/invoices-card-1.png.webp?1764863685915",
+    c5h:"Easy to send",
+    c5p:"With our rules and triggers, you can set the system to send an invoice to your client when a deal is moved to a certain stage of the pipeline – a nice sales enablement automation tool.",
+    c5i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/invoices-card-2.png.webp?1764863685915",
+    c6h:"Easy to track and manage",
+    c6p:"Every invoice is linked to the respective deal in CRM, making it easier to follow the history of your interaction with the client.",
+    c6i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/invoices-card-3.png.webp?1764863685915",
+
+
+    h3:"Booking",
+    p3:"Make the most of your resources with Booking – an ideal tool for beauty salons, clinics, rental services, or any other business that relies on appointments. Integrated with our CRM, this tool allows you not only to keep your calendar full, but also retain clients.",
+    i3:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/booking.png.webp?1764863685915",
+
+    l10:"Automated reminders and notifications via SMS and WhatsApp",
+    l11:"Client data gets saved to CRM",
+    l12:"Overbooking and waiting list",
+    l13:"Booking forms and self-booking",
+    l14:"Ideal for businesses that rely on appointments",
+
+    c7h:"Maximize resource utilization",
+    c7p:"Booking helps you fill every slot effectively, ensuring your resources are used to their fullest potential. With customizable forms for self-booking, your clients get a simple and accessible way to schedule appointments, keeping your calendar busy while minimizing downtime.",
+    c7i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/booking-card-1.png.webp?1764863685915",
+    c8h:"Automated reminders and notifications",
+    c8p:"Reduce no-shows and enhance customer satisfaction with automated booking reminders. Add custom message text, set time/conditions, and so on. Clients receive timely notifications to confirm or modify their appointments, saving you time and keeping your schedule optimized.",
+    c8i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/booking-card-2.png.webp?1764863685915",
+    c9h:"Integrated with CRM",
+    c9p:"Every booking can be transformed into a lead or deal to capture client data and ensure no potential business opportunity is overlooked. Plus, with your client information stored securely in one place, you can easily leverage it for future marketing campaigns.",
+    c9i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/booking-card-3.png.webp?1764863685915",
+
+    h4:"Payments",
+    p4:"Bitrix24 allows you to receive payments for your products and services online – just generate a payment link from a deal and send this link to the client. When the payment is complete, you receive a confirmation, and the client gets a proof of payment.",
+    i4:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/payments.png.webp?1764863685915",
+
+    l15:"A quick and easy way to receive payments",
+    l16:"Ideal for small businesses",
+    l17:"Integrated with CRM",
+    l18:"Fully trackable",
+    
+
+    c10h:"Convenient payment process",
+    c10p:"Pick a product from your catalog, generate a payment link and send it to your client via email, SMS, or messenger. The client opens the link and chooses the payment method.",
+    c10i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/payments-card-1.png.webp?1764863685915",
+    c11h:"Proof of payment",
+    c11p:"Once you've received the money from a client, the proof of payment will be sent to their smartphone.",
+    c11i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/payments-card-2.png.webp?1764863685915",
+    c12h:"Payment tracking",
+    c12p:"Your sales reps can always check the current payment status and track the payment process in real-time.",
+    c12i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/payments-card-3.png.webp?1764863685915",
+
+
+    h5:"Bitrix24 Sign",
+    p5:"Leave your clients no time for doubt – get any document e-signed online, fast and easy. It's that final little push you need to seal the deal and make the sale happen.",
+    i5:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/bitrix24-sign.png.webp?1764863685915",
+
+    l19:"Easy to use – for you and your clients",
+    l20:"UETA and ESIGN-compliant",
+    l21:"Integrated with CRM",
+    l22:"Document templates and autofilling",
+    
+
+    c13h:"Easy to use for you and your clients",
+    c13p:"Sign documents online quickly and easily. Go paperless in just one click – save time, money, and even trees! Anytime you need to get a document signed by your client or contractor, just send them a link via email, SMS, or WhatsApp (no need to create a Bitrix24 account).",
+    c13i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/bitrix24-sign-card-1.png.webp?1764863685915",
+    c14h:"E-sign documents right from CRM",
+    c14p:"Bitrix24 Sign is integrated with your CRM, which makes it even more convenient to use: e.g., if you need to get an invoice signed, its fields can be autopopulated with the data from the respective deal. You can also create and save document templates.",
+    c14i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/bitrix24-sign-card-2.png.webp?1764863685915",
+    c15h:"Streamline your document signing process",
+    c15p:"Use our business process automation tools to automate the process of preparing a document for signing and getting it signed. If the process gets stuck at a certain stage, you will always know where exactly and be able to step in and fix it.",
+    c15i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/sales-enablement/bitrix24-sign-card-3.png.webp?1764863685915"
+
+
+
+  },
+
+
+  page_5:{
+    h:"Analytics and reports",
+    p:"Bitrix24 features a wide variety of CRM analytics tools to help you make informed decisions in every department: sales, marketing, customer service, and more.",
+    i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/analytics-and-reports/header-human-mobile-tasks.png.webp?1764863685915",
+
+    h1:"Sales funnel",
+    p1:"Bitrix24 CRM analytics software provides a wealth of actionable data and valuable insights to help you determine bottlenecks and identify your weak spots to improve efficiency.",
+    i1:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/analytics-and-reports/sales-funnel.png.webp?1764863685915",
+
+    l1:"CRM funnel (with conversions)",
+    l2:"Sales plan and dynamics",
+    l3:"Lead analysis",
+    l4:"Advanced CRM analytics",
+
+    c1h:"CRM funnel (with conversions)",
+    c1p:"Get a helicopter view of your sales process in the form of a funnel, with conversion rates at every stage. See where you win (or lose) most of your deals, with a complete breakdown for every employee.",
+    c1i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/analytics-and-reports/sales-funnel-card-1.png.webp?1764863685915",
+    c2h:"Sales plan & dynamics",
+    c2p:"See if your employees (and departments) reach their goals, in both percentage and money value. Select custom reporting periods and configure individual sales targets.",
+    c2i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/analytics-and-reports/sales-funnel-card-2.png.webp?1764863685915",
+    c3h:"Lead analysis & reports",
+    c3p:"Using our CRM analysis report, you can see how much money you make off of every lead, conversion rate for each stage of the funnel, and lead statistics per employee.",
+    c3i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/analytics-and-reports/sales-funnel-card-3.png.webp?1764863685915",
+    
+    h2:"Employee performance",
+    p2:"itrix24 collects information on the number of converted leads or deals closed by a person they were assigned to. Stack these up against your plan or individual sales targets, and you'll see how efficient your employees are.",
+    i2:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/analytics-and-reports/employee-performance.png.webp?1764863685915",
+
+    l5:"Individual sales performance",
+    l6:"Rating by value of won deal",
+    l7:"Converted leads per employee",
+    l8:"Top grossing clients",
+    l9:"Track the Employee work",
+
+    c4h:"Individual performance",
+    c4p:"Bitrix24 makes every sales rep's contribution to the company success clearly visible. Through a performance report, you can see how much money an employee makes, how many deals they've won, and so on.",
+    c4i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/analytics-and-reports/employee-performance-card-1.png.webp?1764863685915",
+    c5h:"Lead statistics",
+    c5p:"In addition to performance analytics, Bitrix24 allows you to see the number of leads (initial and repeat) converted by an employee, percentage of junk and lost leads, as well as conversion rate (individual and overall).",
+    c5i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/analytics-and-reports/employee-performance-card-2.png.webp?1764863685915",
+    c6h:"Top grossing clients",
+    c6p:"An experienced sales manager simply can't have enough data. See how much money you make off of a client and get a list of your top-grossing clients for a custom reporting period.",
+    c6i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/analytics-and-reports/employee-performance-card-3.png.webp?1764863685915",
+
+
+    h3:"Analytics",
+    p3:"Get a full breakdown of your marketing spendings and see which channels yielded the best results. You will know exactly how much money was spent on each traffic source, how many new clients it generated, and which ones actually made a purchase.",
+    i3:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/analytics-and-reports/analytics.png.webp?1764863685915",
+
+    l10:"Advertising ROI",
+    l11:"Traffic reports",
+    l12:"CRM sales analytics",
+    l13:"Detailed data on every marketing channel",
+    l14:"Breakdown marketing spendings",
+
+    c7h:"Every ad dollar is accounted for",
+    c7p:"Connect your ad traffic sources (ads on Facebook, Instagram, Google, websites and CRM forms you created in Bitrix24) and start tracking them right away. You can also track some offline marketing channels like phone calls or print ads as well.",
+    c7i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/analytics-and-reports/analytics-card-1.png.webp?1764863685915",
+    c8h:"Sales Intelligence",
+    c8p:"Find out the exact steps that led a customer to you to understand which ads are working better and optimize your marketing efforts. Bitrix24 Sales Intelligence also shows customer acquisition cost (CAC) and return on investment (ROI) for each of your marketing channels.",
+    c8i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/analytics-and-reports/analytics-card-2.png.webp?1764863685915",
+    c9h:"Advertising ROI reports",
+    c9p:"Bitrix24 CRM automatically shows the money you've spent on each traffic source, how many new clients it generated, and which ones of them actually made a purchase. Comprehensive CRM data analytics is generated in real time and is available for any custom period.",
+    c9i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/analytics-and-reports/analytics-card-3.png.webp?1764863685915",
+
+    h4:"BI reports",
+    p4:"Bitrix24 features a powerful built-in analytics tool. Choose from various data sources (leads, deals, etc.), set your own parameters, and create visually compelling CRM reports of any complexity.",
+    i4:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/analytics-and-reports/bi-reports.png.webp?1764863685915",
+
+    l15:"Editable reports",
+    l16:"Customizable dashboards",
+    l17:"Report templates: sales dynamics, sales structure, deal analysis, etc.",
+    l18:"Custom templates available from partners and Bitrix24 Market",
+    
+
+    c10h:"Comprehensive CRM analytics",
+    c10p:"Analyze the efficiency of an individual employee, department or the whole company. Use our templates or create a custom report.",
+    c10i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/analytics-and-reports/bi-reports-card-1.png.webp?1764863685915",
+    c11h:"Easy to use",
+    c11p:"The whole thing is super intuitive and takes little to no time to master: our guides and tips will help you to set up proper CRM reporting and analytics.",
+    c11i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/analytics-and-reports/bi-reports-card-2.png.webp?1764863685915",
+    c12h:"Custom access permissions",
+    c12p:"Set custom access permissions for each individual user to decide whether they can only view or view and edit the reports.",
+    c12i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/analytics-and-reports/bi-reports-card-3.png.webp?1764863685915",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+
+  page_6:{
+    h:"Mobile CRM",
+    p:"Bitrix24 free mobile CRM is more than just an extension of the web version. It's a comprehensive mobile CRM solution that features deals, invoices, payments, telephony, and other tools to help you manage clients and sales on the go.",
+    i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/header-human-mobile-crm.png.webp?1764863685915",
+
+    h1:"Leads",
+    p1:"Work with leads from your smartphone (set up custom stages, forms, and fields), convert them to deals, contacts, or companies, quickly pull up any lead from your CRM and view its properties (responsible person, customer info, lead status, etc.).",
+    i1:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/leads.png.webp?1764863685915",
+
+    l1:"Web forms",
+    l2:"Rule-based lead qualification",
+    l3:"Convert lead to deal, contact, company",
+    l4:"Lead tracking and analytics",
+
+    c1h:"Collect leads from multiple sources",
+    c1p:"Acquire and track leads from multiple sources: web forms, email, telephony, ad campaigns on Google and Facebook, and more.",
+    c1i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/leads-card-1.png.webp?1764863685915",
+    c2h:"Convert anything into a lead",
+    c2p:"Any submitted web form, incoming email, phone call, or message/comment on social media can be easily turned into a lead and added to your mobile sales CRM.",
+    c2i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/leads-card-2.png.webp?1764863685915",
+    c3h:"Nurture leads via multiple channels",
+    c3p:"Reach out to your leads via email, phone call, voice broadcasting, SMS, social media, messengers – all from a single dashboard in Bitrix24",
+    c3i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/leads-card-3.png.webp?1764863685915",
+    
+    h2:"Deals",
+    p2:"Quick-search through your deals to pull up the information you may need, track the deal progress, or issue an invoice and email it to your client – all from your smartphone. Create custom stages and move deals down the sales pipeline.",
+    i2:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/deals.png.webp?1764863685915",
+
+    l5:"Deal tracking",
+    l6:"Repeat deals",
+    l7:"Invoices",
+    l8:"Built-in e-signature tool",
+    l9:"Access permissions & roles",
+
+    c4h:"Mobile deal management",
+    c4p:"Track deal status to know what's going on with a particular deal at any given moment. Set up a custom sales pipeline with stages that are specific to your line of business.",
+    c4i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/deals-card-1.png.webp?1764863685915",
+    c5h:"Create invoices from smartphone",
+    c5p:"Generate an invoice in just one tap right from a CRM deal and send it to the client via email or SMS.",
+    c5i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/deals-card-2.png.webp?1764863685915",
+    c6h:"Automation rules & triggers",
+    c6p:"Choose from a variety of pre-configured rules and triggers to help your sales reps do their job: send client reminders, employee alerts, notifications, and more.",
+    c6i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/deals-card-3.png.webp?1764863685915",
+
+
+    h3:"Telephony",
+    p3:"Give your client a call right from your Bitrix24 mobile CRM software. Receive calls from your prospects, record the call audio, and attach the file to the respective deal/lead for later use (this includes missed calls as well).",
+    i3:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/telephony.png.webp?1764863685915",
+
+    l10:"Always in touch with your clients",
+    l11:"Audio calls recording",
+    l12:"Voice broadcasting and SMS campaigns",
+    l13:"Custom integrations with local providers",
+    l14:"Receive calls from your prospects",
+
+    c7h:"Enhanced VoIP telephony solution",
+    c7p:"Bitrix24 telephony features call tracking, routing, forwarding, screening, transcription, recording, and so much more.",
+    c7i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/telephony-card-1.png.webp?1764863685915",
+    c8h:"Integration with Bitrix24 mobile CRM",
+    c8p:"Calls can be recorded and added to deals in Bitrix24 CRM for mobile. Incoming calls are forwarded to a sales rep responsible for a particular lead.",
+    c8i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/telephony-card-2.png.webp?1764863685915",
+    c9h:"Advanced telemarketing",
+    c9p:"You can run an automatic dialer, install a callback widget on your website, send callback requests, use voice broadcasts and SMS.",
+    c9i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/telephony-card-3.png.webp?1764863685915",
+
+    h4:"Emails",
+    p4:"Connect your existing inbox and start receiving/sending emails right from your Bitrix24. Launch email marketing campaigns, turn incoming emails into deals/leads/contacts, and manage your client communications easily.",
+    i4:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/emails.png.webp?1764863685915",
+
+    l15:"Connect up to 10 inboxes per user",
+    l16:"Integrated with CRM",
+    l17:"Email marketing (up to 250,000 emails/mo)",
+    l18:"Automated email notifications",
+    
+
+    c10h:"CRM integration",
+    c10p:"Turn an incoming email into a lead, deal, or contact in your CRM. If it's an existing client, you can email them right from the respective deal or lead, and view their response there as well.",
+    c10i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/emails-card-1.png.webp?1764863685915",
+    c11h:"Mighty email marketing",
+    c11p:"Launch segment-based email marketing campaigns right from your CRM. Use our rules and triggers to set up automated email notifications and reminded based on the deal/lead status.",
+    c11i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/emails-card-2.png.webp?1764863685915",
+    c12h:"Access permissions",
+    c12p:"Set up custom access permissions for each inbox you connect to make sure sensitive business data is well-protected – a highly useful tool for mobile CRM solutions.",
+    c12i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/emails-card-3.png.webp?1764863685915",
+
+
+    h5:"Calendar",
+    p5:"Set up meetings with your clients in just a few taps, right from a deal or lead. Organize online video calls with your team to discuss work-related issues, or simply have a daily planning meeting.",
+    i5:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/calendar.png.webp?1764863685915",
+
+    l19:"Auto-sync with Google and Apple Calendars",
+    l20:"Notifications and reminders",
+    l21:"Open slots",
+    l22:"Quick call or chat right from a calendar event",
+    
+
+    c13h:"Plan your day",
+    c13p:"Organize meetings and events, invite your clients and external users, schedule appointments and plan your day – all with Bitrix24 mobile app.",
+    c13i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/calendar-card-1.png.webp?1764863685915",
+    c14h:"Organize events",
+    c14p:"There's so much you can do with a simple event in Bitrix24 Calendar: create a quick chat, call up a client right from a deal/lead, set up an online meeting, assign a task, and more.",
+    c14i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/calendar-card-2.png.webp?1764863685915",
+    c15h:"Schedule meetings",
+    c15p:"To schedule a meeting with a client, just send them a link to your calendar. Once the client picks an available time slot, it's confirmed automatically. After the meeting is over, you can update the deal in CRM.",
+    c15i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/mobile-crm/calendar-card-3.png.webp?1764863685915"
+
+
+
+  },
+
+  page_7:{
+    h:"Marketing",
+    p:"Bitrix24 offers you plenty of CRM marketing tools to reach your clients in a way that's convenient to them: email, SMS, phone, social media, landing pages, and more. In addition to that, you get professional analytics tools to track the efficiency of your marketing efforts.",
+    i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/header-human-marketing.png.webp?1764863685915",
+
+    h1:"Email marketing",
+    p1:"Send out promotional, informational, or other emails to the contacts from your CRM. Use our CRM email marketing rules and triggers to set up automated emails (e.g., when you need to inform the client that their order is confirmed or offer them a 15% birthday discount).",
+    i1:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/email-marketing.png.webp?1764863685915",
+
+    l1:"Segmentation",
+    l2:"Editable HTML email templates",
+    l3:"Opt-in and unsubscribe",
+    l4:"Reporting (open rate, CTR, etc.)",
+
+    c1h:"Email marketing inside CRM",
+    c1p:"You can bulk send up to 1,000,000 emails per month without having to use a paid email marketing service. Use one of our templates or create your own email from scratch and save it as a template for later use.",
+    c1i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/email-marketing-card-1.png.webp?1764863685915",
+    c2h:"Smart email automation",
+    c2p:"Use our email marketing automation rules to send trigger-based emails. This could be really helpful in situations when you want to notify a client of additional discounts.",
+    c2i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/email-marketing-card-2.png.webp?1764863685915",
+    c3h:"Third-party integrations",
+    c3p:"n addition to being a solid CRM with email marketing capabilities, Bitrix24 also features integrations with popular email marketing services like Twilio, Mailchimp, SendPulse, etc. so that you could easily export/import your data.",
+    c3i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/email-marketing-card-3.png.webp?1764863685915",
+    
+    h2:"Social media marketing",
+    p2:"Bitrix24 CRM marketing software allows you to connect your Google or Facebook account and launch campaigns right from your CRM.",
+    i2:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/smm.png.webp?1764863685915",
+
+    l5:"Lookalike audiences",
+    l6:"Segmentation",
+    l7:"Ad management",
+    l8:"Analytics",
+    l9:"Flexibility",
+
+    c4h:"Create ad audiences based on segments",
+    c4p:"You can select a segment in your client base and send it directly to your ad network account on Google or Facebook, showing ads only to those audiences who have already interacted with your brand.",
+    c4i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/smm-card-1.png.webp?1764863685915",
+    c5h:"Capture lookalike audiences",
+    c5p:"Launch a Facebook or Instagram ad targeted at audiences who are almost identical to your existing segments. A great way to maximize your ROI – also available in the Bitrix24 CRM marketing tool.",
+    c5i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/smm-card-2.png.webp?1764863685915",
+    c6h:"Advertise your products with promoted posts",
+    c6p:"Turn any post on your Facebook or Instagram into a selling ad, allowing your potential customers to shop your products inside their social media platform of choice – all done inside Bitrix24 CRM.",
+    c6i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/smm-card-3.png.webp?1764863685915",
+
+
+    h3:"SMS marketing",
+    p3:"Bitrix24 features dozens of integrations with local SMS providers all across the globe to help you reach out to your customers in a quick and familiar way.",
+    i3:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/sms-marketing.png.webp?1764863685915",
+
+    l10:"Integrations with TextLocal, Plivo SMS, and more",
+    l11:"Up to 100,000 phone numbers",
+    l12:"SMS campaigns",
+    l13:"Integrated with the Bitrix24 CRM",
+    l14:"Reach to Customer",
+
+    c7h:"Worry-free SMS campaigns",
+    c7P:"Just pick the recipients from your Bitrix24 marketing CRM platform (individually or by segments), type your message, and hit Send.",
+    c7i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/sms-marketing-card-1.png.webp?1764863685915",
+    c8h:"Full client interaction history",
+    c8p:"Every text message you send to a client is saved in their CRM profile (Contact) so that you can always track your interaction history.",
+    c8i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/sms-marketing-card-2.png.webp?1764863685915",
+    c9h:"Automated SMS notifications",
+    c9p:"Using our CRM marketing automation rules and triggers, you can set a text message to be sent automatically (e.g., when a client's order is confirmed, when the payment is received, etc.).",
+    c9i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/sms-marketing-card-3.png.webp?1764863685915",
+
+    h4:"Telemarketing",
+    p4:"Call your clients directly from your CRM using nothing more than a headset and a Bitrix24 telephony integration. You can go with our built-in solutions or connect your existing telephony via SIP connector.",
+    i4:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/telemarketing.png.webp?1764863685915",
+
+    l15:"Make and receive calls 24/7",
+    l16:"No additional equipment required",
+    l17:"Integrated with Bitrix24 CRM marketing tools",
+    l18:"Integration with Asterisk, RingCentral, etc.",
+    
+
+    c10h:"Call your clients from a local number",
+    c10p:"Reach out to your clients in the most organic way – just give them a call from your local Bitrix24 phone number!",
+    c10i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/telemarketing-card-1.png.webp?1764863685915",
+    c11h:"Fully integrated with CRM",
+    c11p:"Every call can be recorded and automatically added to the respective lead or deal. As you're speaking with a client on the phone, you can easily update their profile in CRM.",
+    c11i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/telemarketing-card-2.png.webp?1764863685915",
+    c12h:"Switch to Bitrix24 VoIP and keep your number",
+    c12p:"Got an office/cloud PBX or SIP-trunk? Use our telephony by renting a SIP-connector. This way, you can keep making free calls and pay just for the outbound calls at your current rates.",
+    c12i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/telemarketing-card-3.png.webp?1764863685915",
+
+
+    h5:"Landing pages",
+    p5:"Got a major sale coming up? Create a memorable, visually appealing landing page in less than 30 minutes and start adding leads to your CRM digital marketing software via a customizable web form.",
+    i5:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/landing-pages.png.webp?1764863685915",
+
+    l19:"Visual, no-code website builder",
+    l20:"Mobile-friendly, responsive design",
+    l21:"100+ industry-specific templates",
+    l22:"Free hosting",
+    
+
+    c13h:"Easier than you think",
+    c13p:"Creating a landing page in our workspace is really easy. Based on the prompt, our AI assistant CoPilot can come up with an appropriate design, copy, images, and web forms – all in a matter of minutes.",
+    c13i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/landing-pages-card-1.png.webp?1764863685915",
+    c14h:"Lots of CRM tools for marketing",
+    c14p:"Acquire more leads and turn them into customers by adding custom web forms and live chats to your landing page.",
+    c14i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/landing-pages-card-2.png.webp?1764863685915",
+    c15h:"Integration with CRM",
+    c15p:"Every form submitted on your landing page results in a new lead/deal in CRM for marketing. If a customer messages you via live chat, a new dialog is created in the Contact Center (can be also saved to CRM).",
+    c15i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/marketings/landing-pages-card-3.png.webp?1764863685915"
+
+
+
+  },
+
+  page_8:{
+    h:"Sales automation CRM",
+    p:"Stop losing time to repetitive tasks: logging calls, sending follow-ups, etc. With Bitrix24 CRM, you can eliminate the manual busywork and focus on what matters most: closing deals.",
+    i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/header-human-sales-automation.png.webp?1764863685915",
+
+    h1:"CRM rules and triggers",
+    p1:"Take the weight off your shoulders, eliminate the human error, and make the sales process run even smoother – all that is more than possible with our CRM automation rules and triggers.",
+    i1:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/rules-and-triggers.png.webp?1764863685915",
+
+    l1:"Automated emails and text messages",
+    l2:"Tasks and events created automatically based on a trigger",
+    l3:"Deal/lead status changed automatically",
+    l4:"Proactive CRM",
+
+    c1h:"Proactive CRM",
+    c1p:"Set an automation rule (e.g., `create a new task`) that will get activated once a lead (or deal) moves to a new status in the sales pipeline. Automation rules can specify the activation time and the action: task, notification, email, call or any other action of your choice.",
+    c1i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/rules-and-triggers-card-1.png.webp?1764863685915",
+    c2h:"CRM triggers",
+    c2p:"Triggers in Bitrix24 are used to move leads/deals from one stage to another. For example, you can set a trigger to track if the client you've sent an email to has opened it. Once this happens, the corresponding deal will be moved to the next stage of your sales pipeline.",
+    c2i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/rules-and-triggers-card-2.png.webp?1764863685915",
+    c3h:"Proactive CRM",
+    c3p:"Once activated, the Proactive CRM mode inside Bitrix24 automatically reminds your employees of scheduled, urgent, and unfinished activities, prompting them to take action. This helps employees to prioritize their deals and reduces micromanagement.",
+    c3i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/rules-and-triggers-card-3.png.webp?1764863685915",
+    
+    h2:"Workflow automation",
+    p2:"In addition to streamlining various sales routines, you can also automate other workflows in your company – from approvals to expense reporting and everything in between.",
+    i2:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/workflow-automation.png.webp?1764863685915",
+
+    l5:"No-code RPA",
+    l6:"Requests & approvals",
+    l7:"Smart process automation (SPA)",
+    l8:"Business process designer",
+    l9:"CRM workflow automation",
+
+    c4h:"Robotic process automation (RPA)",
+    c4p:"Get rid of multistep approval processes by implementing our in-house RPA – a great HR and CRM automation tool.",
+    c4i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/workflow-automation-card-1.png.webp?1764863685915",
+    c5h:"Automate routine workflows",
+    c5p:"Streamline standardized processes like leave requests, purchase requests, expense reporting, and more.",
+    c5i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/workflow-automation-card-2.png.webp?1764863685915",
+    c6h:"Smart process automation (SPA)",
+    c6p:"Create new, custom entities in the Bitrix24 workflow automation CRM to match your company's needs and automate them using SPA.",
+    c6i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/workflow-automation-card-3.png.webp?1764863685915",
+
+
+    h3:"Automated funnels",
+    p3:"Configure automation rules and triggers to simplify the way you work with deals. Connect different sales pipelines via tunnels.",
+    i3:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/automated-funnels.png.webp?1764863685915",
+
+    l10:"Automated reminders and notifications",
+    l11:"Automated deal status change",
+    l12:"Automated tasks",
+    l13:"CRM sales automation",
+    l14:"Custom access permissions",
+
+    c7h:"Sales tunnels and pipelines",
+    c7p:"Connect different sales pipelines – e.g., when a deal reaches a certain status in pipeline A (sales), it gets transferred to pipeline B (delivery) to continue its path to success there.",
+    c7i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/automated-funnels-card-1.png.webp?1764863685915",
+    c8h:"Automated deal status change",
+    c8p:"The deal status can be changed automatically when a trigger that you've set is activated.",
+    c8i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/automated-funnels-card-2.png.webp?1764863685915",
+    c9h:"Reminders and notifications",
+    c9p:"Based on the deal (or lead) status, our CRM automation software sends a reminder or notification to the specified user.",
+    c9i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/automated-funnels-card-3.png.webp?1764863685915",
+
+    h4:"AI-powered sales",
+    p4:"Use our AI-powered tool CoPilot to create original ideas for your special offer, write compelling copy for a promotional email, or even transcribe your phone call with a client.",
+    i4:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/ai-powered-sales.png.webp?1764863685915",
+
+    l15:"Fresh ideas for your sales and marketing",
+    l16:"Call transcription",
+    l17:"Autocompleted fields in CRM deals/leads",
+    l18:"Quality copy for email marketing and landing pages",
+    
+
+    c10h:"Fresh ideas for your sales and marketing",
+    c10p:"Need to come up with a solid idea for your marketing campaign or special offer? Let CoPilot do the job – just be sure to describe your goals and target audience.",
+    c10i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/ai-powered-sales-card-1.png.webp?1764863685915",
+    c11h:"Call transcription",
+    c11p:"Got off the phone after a 35-minute call with a client? No need to go back and listen through it all – our CoPilot will transcribe your call in a nice and easily readable text format.",
+    c11i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/ai-powered-sales-card-2.png.webp?1764863685915",
+    c12h:"Autocompleted fields in CRM deals or leads",
+    c12p:"Can't be bothered to fill in the fields in your CRM manually? Not only can CoPilot transcribe your calls, but it can also automatically fill in the right fields (name, phone, company, etc.).",
+    c12i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/ai-powered-sales-card-3.png.webp?1764863685915",
+
+
+    h5:"API and integrations",
+    p5:"We offer hundreds of CRM integrations with popular apps and services, as well as cool add-ons and custom solutions developed by our partners to enhance your product functionality – all available for download on Bitrix24 Market.",
+    i5:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/api-and-integrations.png.webp?1764863685915",
+
+    l19:"Integrations with payment systems",
+    l20:"Integrations with telephony and SMS providers",
+    l21:"CRM integration with chatbots",
+    l22:"REST API",
+    
+
+    c13h:"Integrations with popular apps and services",
+    c13p:"Make your Bitrix24 CRM integration software compatible with Zoho, Jira, Pipedrive, Trello, Quickbooks, Shopify, Mailchimp, Google Analytics, PayPal, Xero, Ringcentral, and others.",
+    c13i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/api-and-integrations-card-1.png.webp?1764863685915",
+    c14h:"Custom solutions from our partners",
+    c14p:"Everything and anything to enhance the functionality of your Bitrix24 – from industry-specific CRM templates to advanced CRM marketing automation.",
+    c14i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/api-and-integrations-card-2.png.webp?1764863685915",
+    c15h:"REST API",
+    c15p:"You can use our CRM API integration to implement and integrate your custom solutions into Bitrix24 – e.g., custom field types, data transfer, reports, and more.",
+    c15i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/crm/automation-and-integrations/api-and-integrations-card-3.png.webp?1764863685915"
+
+  },
+
+  page_9:{
+    h:"AI-powered assistant CoPilot",
+    p:"CoPilot is a powerful AI tool inside Bitrix24 designed to help you with mundane tasks and boost your creativity. Located conveniently throughout the product, CoPilot is always there when you need it.",
+    i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/header-human-copilot.png.webp?1764863685915",
+
+    h1:"CoPilot in CRM",
+    p1:"There are plenty of tasks you can assign to CoPilot in the sales department – e.g., create original ideas for your special offer, write compelling copy for a promotional email, or even transcribe your phone call with a client.",
+    i1:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/copilot-in-crm.png.webp?1764863685915",
+
+    l1:"Fresh ideas for your sales and marketing",
+    l2:"Call transcription",
+    l3:"AI in CRM: deal and lead autofilling",
+    l4:"Quality copy for email marketing and landing pages",
+
+    c1h:"Fresh ideas for your sales and marketing",
+    c1p:"Need to come up with a solid idea for your marketing campaign or special offer? Let CoPilot do the job – just be sure to describe your goals and target audience.",
+    c1i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/copilot-in-crm-card-1.png.webp?1764863685915",
+    c2h:"Call transcription",
+    c2p:"Got off the phone after a 35-minute call with a client? No need to go back and listen through it all – our CoPilot will transcribe your call in a nice and easily readable text format.",
+    c2i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/copilot-in-crm-card-2.png.webp?1764863685915",
+    c3h:"Autofilling in CRM deals or leads",
+    c3p:"Can’t be bothered to fill in the fields in your CRM manually? Not only can CoPilot transcribe your calls, but it can also automatically fill in the right fields (name, phone, company, etc.).",
+    c3i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/copilot-in-crm-card-3.png.webp?1764863685915",
+    
+    h2:"CoPilot in Tasks",
+    p2:"Your personal AI assistant is always ready to help when you're planning a project or creating a new task. CoPilot can easily come up with a brief and understandable task description based on your prompt and even offer a checklist that's appropriate for the task.",
+    i2:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/copilot-in-tasks.png.webp?1764863685915",
+
+    l5:"Easy access to CoPilot in tasks and comments",
+    l6:"Create task descriptions and checklists",
+    l7:"Generate task summary in one click",
+    l8:"Built-in translator and grammar check tool",
+    l9:" CoPilot  easily give brief  task description",
+
+    c4h:"Simplified task creation",
+    c4p:"With CoPilot, you don't even have to finish the sentence – just write a brief outline and our AI will fill in the details, adding an optional checklist. That's how AI tasks work!",
+    c4i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/copilot-in-tasks-card-1.png.webp?1764863685915",
+    c5h:"Task summary",
+    c5p:"You don’t have to read every comment under every task to understand what it’s about and what the current status is – just ask CoPilot to give you a task summary.",
+    c5i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/copilot-in-tasks-card-2.png.webp?1764863685915",
+    c6h:"Checklists in one click",
+    c6p:"Break down a long, wordy task description into a series of steps and add them as a checklist to that task. From there, you can easily add assignees to each step and start working.",
+    c6i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/copilot-in-tasks-card-3.png.webp?1764863685915",
+
+
+    h3:"CoPilot in Feed",
+    p3:"When it comes to communicating with your team, CoPilot acts as your trusted and knowledgeable assistant. It can write an announcement, reply to a comment, come up with an idea, or even suggest constructive criticism.",
+    i3:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/copilot-in-feed.png.webp?1764863685915",
+
+    l10:"Built-in CoPilot menu in comments and posts",
+    l11:"Write texts, create ideas and images",
+    l12:"Praise or criticize people's posts and comments",
+    l13:"Built-in translator and grammar check tool",
+    l14:"Trusted and knowledgeable assistant",
+
+    c7h:"Always at hand",
+    c7p:"CoPilot is conveniently located where within a click's reach – when you're writing a post or replying to a comment, it can be easily activated either from the menu or simply by pressing the space bar.",
+    c7i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/copilot-in-feed-card-1.png.webp?1764863685915",
+    c8h:"Instant AI content creation",
+    c8p:"Just enter a prompt and our CoPilot will quickly come up with an idea, expand on your original thought, create a short summary of a big chunk of text, or check it for mistakes. Want to add an original image? No problem, CoPilot can create images as well.",
+    c8i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/copilot-in-feed-card-2.png.webp?1764863685915",
+    c9h:"Virtually unlimited possibilities",
+    c9p:"In addition to the basic capabilities you'd expect from a modern GPT-based AI tool, our CoPilot can easily praise or suggest constructive criticism of someone's message, idea, or opinion. Really cool stuff – especially when you're too busy to search for the right words.",
+    c9i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/copilot-in-feed-card-3.png.webp?1764863685915",
+
+    h4:"CoPilot in Video Calls",
+    p4:"Get the most out of every video call and increase the productivity of your online meetings with CoPilot Follow-Up. This AI-powered tool transcribes your video calls and analyzes them, providing you with a call summary and a list of recommendations for further improvement",
+    i4:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/copilot-in-video-calls.1366w.png.webp?1764863685915",
+
+    l15:"Unbiased AI-powered call analysis",
+    l16:"Highlights + recommendations",
+    l17:"Word-for-word call transcript + detailed summary",
+    l18:"Great way to increase productivity",
+    
+
+    c10h:"AI-powered video calls",
+    c10p:"Just launch the CoPilot Follow-Up tool during a video call and our AI-powered assistant will start its unbiased analysis, resulting in a call summary and a detailed transcript with timestamps.",
+    c10i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/copilot-in-video-calls-card-1.png.webp?1764863685915",
+    c11h:"Call summary",
+    c11p:"The summary contains meeting agenda, key results, list of suggested follow-up actions (that can turned into tasks in one click), call rating, and recommendations.",
+    c11i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/copilot-in-video-calls-card-2.png.webp?1764863685915",
+    c12h:"Feedback + recommendations",
+    c12p:"Based on the call analysis, CoPilot Follow-Up gives you specific recommendations on what can be improved or changed in order to increase call efficiency and team productivity.",
+    c12i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/copilot-in-video-calls-card-3.png.webp?1764863685915",
+
+
+    h5:"Privacy & security",
+    p5:"Being an (artificially) intelligent piece of software, CoPilot is good at keeping secrets. Your data gets deleted immediately from the provider's server after you close the CoPilot dialog in chat, tasks, feed, or elsewhere in Bitrix24.",
+    i5:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/privacy-and-security.png.webp?1764863685915",
+
+    l19:"Data privacy",
+    l20:"Completely secure",
+    l21:"Your data is not used for training",
+    l22:"Clear chat history manually",
+    
+
+    c13h:"Your data is not used for training",
+    c13p:"The algorithm that powers CoPilot does not save your data on a third-party server or use it for training. Once a CoPilot dialog is closed, all of its contents get deleted from the provider's servers.",
+    c13i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/privacy-and-security-card-1.png.webp?1764863685915",
+    c14h:"You are in full control of your data",
+    c14p:"The requests you submit to CoPilot and the replies you get can be easily deleted manually at your convenience. To do so, you just need to clear the chat history in the chat menu.",
+    c14i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/privacy-and-security-card-2.png.webp?1764863685915",
+    c15h:"Completely secure",
+    c15p:"Your data does not get transferred anywhere and stays protected every step of the way. Feel free to discuss any business-related issues with CoPilot and don't be shy – it's always there to help.",
+    c15i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/copilot/privacy-and-security-card-3.png.webp?1764863685915"
+
   }
 };
+
+const side_2={
+  page_1: {
+    h: "Online workspace",
+    p: "Everything you need for productive collaboration and communication is here: chat, online meetings, task management, calendar integration, workflow automation, document collaboration, and more.",
+    i: "https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/header-human-online-workspace.1366w.png.webp?1764863685915",
+
+    h1: "Collaboration",
+    p1: "Bitrix24 has everything a team needs to collaborate on projects – whether you're working in the office, remotely, or in the hybrid mode.",
+    i1: "https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/collaboration.png.webp?1764863685915",
+
+    l1: "Kanban board & Gantt chart",
+    l2: "Checklists & subtasks",
+    l3: "Task templates",
+    l4: "Team calendar, drive, and knowledge base",
+
+    c1h: "Bitrix24 Sync: video conferencing",
+    c1p: "Hold online meetings, discuss projects, strike deals, and stay in touch with your team from wherever you are.",
+    c1i: "https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/collaboration-card-1.png.webp?1764863685915",
+    c2h: "Calendar",
+    c2p: "Organize meetings and events, invite your team members and external users, set appointments and plan your day.",
+    c2i: "https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/collaboration-card-2.png.webp?1764863685915",
+    c3h: "Knowledge base",
+    c3p: "A single place to store corporate knowledge and wisdom, knowledge bases in Bitrix24 can be easily edited and expanded by your team members.",
+    c3i: "https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/collaboration-card-3.png.webp?1764863685915",
+
+    h2: "Boards",
+    p2: "Whether you’re mapping out complex projects, collaborating on fresh ideas, or visualizing workflows, our digital whiteboards will make it easy to keep your team aligned and productive.",
+    i2: "https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/boards.png.webp?1764863685915",
+    
+    l5: "Unlimited boards and members",
+    l6: "20+ board templates",
+    l7: "Scalable power (up to 400,000 objects per board)",
+    l8: "Secure collaboration inside your workspace",
+    l9: "Mapping out complex projects",
+
+    c4h: "Professional-grade whiteboards",
+    c4p:"From strategy sessions and design sprints to workflow visualization and project mapping, Boards empower your team to stay organized, creative, and connected.",
+    c4i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/boards-card-1.png.webp?1764863685915",
+    c5h:"Scalable power",
+    c5p:"Create an unlimited number of online whiteboards for all your projects and add as many team members as you need. Handle even the most detailed projects with support for up to 400,000 objects per board.",
+    c5i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/boards-card-2.png.webp?1764863685915",
+    c6h:"Collaboration under one roof",
+    c6p:"Seamlessly integrated with our chat, video calls, tasks, and other collaboration tools, Boards eliminate the need for third-party solutions, bringing everything you need under one roof.",
+    c6i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/boards-card-3.png.webp?1764863685915",
+
+    h3: "Bitrix24 Vibe",
+    p3: "Personalize the start page in your Bitrix24 account to have quick, one-click access to important team and company information.",
+    i3: "https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/vibe.png.webp?1764863685915",
+
+    l10: "Quick and easy access to important info",
+    l11: "Three default start page templates",
+    l12: "Dozens of widgets to choose from",
+    l13: "Add/remove widgets for more personalization",
+    l14: "Custom templates available from partners",
+
+    c7h: "Quick access to team and company data",
+    c7p:"Bitrix24 Vibe is a great way to create shortcuts for specific elements of the product (such as the Feed and workflows) and bring up the important information (e.g., employee activity) that gets updated in real time.",
+    c7i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/vibe-card-1.png.webp?1764863685915",
+    c8h:"Personalized start page",
+    c8p:"Choose from 3 default start page templates with dozens of customizable widgets that you can add, remove, move around, and edit to your liking. If you need even more personalization, order a completely custom template from our partners.",
+    c8i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/vibe-card-2.png.webp?1764863685915",
+    c9h:"Great for employee engagement",
+    c9p:"Just one glance at the start page gives you a nice scope of the company's activity. With widgets like employee activity, birthdays, and others, you can create a warm, welcoming experience for both existing employees and newcomers.",
+    c9i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/vibe-card-3.png.webp?1764863685915",
+
+    h4:"Messenger",
+    p4:"Our messenger is a secure way of keeping all your team communications inside the company. Create chats and channels, communicate with external users (freelancers, contractors) via Collab, share files and give reactions.",
+    i4:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/messenger.png.webp?1764863685915",
+
+    l15:"Likes, reactions, and emojis",
+    l16:"Chat history search",
+    l17:"Message auto-delete",
+    l18:"Polls to collect feedback & opinions",
+    
+
+    c10h:"One team – one messenger",
+    c10p:"Bitrix24 Messenger ensures swift, productive, and secure communication that's organically tied in with the rest of our collaboration tools and CRM.",
+    c10i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/messenger-card-1.png.webp?1764863685915",
+    c11h:"Channels",
+    c11p:"Create a channel for company announcements, employee onboarding, or industry news to share information in a way that’s both organic and engaging.",
+    c11i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/messenger-card-2.png.webp?1764863685915",
+    c12h:"Auto-delete for peace of mind",
+    c12p:"Set custom expiration timers for messages that contain sensitive or time-limited info. Once deleted, it’s gone – permanently removed from our servers for true privacy.",
+    c12i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/messenger-card-3.png.webp?1764863685915",
+
+
+    h5:"Comments and reactions",
+    p5:"Comments in the Bitrix24 cloud-based workspace are a quick and easy way to discuss work-related issues and share information with your team. Likes, reactions, and quotes add a bit of human touch to the usual chat and messaging routine.",
+    i5:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/comments-and-reactions.png.webp?1764863685915",
+
+    l19:"Comments in tasks and live feed",
+    l20:"Notifications and mention",
+    l21:"Likes and reactions",
+    l22:"Real-time team collaboration",
+    
+
+    c13h:"Effortless communication",
+    c13p:"Leave comments under tasks or posts in the feed, while also replying and reacting to comments left by others. This is a great way to discuss work-related issues and exchange opinions in a virtual workspace.",
+    c13i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/comments-and-reactions-card-1.png.webp?1764863685915",
+    c14h:"Likes and reactions",
+    c14p:"Too busy to write a comment? Just let your colleagues know you've seen and read their message by simply leaving a like or choosing an appropriate reaction.",
+    c14i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/comments-and-reactions-card-2.png.webp?1764863685915",
+    c15h:"Notifications and mentions",
+    c15p:"Anytime you want to get someone's attention, just mention that person in a comment, after which they will get immediately notified and be able to respond from their PC, laptop, or mobile device.",
+    c15i:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/communications/online-workspaces/comments-and-reactions-card-3.png.webp?1764863685915"
+
+  },
+
+  page_2: {
+    h: "",
+    p: "",
+    i: "",
+
+    h1: "",
+    p1: "",
+    i1: "",
+
+    l1: "",
+    l2: "",
+    l3: "",
+    l4: "",
+
+    c1h: "",
+    c1p: "",
+    c1i: "",
+    c2h: "",
+    c2p: "",
+    c2i: "",
+    c3h: "",
+    c3p: "",
+    c3i: "",
+
+    h2: "",
+    p2: "",
+    i2: "",
+    
+    l5: "",
+    l6: "",
+    l7: "",
+    l8: "",
+    l9: "",
+
+    c4h: "",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+    h3: "",
+    p3: "",
+    i3: "",
+
+    l10: "",
+    l11: "",
+    l12: "",
+    l13: "",
+    l14: "",
+
+    c7h: "",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+  },
+
+  
+    
+
+  page_3:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+  page_4:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+
+  page_5:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+
+  page_6:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+  page_7:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+  page_8:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+  page_9:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  }
+};
+
+
+const side_3={
+  page_1: {
+    h: "",
+    p: "",
+    i: "",
+
+    h1: "",
+    p1: "",
+    i1: "",
+
+    l1: "",
+    l2: "",
+    l3: "",
+    l4: "",
+
+    c1h: "",
+    c1p: "",
+    c1i: "",
+    c2h: "",
+    c2p: "",
+    c2i: "",
+    c3h: "",
+    c3p: "",
+    c3i: "",
+
+    h2: "",
+    p2: "",
+    i2: "",
+    
+    l5: "",
+    l6: "",
+    l7: "",
+    l8: "",
+    l9: "",
+
+    c4h: "",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+    h3: "",
+    p3: "",
+    i3: "",
+
+    l10: "",
+    l11: "",
+    l12: "",
+    l13: "",
+    l14: "",
+
+    c7h: "",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+  },
+
+  page_2: {
+    h: "",
+    p: "",
+    i: "",
+
+    h1: "",
+    p1: "",
+    i1: "",
+
+    l1: "",
+    l2: "",
+    l3: "",
+    l4: "",
+
+    c1h: "",
+    c1p: "",
+    c1i: "",
+    c2h: "",
+    c2p: "",
+    c2i: "",
+    c3h: "",
+    c3p: "",
+    c3i: "",
+
+    h2: "",
+    p2: "",
+    i2: "",
+    
+    l5: "",
+    l6: "",
+    l7: "",
+    l8: "",
+    l9: "",
+
+    c4h: "",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+    h3: "",
+    p3: "",
+    i3: "",
+
+    l10: "",
+    l11: "",
+    l12: "",
+    l13: "",
+    l14: "",
+
+    c7h: "",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+  },
+
+  
+    
+
+  page_3:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+  page_4:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+
+  page_5:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+
+  page_6:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+  page_7:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+  page_8:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+  page_9:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  }
+};
+
+
+const side_4={
+  page_1: {
+    h: "",
+    p: "",
+    i: "",
+
+    h1: "",
+    p1: "",
+    i1: "",
+
+    l1: "",
+    l2: "",
+    l3: "",
+    l4: "",
+
+    c1h: "",
+    c1p: "",
+    c1i: "",
+    c2h: "",
+    c2p: "",
+    c2i: "",
+    c3h: "",
+    c3p: "",
+    c3i: "",
+
+    h2: "",
+    p2: "",
+    i2: "",
+    
+    l5: "",
+    l6: "",
+    l7: "",
+    l8: "",
+    l9: "",
+
+    c4h: "",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+    h3: "",
+    p3: "",
+    i3: "",
+
+    l10: "",
+    l11: "",
+    l12: "",
+    l13: "",
+    l14: "",
+
+    c7h: "",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+  },
+
+  page_2: {
+    h: "",
+    p: "",
+    i: "",
+
+    h1: "",
+    p1: "",
+    i1: "",
+
+    l1: "",
+    l2: "",
+    l3: "",
+    l4: "",
+
+    c1h: "",
+    c1p: "",
+    c1i: "",
+    c2h: "",
+    c2p: "",
+    c2i: "",
+    c3h: "",
+    c3p: "",
+    c3i: "",
+
+    h2: "",
+    p2: "",
+    i2: "",
+    
+    l5: "",
+    l6: "",
+    l7: "",
+    l8: "",
+    l9: "",
+
+    c4h: "",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+    h3: "",
+    p3: "",
+    i3: "",
+
+    l10: "",
+    l11: "",
+    l12: "",
+    l13: "",
+    l14: "",
+
+    c7h: "",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+  },
+
+  
+    
+
+  page_3:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+  page_4:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+
+  page_5:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+
+  page_6:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+  page_7:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+  page_8:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+  page_9:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  }
+};
+
+
+const side_5={
+  page_1: {
+    h: "",
+    p: "",
+    i: "",
+
+    h1: "",
+    p1: "",
+    i1: "",
+
+    l1: "",
+    l2: "",
+    l3: "",
+    l4: "",
+
+    c1h: "",
+    c1p: "",
+    c1i: "",
+    c2h: "",
+    c2p: "",
+    c2i: "",
+    c3h: "",
+    c3p: "",
+    c3i: "",
+
+    h2: "",
+    p2: "",
+    i2: "",
+    
+    l5: "",
+    l6: "",
+    l7: "",
+    l8: "",
+    l9: "",
+
+    c4h: "",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+    h3: "",
+    p3: "",
+    i3: "",
+
+    l10: "",
+    l11: "",
+    l12: "",
+    l13: "",
+    l14: "",
+
+    c7h: "",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+  },
+
+  page_2: {
+    h: "",
+    p: "",
+    i: "",
+
+    h1: "",
+    p1: "",
+    i1: "",
+
+    l1: "",
+    l2: "",
+    l3: "",
+    l4: "",
+
+    c1h: "",
+    c1p: "",
+    c1i: "",
+    c2h: "",
+    c2p: "",
+    c2i: "",
+    c3h: "",
+    c3p: "",
+    c3i: "",
+
+    h2: "",
+    p2: "",
+    i2: "",
+    
+    l5: "",
+    l6: "",
+    l7: "",
+    l8: "",
+    l9: "",
+
+    c4h: "",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+    h3: "",
+    p3: "",
+    i3: "",
+
+    l10: "",
+    l11: "",
+    l12: "",
+    l13: "",
+    l14: "",
+
+    c7h: "",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+  },
+
+  
+    
+
+  page_3:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+  page_4:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+
+  page_5:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+
+  page_6:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+  page_7:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+  page_8:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  },
+
+  page_9:{
+    h:"",
+    p:"",
+    i:"",
+
+    h1:"",
+    p1:"",
+    i1:"",
+
+    l1:"",
+    l2:"",
+    l3:"",
+    l4:"",
+
+    c1h:"",
+    c1p:"",
+    c1i:"",
+    c2h:"",
+    c2p:"",
+    c2i:"",
+    c3h:"",
+    c3p:"",
+    c3i:"",
+    
+    h2:"",
+    p2:"",
+    i2:"",
+
+    l5:"",
+    l6:"",
+    l7:"",
+    l8:"",
+    l9:"",
+
+    c4h:"",
+    c4p:"",
+    c4i:"",
+    c5h:"",
+    c5p:"",
+    c5i:"",
+    c6h:"",
+    c6p:"",
+    c6i:"",
+
+
+    h3:"",
+    p3:"",
+    i3:"",
+
+    l10:"",
+    l11:"",
+    l12:"",
+    l13:"",
+    l14:"",
+
+    c7h:"",
+    c7p:"",
+    c7i:"",
+    c8h:"",
+    c8p:"",
+    c8i:"",
+    c9h:"",
+    c9p:"",
+    c9i:"",
+
+    h4:"",
+    p4:"",
+    i4:"",
+
+    l15:"",
+    l16:"",
+    l17:"",
+    l18:"",
+    
+
+    c10h:"",
+    c10p:"",
+    c10i:"",
+    c11h:"",
+    c11p:"",
+    c11i:"",
+    c12h:"",
+    c12p:"",
+    c12i:"",
+
+
+    h5:"",
+    p5:"",
+    i5:"",
+
+    l19:"",
+    l20:"",
+    l21:"",
+    l22:"",
+    
+
+    c13h:"",
+    c13p:"",
+    c13i:"",
+    c14h:"",
+    c14p:"",
+    c14i:"",
+    c15h:"",
+    c15p:"",
+    c15i:""
+
+
+
+  }
+};
+
+
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -526,7 +5263,8 @@ const DataContextProvider = ({ children }) => {
   const [idStatus, setItemId] = useState("0");
 
   const [itemtoView, setItemToView] = useState(dropdown.crm);
-console.log(itemtoView)
+  console.log(itemtoView)
+
   const showDropdown = (dataForItem, sideId) => {
     setItemToView(dataForItem);
     setItemId(sideId);
@@ -550,8 +5288,11 @@ console.log(itemtoView)
           setMegaData: setMegaData,
           sidebarData:sidebarData,
           dropdown:dropdown,
-          side_1:side_1
-          
+          side_1:side_1,
+          side_2:side_2,
+          side_3:side_3,
+          side_4:side_4,
+          side_5:side_5,     
         }}
       >
         {children}

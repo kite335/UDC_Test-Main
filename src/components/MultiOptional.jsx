@@ -108,23 +108,29 @@ const MultiOptional = () => {
                     <div>
                       <li>
                         <img src={checkIcon} />
-                        {data.l1}
+                        <div>
+                          {data.l1}
+                        </div>
+                        
                         
                       </li>
 
                       <li>
                         <img src={checkIcon} />
-                        {data.l2}
+                        <div>{data.l2}</div>
+                        
                       </li>
 
                       <li>
                         <img src={checkIcon} />
-                       {data.l3}
+                        <div>{data.l3}</div>
+                       
                       </li>
 
                       <li>
                         <img src={checkIcon} />
-                        {data.l4}
+                        <div>{data.l4}</div>
+                        
                       </li>
 
                     </div>
@@ -222,19 +228,19 @@ const MultiOptional = () => {
                       </li>
                       <li>
                         <img src={checkIcon} />
-                        <span>{data.l6}</span>
+                        <div>{data.l6}</div>
                       </li>
                       <li>
                         <img src={checkIcon} />
-                        <span>{data.l7}</span>
+                        <div>{data.l7}</div>
                       </li>
                       <li>
                         <img src={checkIcon} />
-                        <span>{data.l8}</span>
+                        <div>{data.l8}</div>
                       </li>
                       <li>
                         <img src={checkIcon} />
-                        <span>{data.l9}</span>
+                        <div>{data.l9}</div>
                       </li>
                     </div>
                   </div>
@@ -331,23 +337,23 @@ const MultiOptional = () => {
                     <div>
                       <li>
                         <img src={checkIcon} />
-                        <span>{data.l10}</span>
+                        <div>{data.l10}</div>
                       </li>
                       <li>
                         <img src={checkIcon} />
-                        <span>{data.l11}</span>
+                        <div>{data.l11}</div>
                       </li>
                       <li>
                         <img src={checkIcon} />
-                        <span>{data.l12}</span>
+                        <div>{data.l12}</div>
                       </li>
                       <li>
                         <img src={checkIcon} />
-                        <span>{data.l13}</span>
+                        <div>{data.l13}</div>
                       </li>
                       <li>
                         <img src={checkIcon} />
-                        <span>{data.l14}</span>
+                        <div>{data.l14}</div>
                       </li>
 
                     </div>
@@ -443,19 +449,19 @@ const MultiOptional = () => {
                     <div>
                       <li>
                         <img src={checkIcon} />
-                        <span>{data.l15}</span>
+                        <div>{data.l15}</div>
                       </li>
                       <li>
                         <img src={checkIcon} />
-                        <span>{data.l16}</span>
+                        <div>{data.l16}</div>
                       </li>
                       <li>
                         <img src={checkIcon} />
-                        <span>{data.l17}</span>
+                        <div>{data.l17}</div>
                       </li>
                       <li>
                         <img src={checkIcon} />
-                        <span>{data.l18}</span>
+                        <div>{data.l18}</div>
                       </li>
                     </div>
                   </div>
@@ -530,9 +536,9 @@ const MultiOptional = () => {
         </div>
       </section>
       {/* section-6 */}
-
+{data.h5&&
       <section>
-        <div className={`row ${css.rowCustom } `} style={{marginBottom:"200px"}}>
+        <div className={`row ${css.rowCustom } `} >
           <div className={css.rowInner}>
             <div className="col-12">
               <div className={css.contentWrapper}>
@@ -554,15 +560,15 @@ const MultiOptional = () => {
                       </li>
                       <li>
                         <img src={checkIcon} />
-                        <span>{data.l20}</span>
+                        <div>{data.l20}</div>
                       </li>
                       <li>
                         <img src={checkIcon} />
-                        <span>{data.l21}</span>
+                        <div>{data.l21}</div>
                       </li>
                       <li>
                         <img src={checkIcon} />
-                        <span>{data.l22}</span>
+                        <div>{data.l22}</div>
                       </li>
                     </div>
                   </div>
@@ -635,7 +641,8 @@ const MultiOptional = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section>}
+      <div style={{marginBottom:"200px"}}></div>
     </>
   );
 };

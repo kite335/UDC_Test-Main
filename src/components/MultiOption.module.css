@@ -209,7 +209,13 @@ background-color:  #E1EBEE;
 .mediaContentWrapper{
     display:flex;
     column-gap: 50px;
+    align-items: center;
+    justify-content: center;
 
+}
+
+.mediaContentWrapper li{
+    display: flex;
 }
 .mediaImgContainer{
 max-width:600px;

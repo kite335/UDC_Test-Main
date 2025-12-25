@@ -18,7 +18,11 @@ const DropdownPanel = () => {
     setDropdownStatus, 
     sideId, 
     setMegaData,
-    side_1 
+    side_1,
+    side_2,
+    side_3,
+    side_4,
+    side_5 
   } = useContext(CommonDataContext);
 
     console.log(side_1)
@@ -30,28 +34,38 @@ const DropdownPanel = () => {
      navigateTo 
     } =viewItem.panel;
     
-    
+    const sides=[side_1,side_2,side_3,side_4,side_5]
   // console.log(topicIcon)
   // console.log(topicHeading)
 
   const handleDropdownStatus = (e, navPath, pageIndex) => {
     if (e && e.preventDefault) e.preventDefault();
     // If CRM panel is active, populate mega menu data for index 0
-    if (sideId === "0" && pageIndex === 0) {
-      const dataToPass = side_1.page_1;
-      setMegaData(dataToPass);
-      setDropdownStatus(false);
-      if (navPath) navigate(navPath, { state: { megaData: dataToPass } });
-      return;
-    }
+                 
+          const side=sides[Number(sideId)];
+          const pageKey=`page_${pageIndex+1}`
+          const dataToPass=side[pageKey]
+          setMegaData(dataToPass)
+          setDropdownStatus(false);
+          if(navPath) navigate(navPath,{state:{megaData:dataToPass}});
+          return;
+  
 
-    if (sideId === "0" && pageIndex === 1) {
-      const dataToPass = side_1.page_2;
-      setMegaData(dataToPass);
-      setDropdownStatus(false);
-      if (navPath) navigate(navPath, { state: { megaData: dataToPass } });
-      return;
-    }
+    // if (sideId === "0" && pageIndex === 0) {
+    //   const dataToPass = side_1.page_1;
+    //   setMegaData(dataToPass);
+    //   setDropdownStatus(false);
+    //   if (navPath) navigate(navPath, { state: { megaData: dataToPass } });
+    //   return;
+    // }
+
+    // if (sideId === "0" && pageIndex === 1) {
+    //   const dataToPass = side_1.page_2;
+    //   setMegaData(dataToPass);
+    //   setDropdownStatus(false);
+    //   if (navPath) navigate(navPath, { state: { megaData: dataToPass } });
+    //   return;
+    // }
 
 
 

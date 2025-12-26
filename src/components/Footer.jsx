@@ -1,4 +1,6 @@
 import React from "react";
+import {Link } from "react-router-dom";
+
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import {
   FaFacebookF,
@@ -46,6 +48,7 @@ const Footer = () => {
             <ul className="footer-menu">
               <li><a href="/about">About Us</a></li>
               <li><a href="/services">Services</a></li>
+              <li><Link to="/blog">Blog</Link></li>
               <li><a href="/products">Products</a></li>
               <li><a href="#">Terms & Conditions</a></li>
               <li><a href="/privacy-policy">Privacy Policy</a></li>

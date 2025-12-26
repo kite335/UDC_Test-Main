@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 600px;
-  background: linear-gradient(135deg, #f4f8fb, #ffffff);
+  background: linear-gradient(135deg);
   overflow: hidden;
   padding-top: 60px;
   z-index: 1;
@@ -126,7 +126,8 @@
   position: relative;
   width: 100%;
   height: 650px;
-  background: linear-gradient(135deg, #f4f8fb, #ffffff);
+  background: linear-gradient(135deg);
+  background-color: #E1EBEE;;
   overflow: hidden;
   padding-top: 60px;
   z-index: 1;

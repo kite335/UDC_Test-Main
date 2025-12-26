@@ -43,10 +43,10 @@ const Navbar = ({ onAuthOpen, onOpenForm ,setMegaData}) => {
               <img
                 src={logo}
                 alt="UDC Logo"
-                className="me-2 size"
+                className="me-3 size"
                 style={{ height: "40px" }}
               />
-              <span className="custom-text d-none d-sm-inline">24x7</span>
+              <span className="custom-text d-none d-sm-inline">24</span>
             </Link>
 
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -88,6 +88,17 @@ const Navbar = ({ onAuthOpen, onOpenForm ,setMegaData}) => {
                   onClick={handleNavClick}
                 >
                   SERVICES
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link
+                  to="/blog"
+                  className={`nav-link px-3 ${currentPath === "/blog" ? "active" : ""
+                    }`}
+                  onClick={handleNavClick}
+                >
+                  BLOG
                 </Link>
               </li>
 

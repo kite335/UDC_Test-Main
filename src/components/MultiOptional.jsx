@@ -3,7 +3,7 @@ import css from "./MultiOption.module.css";
 import { CommonDataContext } from "../store/CommonData";
 import { Link, useLocation } from "react-router-dom";
 import checkIcon from "../assets/option/check.svg";
-import lead_managementImg from "../assets/option/lead-management.png";
+import Technology from "./Technology";
 
 const MultiOptional = () => {
   const { megaDataStatus } = useContext(CommonDataContext);
@@ -430,6 +430,7 @@ const MultiOptional = () => {
       </section>
 
       {/* section-5 */}
+      {data.h4 &&
       <section>
         <div className={`row ${css.customRow}`}>
           <div className={css.rowInner}>
@@ -535,6 +536,7 @@ const MultiOptional = () => {
           </div>
         </div>
       </section>
+}
       {/* section-6 */}
 {data.h5&&
       <section>
@@ -642,6 +644,10 @@ const MultiOptional = () => {
           </div>
         </div>
       </section>}
+      <div className={css.technology}>
+        <Technology className={css.technology}/>
+      </div>
+      
       <div style={{marginBottom:"200px"}}></div>
     </>
   );

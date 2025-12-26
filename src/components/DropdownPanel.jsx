@@ -22,7 +22,8 @@ const DropdownPanel = () => {
     side_2,
     side_3,
     side_4,
-    side_5 
+    side_5,
+    
   } = useContext(CommonDataContext);
 
     console.log(side_1)
@@ -35,15 +36,32 @@ const DropdownPanel = () => {
     } =viewItem.panel;
     
     const sides=[side_1,side_2,side_3,side_4,side_5]
+
+    const redudantPath=["copilot-tasks",
+      "copilot-sites-stores",
+      "copilot-feed","copilot-in-crm",
+      "copilot-in-tasks","copilot-in-chat",
+      "copilot-in-site-stores",
+      "copilot-in-feed","copilot-in-viedo-calls"]
   // console.log(topicIcon)
   // console.log(topicHeading)
 
   const handleDropdownStatus = (e, navPath, pageIndex) => {
     if (e && e.preventDefault) e.preventDefault();
+    console.log("path:",navPath)
     // If CRM panel is active, populate mega menu data for index 0
-                 
+    
+                if( redudantPath.includes(navPath)){
+                  const dataToPass=side_1.page_9;
+                  setMegaData(dataToPass);
+                  setDropdownStatus(false);
+                  navigate(navPath,{state:{megaData:dataToPass}});
+                  return;
+                }
           const side=sides[Number(sideId)];
+          console.log(sideId)
           const pageKey=`page_${pageIndex+1}`
+          console.log("Key:",typeof(pageKey))
           const dataToPass=side[pageKey]
           setMegaData(dataToPass)
           setDropdownStatus(false);

@@ -7,36 +7,40 @@ export default function BlogPage() {
   const blogs = [
     {
       id: 1,
-      title: "How CRM Automation Improves Business Productivity",
+      title: "Automate CRM Tasks in Bitrix24: Recurring Invoices & AI Chat Summaries",
       excerpt:
-        "Discover how CRM automation helps businesses streamline operations, improve communication, and increase sales efficiency.",
+        "Cut manual admin work in Bitrix24 CRM. Learn how to automate retainer billing and use CoPilot AI to summarize conversations and populate deal cards from chat data.",
+        navigateTo:"https://www.bitrix24.in/about/blogs/automate-crm-tasks-in-bitrix24-recurring-invoices-ai-chat-summaries.php",
       image: "https://picsum.photos/seed/crm/600/400",
       date: "Dec 10, 2025",
       category: "CRM",
     },
     {
       id: 2,
-      title: "Top Collaboration Tools for Remote Teams",
+      title: "Automate Data Consent in Bitrix24 Open Channels",
       excerpt:
-        "Remote work is here to stay. Learn about the best collaboration tools that keep your team connected and productive.",
+        "Improve your customer's first interaction. Bitrix24 Open Channels offer a simple way to get consent without adding friction to the chat.",
+        navigateTo:"https://www.bitrix24.in/about/blogs/automate-data-consent-in-bitrix24-open-channels.php",
       image: "https://picsum.photos/seed/team/600/400",
       date: "Dec 08, 2025",
       category: "Productivity",
     },
     {
       id: 3,
-      title: "Why Digital Transformation Is No Longer Optional",
+      title: "Collaboration Just Got A Makeover - Meet Bitrix24 Boards",
       excerpt:
-        "Digital transformation helps organizations stay competitive, agile, and customer-focused in a fast-changing world.",
+        "Say goodbye to scattered communication and hello to a unified workspace with Bitrix24 Boards. It’s where creativity meets clarity, and teamwork moves faster than ever.",
+        navigateTo:"https://www.bitrix24.in/about/blogs/collaboration-just-got-a-makeover-meet-bitrix24-boards.php",
       image: "https://picsum.photos/seed/digital/600/400",
       date: "Dec 05, 2025",
       category: "Technology",
     },
     {
       id: 4,
-      title: "Sales Pipeline Management: Best Practices",
+      title: "How Sales Pipelines Can Help Your Business Emerge Victorious",
       excerpt:
-        "An optimized sales pipeline ensures consistent growth and better forecasting. Learn proven best practices.",
+        "Digital transformation has heightened market competition, compelling businesses to cut through the clutter with distinct, appealing value propositions and tailored experiences to emerge victorious.",
+        navigateTo:"https://www.bitrix24.in/about/blogs/how-sales-pipelines-can-help-your-business-emerge-victorious.php?sphrase_id=35353991",
       image: "https://picsum.photos/seed/sales/600/400",
       date: "Dec 01, 2025",
       category: "CRM",
@@ -83,7 +87,7 @@ export default function BlogPage() {
               <span className="blog-date">{blog.date}</span>
               <h3>{blog.title}</h3>
               <p>{blog.excerpt}</p>
-              <a href="#" className="read-more">
+              <a href={blog.navigateTo} target="_blank" className="read-more">
                 Read more →
               </a>
             </div>

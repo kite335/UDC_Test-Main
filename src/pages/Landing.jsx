@@ -135,7 +135,9 @@ const Landing = () => {
 
             <div className={css.productGrid}>
               <div className={css.productCard}>
-                <img src={b24icon} width="70" />
+               
+                <img className={css.productImg}src={b24icon} width="70" />
+                 <div className={css.productHover}><img src="https://www.bitrix24.in/upload/optimizer/converted/images/content_en/screens/tools/crm/features_clear.png.webp?1764863685915"/></div>
                 <p>All-in-one CRM to manage sales, projects, and teamwork.Work smarter, collaborate faster, and grow your business.</p>
               </div>
 

@@ -48,9 +48,10 @@ import DataContextProvider from './store/CommonData'
 import { CommonDataContext } from "./store/CommonData";
 import Sidebar from "./components/Sidebar";
 import DropdownPanel from "./components/DropdownPanel";
-
+import BlogPage from "./pages/BlogPage";
 import { Button } from "react-bootstrap";
 import ProductPage from "./components/ProductPage";
+import TermsConditions from "./pages/TermsConditions";
 
 // 1. 🚀 IMPORT YOUR NEW PAGE HERE
 // Make sure this path is correct!
@@ -299,6 +300,7 @@ function App() {
                      <Route path="/blog" element={<BlogPage />} />  
                     <Route path="/about" element={<AboutUs />} />
                     <Route path="/contact" element={<Contact />} />
+          <Route path="/blogpage" element={<BlogPage />} />
           <Route path="/product-page" element={<ProductPage />} />
           <Route path="/bitrix24-crm" element={<CRM />} />
           <Route path="/task-projects" element={<TaskProjects />} />
@@ -313,6 +315,7 @@ function App() {
           <Route path="/telephony" element={<Telephony />} />
           <Route path="/mobile" element={<Mobile />} />
           <Route path="/zoho-page" element={<ZohoPage />} />
+          <Route path="/termsconditions" element={<TermsConditions />} />
           
             <Route path="/:navigation" element={<>
             <MultiOptional/>

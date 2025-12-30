@@ -123,6 +123,17 @@ const Navbar = ({ onAuthOpen, onOpenForm ,setMegaData}) => {
                   CONTACT
                 </Link>
               </li>
+
+              <li className="nav-item">
+                <Link
+                  to="/blogpage"
+                  className={`nav-link px-3 ${currentPath === "/services" ? "active" : ""
+                    }`}
+                  onClick={handleNavClick}
+                >
+                  Blogs
+                </Link>
+              </li>
             </ul>
           </div>
 

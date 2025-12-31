@@ -126,12 +126,12 @@ button {
     padding: 15px;
   }
 
-  img,
+  /* img,
   .img-responsive,
   .hero-main-img {
     max-width: 100% !important;
     height: auto !important;
-  }
+  } */
 
   .hero-wrapper {
     padding-top: 80px;

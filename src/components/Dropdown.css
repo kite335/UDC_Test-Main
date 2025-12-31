@@ -1,5 +1,5 @@
 .dropdownItems{
-    display: grid;;
+    display: grid;
     grid-template-columns: repeat(3,300px);
     gap:0px
 
@@ -8,4 +8,10 @@
 
 .headingPanel:hover{
  color:#87CEEB
+}
+
+@media screen and (max-width: 1200px) {
+    .dropdownItems{
+     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    }
 }

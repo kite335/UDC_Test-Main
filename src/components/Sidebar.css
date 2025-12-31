@@ -1,39 +1,171 @@
-.select{
-    background-color:#87CEEB !important;
-    color:antiquewhite !important;
-    border:none;
-    border-radius:20px !important
+.select {
+  background-color: #87ceeb !important;
+  color: antiquewhite !important;
+  border: none;
+  border-radius: 20px !important;
 }
-.sideItem{
-color:black !important;
-background-color: #00000009 !important; 
-border:none;
-border-radius:20px !important
-}
-
-.sideItemClick{
- display:flex !important;
- justify-content: space-between;
-
-align-items: center !important;
-
+.sideItem {
+  color: black !important;
+  background-color: #00000009 !important;
+  border: none;
+  border-radius: 20px !important;
 }
 
-.sideItemClick:hover{
-    color:white !important;
-    background-color:#87CEEB !important
+.sideItemClick {
+  display: flex !important;
+  justify-content: space-between;
+
+  align-items: center !important;
 }
 
-
-   
-.rotateArrow{
-    transform:rotate(-90deg);  
-    /* color:#00000021; */
-    
+.sideItemClick:hover {
+  color: white !important;
+  background-color: #87ceeb !important;
 }
 
+.rotateArrow {
+  transform: rotate(-90deg);
+  /* color:#00000021; */
+}
 
-.svgSelect{
-   filter: brightness(0) invert(1);
-    
+.svgSelect {
+  filter: brightness(0) invert(1);
+}
+
+/* Responsive layout: allow sidebar width to be controlled by CSS so we can change on small screens */
+.sidebarContainer {
+  width: 350px;
+  transition: width 0.18s ease, padding 0.18s ease;
+}
+
+@media (max-width: 992px) {
+  .sidebarContainer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Mobile: slide-in left drawer for better UX */
+  .sidebarContainer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 280px;
+    transform: translateX(-100%);
+    transition: transform 220ms ease;
+    z-index: 1200;
+    background: #fff;
+    box-shadow: 2px 0 12px rgba(0, 0, 0, 0.08);
+    overflow-y: auto;
+    padding-top: 18px;
+  }
+
+  .sidebarContainer.mobileOpen {
+    transform: translateX(0);
+  }
+
+  .sidebarNav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0 12px 24px 12px;
+  }
+
+  .sidebarNav .nav-item {
+    display: block;
+  }
+
+  .sideItemClick {
+    padding: 10px 12px !important;
+    border-radius: 8px !important;
+  }
+
+  .sideItemClick div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 15px;
+  }
+
+  .rotateArrow {
+    display: none;
+  }
+
+  /* Mobile controls */
+  .mobileToggle {
+    display: block;
+    position: fixed;
+    right: 14px;
+    bottom: 14px;
+    z-index: 1300;
+    background: #2b9bd7;
+    color: #fff;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    border: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 18px rgba(43, 155, 215, 0.16);
+  }
+
+  .mobileClose {
+    display: block;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: #666;
+  }
+}
+
+/* Mobile UX improvements (overlay drawer) */
+@media (max-width: 768px) {
+  .sideIcon {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+  }
+
+  .sideLabel {
+    display: inline-block;
+    max-width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .sideItemClick {
+    min-width: 0;
+  }
+
+  @media (max-width: 360px) {
+    .sideLabel {
+      display: none;
+    }
+    .sideItemClick {
+      padding: 6px 8px !important;
+    }
+  }
+
+  .sidebarNav .select {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    background-color: #2b9bd7 !important;
+    color: #fff !important;
+  }
+}
+
+/* Reduce dropdown arrow visibility when small */
+.sidebarContainer .dropdown-toggle {
+  opacity: 0.8;
+}
+
+/* Prevent body scroll when mobile drawer open */
+body.no-scroll {
+  overflow: hidden;
 }

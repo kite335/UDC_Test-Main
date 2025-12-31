@@ -16,7 +16,7 @@ import Services from "./pages/Services";
 import BlogPage from "./pages/BlogPage";
 import AboutUs from "./pages/AboutUs";
 import IndustryVertical from "./components/IndustryVertical";
-import Contact from "./pages/ContactUs";
+
 import DepartmentSection from "./components/DepartmentSection";
 import BitrixPopupForm from "./components/BitrixPopupForm";
 import LeadManagementPage from "./pages/LeadManagementPage"; // This looks correct
@@ -48,18 +48,15 @@ import DataContextProvider from './store/CommonData'
 import { CommonDataContext } from "./store/CommonData";
 import Sidebar from "./components/Sidebar";
 import DropdownPanel from "./components/DropdownPanel";
-import BlogPage from "./pages/BlogPage";
-import { Button } from "react-bootstrap";
+import TermsConditions from './pages/TermsConditions'
+
 import ProductPage from "./components/ProductPage";
-import TermsConditions from "./pages/TermsConditions";
+
 
 // 1. 🚀 IMPORT YOUR NEW PAGE HERE
 // Make sure this path is correct!
 
-const str1=<li>"Small & medium businesses"</li>
-	const str2=	<li>Sales & service teams"</li>
-	const str3=	<li>Real estate, clinics, IT & consulting firms"</li>
-	const str4=	<li>"Companies looking for CRM + project management"</li>
+
 
 const homeFAQ = [
   {
@@ -297,10 +294,10 @@ function App() {
               <Services onPopupOpen={() => popupFormRef.current.open()} />
             }
           />
-                     <Route path="/blog" element={<BlogPage />} />  
+                     
                     <Route path="/about" element={<AboutUs />} />
-                    <Route path="/contact" element={<Contact />} />
-          <Route path="/blogpage" element={<BlogPage />} />
+                   
+          <Route path="/blog" element={<BlogPage />} />
           <Route path="/product-page" element={<ProductPage />} />
           <Route path="/bitrix24-crm" element={<CRM />} />
           <Route path="/task-projects" element={<TaskProjects />} />
@@ -315,7 +312,8 @@ function App() {
           <Route path="/telephony" element={<Telephony />} />
           <Route path="/mobile" element={<Mobile />} />
           <Route path="/zoho-page" element={<ZohoPage />} />
-          <Route path="/termsconditions" element={<TermsConditions />} />
+           <Route path="/termsconditions" element={<TermsConditions />} />
+          
           
             <Route path="/:navigation" element={<>
             <MultiOptional/>

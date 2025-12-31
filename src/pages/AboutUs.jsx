@@ -7,12 +7,28 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import FAQ from '../components/FAQ'
+import "./AboutUs.css"
 
 const AboutUs = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
     AOS.init({ duration: 1000 });
+  }, []);
+
+  useEffect(() => {
+    // Inject Bitrix24 form script directly into the form container
+    const script = document.createElement("script");
+    script.src = "https://cdn.bitrix24.com/b21918073/crm/form/loader_1.js";
+    script.async = true;
+    script.setAttribute("data-b24-form", "inline/1/ytigoz");
+    script.setAttribute("data-skip-moving", "true");
+
+    const container = document.getElementById("b24form-container");
+    if (container) {
+      container.innerHTML = ""; // Clear any previous script/form
+      container.appendChild(script);
+    }
   }, []);
 
   const brandLogos = [
@@ -71,13 +87,17 @@ const AboutUs = () => {
       <div className="mt-5">
         <Container>
           <Row className="align-items-center">
-            <Col lg={8} data-aos="fade-right">
+            <Col lg={8} data-aos="fade-right" className="mb-5">
               <h3 className="mb-3">About Unique Design Consultant</h3>
               <p><strong>Unique Design Consultant</strong> is one of the leading consulting companies in India, renowned for its products, services, and after-sales support.</p>
               <p>UDC is engaged in bringing new ways of simplifying corporate life. Our team provides consultation to companies with good conduct, right business techniques, and sensible rates. We help reduce running costs by implementing the latest technology.</p>
               <p>Our founder <strong>Mr. Deepak Kumar</strong> started Unique Design Consultant in 2021 and is now an expert in this sector.</p>
             </Col>
-            <Col lg={4} data-aos="fade-left" className="mt-4 mt-lg-0 text-center">
+             <Col md={7} className=''>
+                          <h2 className="form-headline">Send us a message</h2>
+                          <div id="b24form-container" />
+                        </Col>
+            <Col lg={4} data-aos="fade-left" className="mt-4 mt-lg-0 text-center goldBorder">
               <Image src={`${import.meta.env.BASE_URL}assets/img/Gold.jpg`} alt="About UDC" fluid rounded />
             </Col>
           </Row>

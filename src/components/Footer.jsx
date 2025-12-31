@@ -1,6 +1,6 @@
 import React from "react";
 import {Link } from "react-router-dom";
-import { Link } from "react-router-dom";
+
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import {
   FaFacebookF,
@@ -49,7 +49,7 @@ const Footer = () => {
   <li><Link to="/about">About Us</Link></li>
   <li><Link to="/services">Services</Link></li>
   <li><Link to="/product-page">Products</Link></li>
-  <li><Link to="/termsconditions">Terms & Conditions</Link></li>
+  <li><Link to="/termsconditions">Terms Conditions & Policy </Link></li>
 </ul>
 
 </Col>

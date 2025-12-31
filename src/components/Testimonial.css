@@ -133,6 +133,9 @@
   right: -35px;
 }
 
+/* Remove arrows completely (we use dots / autoplay) */
+.slick-prev, .slick-next { display: none !important; }
+
 /* Dots styling */
 .slick-dots li button:before {
   color: #2d9cfc !important;
@@ -151,4 +154,19 @@
 
 .slick-prev, .slick-next {
   z-index: 10;
+}
+
+/* Additional mobile tweaks */
+@media (max-width: 768px) {
+  .big-title { font-size: 28px; margin-bottom: 30px; }
+  .testimonial-box { padding: 28px 18px; }
+  .testimonial-para { font-size: 15px; }
+}
+
+@media (max-width: 420px) {
+  .big-title { font-size: 22px; }
+  .small-title { font-size: 16px; }
+  .testimonial-box::before { display: none; }
+  .testimonial-box::after { display: none; }
+  .testimonial-box { padding: 20px 12px; }
 }

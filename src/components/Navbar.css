@@ -1,8 +1,9 @@
 /* ----------------------------
  BASIC NAVBAR COLORS
 -----------------------------*/
+
 .custom-navbar {
-  background-color:#87CEEB!important;
+  background-color: #87ceeb !important;
 }
 
 .custom-navbar .nav-link {
@@ -11,23 +12,26 @@
 }
 
 .custom-navbar .nav-link:hover {
-  color: #0090C6 !important;
+  color: #0090c6 !important;
 }
 
-.firstContainer{
-align-items: center;
+.firstContainer {
+  align-items: center;
 }
 
-.navLeft{
-display:flex;
+.logoImg {
+width: 6em;
+}
+.navLeft {
+  display: flex;
 }
 
-.navLeft a{
-  margin-right:25px
+.navLeft a {
+  margin-right: 25px;
 }
 
-.navRight{
-  display:flex;
+.navRight {
+  display: flex;
   justify-content: space-around;
   column-gap: 30px;
   align-items: center;
@@ -37,16 +41,29 @@ display:flex;
 .navRight li {
   list-style: none;
 }
-.navRight li a{
-  color:white;
-  
+.navRight li a {
+  color: white;
 }
-.custom-text{
-  color:white;
+.custom-text {
+  color: white;
   font-size: 25px;
-  font-weight:bold;
+  font-weight: bold;
 }
 
+.whtsappImg{
+  width:35px;
+}
+
+.mailImg{
+  width:50px;
+}
+
+.linkdeinIcon{
+width:35px;
+ height: 35px;
+  color: #1877F2
+
+}
 /* .importedProducts{
   display:flex;
   position:absolute;
@@ -57,7 +74,6 @@ display:flex;
 
 .custom-dropdown {
   position: relative;
-
 }
 
 /* PRODUCTS arrow */
@@ -68,36 +84,79 @@ display:flex;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-top: 6px solid #fff;
-  transition: transform .25s ease;
+  transition: transform 0.25s ease;
 }
 
-.rotate::after{
-  content:"";
-   transform: rotate(180deg);
-   
-   border:none;
-   
-}
+.rotate::after {
+  content: "";
+  transform: rotate(180deg);
 
+  border: none;
+}
 
 .custom-dropdown-menu {
-display:flex;
-flex-direction: column;
-align-items: flex-start;
-justify-content: center;
-background-color:white;
- min-width:300px
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: white;
+  min-width: 300px;
 }
 
+@media screen and (max-width: 1200px) {
 
 
+  .navLeft{
+    display:flex;
+    flex-direction: column;
+    max-width:100px
 
+  }
+   
+  
+   .container-fluid{
+    display: flex;
+   align-items:start!important;
 
+   
+    
+  }
 
+  .logoImg {
+    max-width: 5rem;
+  }
 
  
 
+}
+
+@media screen and (max-width: 500px) {
+  /* Do not hide the navbar links on small screens; let the collapse control visibility */
+  .navLeft{
+    max-width: 50px;
+  }
+  .logoImg {
+    max-width: 5rem;
+  }
+  .whtsappImg{
+max-width: 30px;
+  }
+
+  .mailImg{
+max-width: 40px;
+  }
+
+  .linkdeinIcon{
+max-width: 30px;
+  }
+ 
+
+ 
+
+  
+
+  
 
 
-
-
+  
+}

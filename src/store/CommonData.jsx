@@ -3531,9 +3531,312 @@ const side_5={
 };
 
 
+const homeFAQ = [
+  {
+    query: "What is Bitrix24 CRM?",
+    answer: ` 
+Bitrix24 CRM is an all-in-one customer relationship management platform that helps businesses manage leads, customers, deals, communication, tasks, and automation in one place.
+At Unique Design Consultant, we implement Bitrix24 to improve sales performance and operational efficiency.`
+  },
+  {
+    query: "Who should use Bitrix24 CRM?",
+    answer:(
+    <> <div style={{fontWeight:"bold"}}>Bitrix24 CRM is suitable for:</div><br/>
+       <li style={{marginLeft:"20px"}}>Small & medium businesses</li>
+       <li style={{marginLeft:"20px"}}>Sales & service teams</li>
+       <li style={{marginLeft:"20px"}}>Real estate, clinics, IT & consulting firms</li>
+       <li style={{marginLeft:"20px"}}>Companies looking for CRM + project management</li>
+       <div style={{fontWeight:"bold",marginTop:"10px"}}>Unique Design Consultant customizes Bitrix24 based on your industry and workflow.</div>
+       </>
+    )
+    
+    
+  },
+  {
+    query: "Is Bitrix24 cloud-based or on-premise?",
+    answer:(
+    <> <div style={{fontWeight:"bold"}}>Bitrix24 is available in two options:</div><br/>
+       <li style={{marginLeft:"20px"}}>Cloud Version – Fast deployment with no server management</li>
+       <li style={{marginLeft:"20px"}}>On-Premise Version – Installed on your own server for complete control
+</li>
+       <div style={{fontWeight:"bold",marginTop:"10px"}}>We at Unique Design Consultant help you choose the right model.</div>
+       </>
+    )
+      
+    
+  },
+
+  {
+    query: "Who should use Bitrix24 CRM?",
+    answer:(
+    <> <div style={{fontWeight:"bold"}}>What key features does Bitrix24 CRM offer?</div><br/>
+       <li style={{marginLeft:"20px"}}>Lead & deal management</li>
+       <li style={{marginLeft:"20px"}}>Sales pipeline automation</li>
+       <li style={{marginLeft:"20px"}}>Task & project management</li>
+       <li style={{marginLeft:"20px"}}>Email, WhatsApp & call tracking</li>
+       <li style={{marginLeft:"20px"}}>Calendar & appointment booking</li>
+       <li style={{marginLeft:"20px"}}>Reports & analytics</li>
+
+       <div style={{fontWeight:"bold",marginTop:"10px"}}>All features are configured by Unique Design Consultant as per your business needs.</div>
+       </>
+    )     
+  },
+
+  {
+    query: "Can Bitrix24 be customized for my business?",
+    answer:(
+    <> <div style={{fontWeight:"bold"}}>Yes. Bitrix24 is highly customizable.
+Unique Design Consultant customizes:</div><br/>
+       <li style={{marginLeft:"20px"}}>CRM pipelines & stages</li>
+       <li style={{marginLeft:"20px"}}>Custom fields & forms</li>
+       <li style={{marginLeft:"20px"}}>Automation rules</li>
+       <li style={{marginLeft:"20px"}}>User roles & permissions</li>
+       <li style={{marginLeft:"20px"}}>Dashboards & workflows</li>
+       <div style={{fontWeight:"bold",marginTop:"10px"}}>Your CRM will follow your exact process.</div>
+       </>
+    )     
+  },
+
+  {
+    query: "Does Bitrix24 support automation?",
+    answer:(
+    <> <div style={{fontWeight:"bold"}}>Yes. Bitrix24 supports powerful automation such as:</div><br/>
+       <li style={{marginLeft:"20px"}}>Auto lead assignment</li>
+       <li style={{marginLeft:"20px"}}>Follow-up reminders</li>
+       <li style={{marginLeft:"20px"}}>Deal stage actions</li>
+       <li style={{marginLeft:"20px"}}>Task auto-creation</li>
+       <li style={{marginLeft:"20px"}}>Approval workflows</li>
+       <div style={{fontWeight:"bold",marginTop:"10px"}}>We design smart automation to reduce manual work.</div>
+       </>
+    )     
+  },
+
+  {
+    query: "Can Bitrix24 integrate with other software?",
+    answer:(
+    <> <div style={{fontWeight:"bold"}}>Email & WhatsApp</div><br/>
+       <li style={{marginLeft:"20px"}}>Telephony systems</li>
+       <li style={{marginLeft:"20px"}}>Payment gateways</li>
+       <li style={{marginLeft:"20px"}}>Accounting software</li>
+       <li style={{marginLeft:"20px"}}>Third-party tools via API</li>
+       
+       <div style={{fontWeight:"bold",marginTop:"10px"}}>
+Unique Design Consultant also develops custom integrations when required.</div>
+       </>
+    )     
+  },
+
+  {
+    query: "Is Bitrix24 mobile-friendly?",
+    answer:(
+    <> <div style={{fontWeight:"bold"}}>Yes. Bitrix24 offers Android & iOS mobile apps allowing users to:</div><br/>
+       <li style={{marginLeft:"20px"}}>Manage leads & deals</li>
+       <li style={{marginLeft:"20px"}}>Update tasks</li>
+       <li style={{marginLeft:"20px"}}>Log calls & activities</li>
+       <li style={{marginLeft:"20px"}}>Collaborate with teams</li>
+      
+       <div style={{fontWeight:"bold",marginTop:"10px"}}>Ideal for field sales and remote teams.</div>
+       </>
+    )     
+  },
 
 
+  {
+    query: "Is data secure in Bitrix24 CRM?",
+    answer:(
+    <> <div style={{fontWeight:"bold"}}>Data encryption</div><br/>
+       <li style={{marginLeft:"20px"}}>Role-based access</li>
+       <li style={{marginLeft:"20px"}}>Secure cloud infrastructure</li>
+       <li style={{marginLeft:"20px"}}>GDPR compliance (cloud version)</li>
+       
+       <div style={{fontWeight:"bold",marginTop:"10px"}}>We further configure security as per your organization’s policies.</div>
+       </>
+    )     
+  },
 
+
+  {
+    query: "Does Unique Design Consultant provide Bitrix24 implementation?",
+    answer:(
+    <> <div style={{fontWeight:"bold"}}>
+Yes. Unique Design Consultant provides complete Bitrix24 services including:</div><br/>
+       <li style={{marginLeft:"20px"}}>Requirement analysis</li>
+       <li style={{marginLeft:"20px"}}>CRM setup & customization</li>
+       <li style={{marginLeft:"20px"}}>Automation & integrations</li>
+       <li style={{marginLeft:"20px"}}>User training</li>
+       <li style={{marginLeft:"20px"}}>Go-live & post-implementation support</li>
+       <div style={{fontWeight:"bold",marginTop:"10px"}}>We ensure smooth adoption across your team.</div>
+       </>
+    )     
+  },
+
+
+  {
+    query: "How long does Bitrix24 implementation take?",
+    answer:(
+    <> <div style={{fontWeight:"bold"}}>Implementation timelines vary:</div><br/>
+       <li style={{marginLeft:"20px"}}>Basic CRM setup: 3–5 days</li>
+       <li style={{marginLeft:"20px"}}>Customized workflows: 1–3 weeks</li>
+       <li style={{marginLeft:"20px"}}>Advanced automation & integrations: 3–4 weeks</li>
+       
+       <div style={{fontWeight:"bold",marginTop:"10px"}}>A clear project plan is shared before execution.</div>
+       </>
+    )     
+  },
+
+  {
+    query: "Why choose Unique Design Consultant for Bitrix24?",
+    answer:(
+    <> <div style={{fontWeight:"bold"}}>Clients choose Unique Design Consultant because we offer:</div><br/>
+       <li style={{marginLeft:"20px"}}>Business-focused CRM design</li>
+       <li style={{marginLeft:"20px"}}>Industry-specific customization</li>
+       <li style={{marginLeft:"20px"}}>Clean & scalable setup</li>
+       <li style={{marginLeft:"20px"}}>Reliable ongoing support</li>
+       <div style={{fontWeight:"bold",marginTop:"10px"}}>We don’t just implement CRM — we design solutions that work.</div>
+       </>
+    )     
+  },
+];
+const taskFaq=[
+  {
+query:"What is task management in Bitrix24?",
+answer:"Bitrix24 task management helps you create, assign, track, and complete tasks with deadlines, priorities, and statuses."
+
+},
+{
+query:"Can I assign tasks to multiple users?",
+answer:"Yes, tasks can be assigned to one or multiple users with clear roles and responsibilities."
+},
+{
+query:"Does Bitrix24 support project deadlines and milestones?",
+answer:"Yes, you can set project deadlines, milestones, and dependencies to manage work efficiently."
+},
+{
+query:"Can I track tasks using Kanban and Gantt charts?",
+answer:"Yes, Bitrix24 offers Kanban boards and Gantt charts for visual task and project tracking."
+},
+{
+query:"Are task reminders and notifications available?",
+answer:"Yes, users receive automatic reminders and notifications for task updates and deadlines."
+},
+{
+query:"Can recurring tasks be created in Bitrix24?",
+answer:"Yes, recurring tasks can be scheduled daily, weekly, monthly, or as per your requirement."
+},
+{query:". Is time tracking available for tasks and projects?",
+  answer:"Yes, Bitrix24 allows time tracking to monitor how much time is spent on each task."
+},
+{query:"Can task reports be generated for managers?",
+  answer:"Yes, managers can generate task and productivity reports to track team performance."
+}
+]
+
+const collabFaq=[
+ {query:" How does Bitrix24 help teams collaborate?",
+answer:"Bitrix24 provides chat, video calls, file sharing, and activity feeds in one platform."},
+
+{query: "Does Bitrix24 offer internal chat and messaging?",
+answer:"Yes, teams can communicate instantly using one-to-one and group chats."},
+
+{query:"Can teams make video and voice calls in Bitrix24?",
+answer:"Yes, Bitrix24 supports HD video conferencing and voice calls."},
+
+{query: "Is file sharing available within teams and projects?",
+answer:"Yes, users can securely share files and documents inside chats and tasks."},
+
+{ answer:"Can employees collaborate remotely using Bitrix24?",
+query:"Yes, Bitrix24 is cloud-based and accessible from anywhere."},
+
+{answer:" Are chats and discussions stored securely?",
+query:"Yes, all chats and discussions are stored securely and can be accessed later."},
+
+ {query:"Can comments be added to tasks and files?",
+answer:"Yes, users can add comments, mentions, and updates to tasks and files."},
+
+ {query:"Does Bitrix24 support mobile collaboration?",
+answer:"Yes, Bitrix24 has mobile apps for Android and iOS devices."}
+]
+
+const siteFaq=[
+{query:" What is Bitrix24 Sites?",
+answer:"Bitrix24 Sites allows you to build websites and landing pages without coding."
+},
+ {query:"Can I create a website without technical knowledge?",
+answer:"Yes, you can use ready-made templates and a drag-and-drop editor."},
+
+ {query:"Does Bitrix24 provide website templates?",
+answer:"Yes, Bitrix24 offers multiple professional and responsive templates."
+},
+
+ {query:"Can I create an online store using Bitrix24?",
+answer:"Yes, Bitrix24 Store lets you sell products and services online."},
+
+{query:"Is website hosting included?",
+answer:"Yes, Bitrix24 provides cloud hosting for websites and stores."
+},
+ {query:"Can website forms connect to CRM automatically?",
+answer:"Yes, all forms and orders are automatically added to Bitrix24 CRM."},
+
+ {query:"Does Bitrix24 support online payments?",
+answer:"Yes, it supports multiple online payment gateways."},
+
+ {query:"Can I manage products and orders in Bitrix24 Store?",
+answer:"Yes, you can manage products, inventory, orders, and customers easily."}
+]
+
+const hrFaq=[
+   {query:"How does Bitrix24 help manage employees?",
+answer:"Bitrix24 manages employee profiles, tasks, attendance, and communication."},
+
+ {query:"Can Bitrix24 track employee attendance?",
+answer:"Yes, it supports clock-in/clock-out and work time tracking."},
+
+ {query:"Is remote work tracking available?",
+answer:"Yes, Bitrix24 tracks work time for remote and office employees."},
+
+ {query:"Can HR manage leave requests?",
+answer:"Yes, leave requests and approvals can be automated."},
+
+ {query:"Does Bitrix24 support employee performance tracking?",
+answer:"Yes, it provides reports on tasks, activity, and productivity."},
+
+ {query:"Can onboarding tasks be automated?",
+answer:"Yes, HR can automate onboarding processes using workflows."},
+
+ {query:"Can company announcements be shared internally?",
+answer:"Yes, announcements can be shared via the activity feed."},
+
+ {query:"Are employee documents stored securely?",
+answer:"Yes, Bitrix24 stores employee documents securely with access control."}
+]
+
+const copilotFaq=[
+  {query:" What is Bitrix24 Copilot?",
+answer:"Bitrix24 Copilot is an AI assistant that helps users work faster and smarter."},
+
+{query: "How does Copilot improve productivity?",
+answer:"It helps write content, summarize information, and reduce manual effort."},
+
+ {query:"Can Copilot help write emails and messages?",
+answer:"Yes, Copilot can draft emails, chat replies, and task descriptions."},
+
+ {query:"Is Copilot integrated with CRM and tasks?",
+answer:"Yes, Copilot works directly inside CRM, tasks, and chats."},
+
+{query: "Can Copilot summarize chats and tasks?",
+answer:"Yes, it can summarize long chats, notes, and task updates."},
+
+{query: "Does Copilot help with content creation?",
+answer:"Yes, it helps create posts, descriptions, and responses quickly."},
+
+{query: "Is Copilot easy for non-technical users?",
+answer:"Yes, Copilot is simple and user-friendly."},
+
+{query: "Is data secure when using Copilot?",
+answer:"Yes, Bitrix24 follows strong security and data protection standards."}
+]
+
+console.log(homeFAQ)
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -3897,7 +4200,13 @@ const DataContextProvider = ({ children }) => {
           side_2:side_2,
           side_3:side_3,
           side_4:side_4,
-          side_5:side_5,     
+          side_5:side_5, 
+          homeFaq:homeFAQ,
+          taskFaq:taskFaq,
+          collabFaq:collabFaq,
+          siteFaq:siteFaq,
+          hrFaq:hrFaq,
+          copilotFaq:copilotFaq    
         }}
       >
         {children}

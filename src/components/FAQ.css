@@ -1,0 +1,15 @@
+.faqOuter{
+font-size: 2rem;
+width:75%;
+margin:auto;
+margin-bottom:3rem ;
+background-color: white;
+
+}
+
+@media screen and (max-width: 500px) {
+.faqOuter{
+    width:100%;
+    font-size: 1rem;
+}
+}

@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Collapse from 'bootstrap/js/dist/collapse';
+import './FAQ.css'
 import { useState, useEffect } from 'react';
 
 const Faq = ({ faq }) => {
@@ -20,7 +21,7 @@ const Faq = ({ faq }) => {
     const toggle = (index) => setOpenIndex(prev => prev === index ? -1 : index);
     return (
         <>                    
-        <div className='w-75 mx-auto rounded-5 bg-white mb-5'>
+        <div className=' faqOuter'>
            <center style={{fontSize:"40px",marginBottom:"5px",marginTop:"40px",fontWeight:"bold"}}>
                                 FAQ
                               </center>

@@ -17,12 +17,6 @@ import glass from "../assets/theme/glass.jpg"
 
 import css from './Landing.module.css'
 
-// import FeatureSlider from '../components/FeatureSlider'
-// import Testimonial from '../components/Testimonial'
-// import Pricing from '../components/Pricing'
-// import Technology from '../components/Technology'
-// import FAQ from '../components/FAQ'
-// import DepartmentSection from "../components/DepartmentSection"
 
 const slides = [
   themeBack, themeBack2, themeBack3, themeBack4,
@@ -123,7 +117,7 @@ const Landing = () => {
               <h1>5+</h1>
               <span>Years Experience</span>
             </div>
-            <button className={css.primaryBtn}>Book a Demo</button>
+            <Link to='/about' className={css.primaryBtn}>Book a Demo</Link>
           </div>
 
           <div className={css.growthRight}>

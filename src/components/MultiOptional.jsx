@@ -4,14 +4,18 @@ import { CommonDataContext } from "../store/CommonData";
 import { Link, useLocation } from "react-router-dom";
 import checkIcon from "../assets/option/check.svg";
 import Technology from "./Technology";
+import FAQ from "./FAQ"
 
 const MultiOptional = () => {
-  const { megaDataStatus } = useContext(CommonDataContext);
+  const { megaDataStatus,homeFaq,taskFaq,collabFaq,hrFaq,siteFaq,copilotFaq,sideId } = useContext(CommonDataContext);
+  console.log(homeFaq)
   console.log("DATA->",megaDataStatus);
 
   const location = useLocation();
   const routeMega = location?.state?.megaData;
+
   console.log("ROUTEMEGA=>",routeMega)
+  
   const data =  routeMega ?? megaDataStatus;
   console.log("mega data used for MultiOptional:", data);
   return (
@@ -72,7 +76,7 @@ const MultiOptional = () => {
                   {data.p}
                 </div>
                 <div className={css.sec1BtnWrapper}>
-                  <Link to="h" className={css.sec1Btn}>
+                  <Link to="/about" className={css.sec1Btn}>
                     REGISTRE FREE
                   </Link>
                 </div>
@@ -540,7 +544,7 @@ const MultiOptional = () => {
       {/* section-6 */}
 {data.h5&&
       <section>
-        <div className={`row ${css.rowCustom } `} >
+        <div className={`row ${css.customRow } `} >
           <div className={css.rowInner}>
             <div className="col-12">
               <div className={css.contentWrapper}>
@@ -647,7 +651,12 @@ const MultiOptional = () => {
       <div className={css.technology}>
         <Technology className={css.technology}/>
       </div>
-      
+      {sideId==="0"&&<FAQ faq={homeFaq}/>}
+      {sideId==="1"&&<FAQ faq={collabFaq}/>}
+      {sideId==="2"&&<FAQ faq={taskFaq}/>}
+      {sideId==="3"&&<FAQ faq={siteFaq}/>}
+      {sideId==="4"&&<FAQ faq={hrFaq}/>}
+      {sideId==="5"&&<FAQ faq={copilotFaq}/>}
       <div style={{marginBottom:"200px"}}></div>
     </>
   );

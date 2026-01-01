@@ -1,5 +1,8 @@
 // import React from "react";
 // import "./IndustrySolutions_List.css";
+import {useContext} from 'react'
+import { CommonDataContext } from "../store/CommonData";
+import FAQ from '../components/FAQ'
 import ProductTop from '../components/ProductTop'
 import taskprojectImage from '../assets/product/task_projects.jpg'
 import taskprojectImage2 from '../assets/product/task_project2.jpg'
@@ -41,8 +44,11 @@ const TaskProjectData={h:"Free task management software for your business",
 }
 
 export default function TaskProjects() {
+const {taskFaq}=useContext(CommonDataContext)
   return (
-
- <ProductTop data={TaskProjectData}/>
-  );
+<>
+<ProductTop data={TaskProjectData}/>
+ <FAQ faq={taskFaq}/> 
+</>
+  )
 }

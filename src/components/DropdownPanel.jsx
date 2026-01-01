@@ -42,7 +42,7 @@ const DropdownPanel = () => {
       "copilot-feed","copilot-in-crm",
       "copilot-in-tasks","copilot-in-chat",
       "copilot-in-site-stores",
-      "copilot-in-feed","copilot-in-viedo-calls"]
+      "copilot-in-feed","copilot-in-viedo-calls","/copilot"]
   // console.log(topicIcon)
   // console.log(topicHeading)
 
@@ -65,7 +65,7 @@ const DropdownPanel = () => {
           const dataToPass=side[pageKey]
           setMegaData(dataToPass)
           setDropdownStatus(false);
-          if(navPath) navigate(navPath,{state:{megaData:dataToPass}});
+          if(navPath) navigate(navPath,{state:{megaData:dataToPass,sideId:sideId}});
           return;
   
 

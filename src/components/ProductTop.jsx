@@ -1,6 +1,6 @@
 import css from './ProductTop.module.css'
 import "@fontsource-variable/montserrat";
-
+import {Link} from 'react-router-dom'
 const ProductTop = ({ data}) => {
     return (
         <>
@@ -20,9 +20,9 @@ const ProductTop = ({ data}) => {
 
                         {data.p}
                     </p>
-                    <button className={css.section1Button}>
+                    <Link to='/about' className={css.section1Button}>
                         Get Started
-                    </button>
+                    </Link>
                 </div>
 
 
@@ -40,9 +40,9 @@ const ProductTop = ({ data}) => {
                 <div className={css.section2ImgContainer}>
                     <img src={data.img_2} />
                 </div>
-                <button>
+                <Link to='/about' className={css.section2Button}>
                     GET STARTED
-                </button>
+                </Link>
             </section>
 
             {/* Product=>Bitrix dropdown pages section 3 */}
@@ -50,7 +50,7 @@ const ProductTop = ({ data}) => {
                 <div className={css.section3Left}>
                     <h1>{data.h_3}</h1>
                     <p>{data.p_3}</p>
-                    <button>{data.btn}</button>
+                    <Link to='/avout' className={css.section3Button}>{data.btn}</Link>
                 </div>
 
                 <div className={css.section3ImgContainer}>
@@ -68,7 +68,7 @@ const ProductTop = ({ data}) => {
                 <div className={css.section3Left}>
                     <h1>{data.h_4}</h1>
                     <p>{data.p_4}</p>
-                    <button>{data.btn_1}</button>
+                    <Link to='/about' >{data.btn_1}</Link>
                 </div>
                   </section>
 
@@ -77,7 +77,7 @@ const ProductTop = ({ data}) => {
                 <div className={css.section3Left}>
                     <h1>{data.h_5}</h1>
                     <p>{data.p_5}</p>
-                    <button>{data.btn_2}</button>
+                    <Link to='/about'>{data.btn_2}</Link>
                 </div>
 
                 <div className={css.section3ImgContainer}>
@@ -99,7 +99,7 @@ const ProductTop = ({ data}) => {
                       </div>
                       
                      
-                        <button className={css.section6Btn}>GET STARTED</button>
+                        <Link to='/about' className={css.section6Btn}>GET STARTED</Link>
                         </div>   
                       
 

@@ -1,5 +1,7 @@
 
-
+import {useContext} from 'react'
+import { CommonDataContext } from "../store/CommonData";
+import FAQ from '../components/FAQ'
 import ProductTop from '../components/ProductTop'
 import hrImg from '../assets/product/hr.png'
 import hrImg2 from '../assets/product/hr2.png'
@@ -9,6 +11,7 @@ import hrImg5 from '../assets/product/hr5.jpg'
 import hrImg6 from '../assets/product/hr6.jpg'
 
 const HrAutomation = () => {
+    const {hrFaq}=useContext(CommonDataContext)
     const hrData = {
         h: "HR management & workflow automation",
         p: "Streamline workflows, automate your business processes, and manage employee data like a boss.",
@@ -37,7 +40,8 @@ const HrAutomation = () => {
     }
     return (
         <>
-            <ProductTop data={hrData} />
+            <ProductTop data={hrData}  />
+            <FAQ faq={hrFaq}/>
         </>
 
     )

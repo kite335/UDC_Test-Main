@@ -1,6 +1,7 @@
 // import css from './CRM.module.css'
 
-
+import {useContext} from "react"
+import { CommonDataContext } from "../store/CommonData";
 import ProductTop from '../components/ProductTop'
 import FAQ from '../components/FAQ'
 import crmImage from '../assets/product/crm.png'
@@ -11,6 +12,7 @@ import crmImage5 from '../assets/product/crm5.jpg'
 import crmImage6 from '../assets/product/crm6.jpg'
 
 const CRM = () => {
+    const {homeFaq}=useContext(CommonDataContext)
     const crmData = {
         h: "Free CRM software for your business",
         p: "Sell more. Sell better. Sell faster with Bitrix24 a single platform to cover all your needs.",
@@ -39,31 +41,12 @@ const CRM = () => {
         
     }
 
-    const crmFAQ = [
-        {
-            query: "What is CRM",
-            answer: "CRM is a Customer Relationship Management Software",
-            unique_1:"headingOne",
-            unique_2:"collapseOne"
-        },
-        {
-            query: "Who uses CRM software?",
-            answer: "CRM software is used by businesses of all sizes—from small startups to large enterprises—across industries like sales, marketing, real estate, finance, customer service, and more. Sales teams, marketers, support agents, and business owners rely on CRM systems to organize contacts, track interactions, automate workflows, and improve customer relationships.",
-            unique_1:"headingTwo",
-            unique_2:"collapseTwo"
-        },
-        {
-            query: "What integrations are available with Bitrix24 CRM?",
-            answer: "Bitrix24 integrates with popular email services (Gmail, Outlook), telephony providers, messengers (WhatsApp, Facebook Messenger), e-commerce platforms, and many third-party apps via REST API and Zapier. You can synchronize calendars, contacts, and automate data flows across tools.",
-            unique_1:"headingThree",
-            unique_2:"collapseThree"
-        }
-    ];
+    
 
     return (
         <>
             <ProductTop data={crmData}  />
-            <FAQ faq={crmFAQ}/>
+            <FAQ faq={homeFaq}/>
         </>
 
     )

@@ -1,3 +1,6 @@
+import {useContext} from 'react'
+import FAQ from '../components/FAQ'
+import { CommonDataContext } from "../store/CommonData";
 import ProductTop from '../components/ProductTop'
 import siteImage from '../assets/product/site.png'
 import siteImage2 from '../assets/product/site2.jpg'
@@ -7,6 +10,7 @@ import siteImage5 from '../assets/product/site5.jpg'
 import sitetImage6 from '../assets/product/site6.jpg'
 
 const SiteStore=()=>{
+    const {siteFaq}=useContext(CommonDataContext)
 
     const siteData = {
             h: "Powerful, no-code website builder",
@@ -37,7 +41,11 @@ const SiteStore=()=>{
 
         }
     return(
+        <>
         <ProductTop data={siteData}/>
+        <FAQ faq={siteFaq}/>
+        </>
+        
     )
 }
 

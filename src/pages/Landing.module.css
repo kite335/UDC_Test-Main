@@ -68,7 +68,8 @@
 .primaryBtn {
   background: #0d6efd;
   color: #fff;
-  padding: 12px 32px;
+  margin-top:15px;
+  padding: 12px 12px;
   border-radius: 30px;
   border: none;
   cursor: pointer;
@@ -296,11 +297,13 @@ background-color:#87CEEB
     text-align: justify;
   }
 
-  .primaryBtn {
+  /* .primaryBtn {
     padding: 6px 7px;
     font-size:15px;
+    margin:2px;
+    width:40px
     
-  }
+  } */
 
   .clientBox h1 {
     font-size: 45px;

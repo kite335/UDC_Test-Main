@@ -95,7 +95,7 @@ const Landing = () => {
 
         <div className={css.aboutCard}>
           <div>
-            <h3>DEEPAK KUMAR — CEO OF COMPANY</h3>
+            <h3>DEEPAK KUMAR CEO OF COMPANY</h3>
             <p>
               As a trusted India-based Bitrix24 Gold Partner, we specialize in delivering custom CRM setups, workflow automation, business process optimization, and system integrations tailored to every industry.With a strong focus on digital transformation, we help businesses automate daily operations, enhance team productivity, improve customer experience, and scale faster with smart, efficient, and fully connected systems. Our team provides custom development, cloud & on-premise deployment, API integrations, data migration, and 24×7 global support, ensuring a seamless technology experience from start to finish.Whether you are a startup, SME, or enterprise, UDC empowers your business with reliable CRM–ERP solutions, advanced automation, and long-term support to achieve measurable growth and operational excellence.
             </p>

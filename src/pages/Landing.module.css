@@ -313,3 +313,10 @@ background-color:#87CEEB
     padding: 30px;
   }
 }
+
+@media (max-width: 499px) {
+.carouselImage{
+  height:45vh;
+}
+}
+

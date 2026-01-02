@@ -1,0 +1,36 @@
+.cardItem{
+    
+    
+    
+   
+}
+.cardInner{
+text-align:center;
+ background-color:#e5f3ff!important;
+ border-radius:20px ;
+ height:30vh;
+ position:relative;
+}
+
+.navigationArrow{
+    font-size: 20px;
+   right:0
+   
+    
+}
+
+.repeatH3{
+text-align: start;
+font-size: 20px;
+}
+
+.repeatP{
+    text-align: start;
+
+}
+
+@media (max-width: 600px) {
+.cardInner{
+    height: 20vh;
+}
+}

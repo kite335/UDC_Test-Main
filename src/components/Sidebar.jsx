@@ -1,5 +1,6 @@
 import { useState, useContext } from "react";
 import { CommonDataContext } from "../store/CommonData";
+import {Link} from "react-router-dom"
 import "./Sidebar.css";
 
 const Sidebar = () => {
@@ -65,8 +66,11 @@ const Sidebar = () => {
                     <div className="dropdown-toggle rotateArrow"></div>
                   </a>
                 </li>
+                
               </div>
             ))}
+            <Link to='/product-link' className="tools">See all tools &gt;</Link>
+            
           </ul>
         </div>
       )}

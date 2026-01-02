@@ -1,4 +1,5 @@
 import { createContext, useState } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import crmIcon from "../assets/SidebarSvg/crm.svg";
 import collabIcon from "../assets/SidebarSvg/collaboration.svg";
 import task_projectIcon from "../assets/SidebarSvg/taskProjects.svg";
@@ -3842,6 +3843,10 @@ console.log(homeFAQ)
 
 
 const DataContextProvider = ({ children }) => {
+  const navigate = useNavigate();
+  const sides=[side_1,side_2,side_3,side_4,side_5]
+
+ 
   //  SIDEBAR LIST
   const sidebarData = [
     { listItem: "CRM", icon: crmIcon },
@@ -4181,6 +4186,39 @@ const DataContextProvider = ({ children }) => {
   const [megaDataStatus, setMegaData] = useState([]);
   console.log("HI HERE->",megaDataStatus)
 
+   const redudantPath=["copilot-tasks",
+      "copilot-sites-stores",
+      "copilot-feed","copilot-in-crm",
+      "copilot-in-tasks","copilot-in-chat",
+      "copilot-in-site-stores",
+      "copilot-in-feed","copilot-in-viedo-calls","/copilot"]
+
+   const handleDropdownStatus = (e, navPath, pageIndex) => {
+    if (e && e.preventDefault) e.preventDefault();
+    console.log("path:",navPath)
+    // If CRM panel is active, populate mega menu data for index 0
+    
+                if( redudantPath.includes(navPath)){
+                  const dataToPass=side_1.page_9;
+                  setMegaData(dataToPass);
+                  setPanelStatus(false);
+                  navigate(navPath,{state:{megaData:dataToPass}});
+                  return;
+                }
+          const side=sides[Number(idStatus)];
+          console.log(idStatus)
+          const pageKey=`page_${pageIndex+1}`
+          console.log("Key:",typeof(pageKey))
+          const dataToPass=side[pageKey]
+          setMegaData(dataToPass)
+          setPanelStatus(false);
+          if(navPath) navigate(navPath,{state:{megaData:dataToPass,sideId:idStatus}});
+          return;
+  
+
+    
+  };
+
   return (
     <>
       <CommonDataContext.Provider
@@ -4192,10 +4230,12 @@ const DataContextProvider = ({ children }) => {
           showDropDown: showDropdown,
           viewItem: itemtoView,
           sideId: idStatus,
+          setItemId:setItemId,
           megaDataStatus: megaDataStatus,
           setMegaData: setMegaData,
           sidebarData:sidebarData,
           dropdown:dropdown,
+          handleDropdownStatus,
           side_1:side_1,
           side_2:side_2,
           side_3:side_3,

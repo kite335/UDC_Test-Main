@@ -52,6 +52,7 @@ import DropdownPanel from "./components/DropdownPanel";
 import TermsConditions from "./pages/TermsConditions";
 
 import ProductPage from "./components/ProductPage";
+import ProductLink from "./components/ProductLink";
 
 // 1. 🚀 IMPORT YOUR NEW PAGE HERE
 // Make sure this path is correct!
@@ -77,9 +78,8 @@ function App() {
   const [mountStatus, setMountStatus] = useState(false);
 
   return (
-    <DataContextProvider>
-      <BrowserRouter basename="/UDC_Test-Main">
-             {" "}
+    <BrowserRouter basename="/UDC_Test-Main">
+      <DataContextProvider>
         <div className="font-sans">
                  {" "}
           <Navbar
@@ -144,6 +144,7 @@ function App() {
                 </>
               }
             />
+            <Route path="/product-link" element={<ProductLink />} />
             <Route path="/crm-sales" element={<LeadManagementPage />} />
             <Route
               path="/pipeline-management"
@@ -155,14 +156,13 @@ function App() {
             />
             <Route path="/sales-automation" element={<SalesAutomationPage />} />
             <Route path="/communications" element={<CommunicationsPage />} />
-            
           </Routes>
                         <BitrixPopupForm ref={popupFormRef} />
                   <Footer />     {" "}
         </div>
            {" "}
-      </BrowserRouter>
-    </DataContextProvider>
+      </DataContextProvider>
+    </BrowserRouter>
   );
 }
 

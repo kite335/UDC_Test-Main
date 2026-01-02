@@ -15,6 +15,7 @@ const DropdownPanel = () => {
   const { 
     viewItem, 
     sidebarStatus, 
+    handleDropdownStatus,
     setDropdownStatus, 
     sideId, 
     setMegaData,
@@ -35,62 +36,44 @@ const DropdownPanel = () => {
      navigateTo 
     } =viewItem.panel;
     
-    const sides=[side_1,side_2,side_3,side_4,side_5]
+    // const sides=[side_1,side_2,side_3,side_4,side_5]
 
-    const redudantPath=["copilot-tasks",
-      "copilot-sites-stores",
-      "copilot-feed","copilot-in-crm",
-      "copilot-in-tasks","copilot-in-chat",
-      "copilot-in-site-stores",
-      "copilot-in-feed","copilot-in-viedo-calls","/copilot"]
+    // const redudantPath=["copilot-tasks",
+    //   "copilot-sites-stores",
+    //   "copilot-feed","copilot-in-crm",
+    //   "copilot-in-tasks","copilot-in-chat",
+    //   "copilot-in-site-stores",
+    //   "copilot-in-feed","copilot-in-viedo-calls","/copilot"]
   // console.log(topicIcon)
   // console.log(topicHeading)
-
-  const handleDropdownStatus = (e, navPath, pageIndex) => {
-    if (e && e.preventDefault) e.preventDefault();
-    console.log("path:",navPath)
-    // If CRM panel is active, populate mega menu data for index 0
+const ClickDropdownStatus=(e,navPath,pageIndex)=>{
+   handleDropdownStatus(e,navPath,pageIndex)
+}
+  // const handleDropdownStatus = (e, navPath, pageIndex) => {
+  //   if (e && e.preventDefault) e.preventDefault();
+  //   console.log("path:",navPath)
+  //   // If CRM panel is active, populate mega menu data for index 0
     
-                if( redudantPath.includes(navPath)){
-                  const dataToPass=side_1.page_9;
-                  setMegaData(dataToPass);
-                  setDropdownStatus(false);
-                  navigate(navPath,{state:{megaData:dataToPass}});
-                  return;
-                }
-          const side=sides[Number(sideId)];
-          console.log(sideId)
-          const pageKey=`page_${pageIndex+1}`
-          console.log("Key:",typeof(pageKey))
-          const dataToPass=side[pageKey]
-          setMegaData(dataToPass)
-          setDropdownStatus(false);
-          if(navPath) navigate(navPath,{state:{megaData:dataToPass,sideId:sideId}});
-          return;
+  //               if( redudantPath.includes(navPath)){
+  //                 const dataToPass=side_1.page_9;
+  //                 setMegaData(dataToPass);
+  //                 setDropdownStatus(false);
+  //                 navigate(navPath,{state:{megaData:dataToPass}});
+  //                 return;
+  //               }
+  //         const side=sides[Number(sideId)];
+  //         console.log(sideId)
+  //         const pageKey=`page_${pageIndex+1}`
+  //         console.log("Key:",typeof(pageKey))
+  //         const dataToPass=side[pageKey]
+  //         setMegaData(dataToPass)
+  //         setDropdownStatus(false);
+  //         if(navPath) navigate(navPath,{state:{megaData:dataToPass,sideId:sideId}});
+  //         return;
   
 
-    // if (sideId === "0" && pageIndex === 0) {
-    //   const dataToPass = side_1.page_1;
-    //   setMegaData(dataToPass);
-    //   setDropdownStatus(false);
-    //   if (navPath) navigate(navPath, { state: { megaData: dataToPass } });
-    //   return;
-    // }
-
-    // if (sideId === "0" && pageIndex === 1) {
-    //   const dataToPass = side_1.page_2;
-    //   setMegaData(dataToPass);
-    //   setDropdownStatus(false);
-    //   if (navPath) navigate(navPath, { state: { megaData: dataToPass } });
-    //   return;
-    // }
-
-
-
-    // default behavior: close dropdown and navigate
-    setDropdownStatus(false);
-    if (navPath) navigate(navPath);
-  };
+    
+  // };
   return (
     <>
       {sidebarStatus && (
@@ -100,7 +83,7 @@ const DropdownPanel = () => {
               to={navigateTo}
               className="d-flex align-items-center flex-shrink-0 p-0 link-dark text-decoration-none  "
               onClick={(e) => {
-                handleDropdownStatus(e, navigateTo, null);
+                ClickDropdownStatus(e, navigateTo, null);
               }}
             >
               <img src={topicIcon} alt={"icon"}></img>
@@ -123,7 +106,7 @@ const DropdownPanel = () => {
                 className="list-group-item list-group-item-action active py-3 lh-tight"
                 aria-current="true"
                 onClick={(e) => {
-                  handleDropdownStatus(e, page.navigateTo, index);
+                  ClickDropdownStatus(e, page.navigateTo, index);
                 }}
               >
                 <div className="d-flex w-100 align-items-center justify-content-between">

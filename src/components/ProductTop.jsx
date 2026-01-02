@@ -20,7 +20,7 @@ const ProductTop = ({ data}) => {
 
                         {data.p}
                     </p>
-                    <Link to='/about' className={css.section1Button}>
+                    <Link to='/about#contact' className={css.section1Button}>
                         Get Started
                     </Link>
                 </div>
@@ -40,7 +40,7 @@ const ProductTop = ({ data}) => {
                 <div className={css.section2ImgContainer}>
                     <img src={data.img_2} />
                 </div>
-                <Link to='/about' className={css.section2Button}>
+                <Link to='/about#contact' className={css.section2Button}>
                     GET STARTED
                 </Link>
             </section>
@@ -50,7 +50,7 @@ const ProductTop = ({ data}) => {
                 <div className={css.section3Left}>
                     <h1>{data.h_3}</h1>
                     <p>{data.p_3}</p>
-                    <Link to='/avout' className={css.section3Button}>{data.btn}</Link>
+                    <Link to='/about#contact' className={css.section3Button}>{data.btn}</Link>
                 </div>
 
                 <div className={css.section3ImgContainer}>
@@ -68,7 +68,7 @@ const ProductTop = ({ data}) => {
                 <div className={css.section3Left}>
                     <h1>{data.h_4}</h1>
                     <p>{data.p_4}</p>
-                    <Link to='/about' >{data.btn_1}</Link>
+                    <Link to='/about#contact' className={css.section3Button}>{data.btn_1}</Link>
                 </div>
                   </section>
 
@@ -77,7 +77,7 @@ const ProductTop = ({ data}) => {
                 <div className={css.section3Left}>
                     <h1>{data.h_5}</h1>
                     <p>{data.p_5}</p>
-                    <Link to='/about'>{data.btn_2}</Link>
+                    <Link to='/about#contact' className={css.section3Button}>{data.btn_2}</Link>
                 </div>
 
                 <div className={css.section3ImgContainer}>
@@ -97,9 +97,9 @@ const ProductTop = ({ data}) => {
                       <div className={css.section6ImgContainer}>
                         <img src={data.img_6} />
                       </div>
-                      
-                     
-                        <Link to='/about' className={css.section6Btn}>GET STARTED</Link>
+                      <center>
+                        <Link to='/about#contact' className={css.section6Btn}>GET STARTED</Link>
+                        </center>
                         </div>   
                       
 

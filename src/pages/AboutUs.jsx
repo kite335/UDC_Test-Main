@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Container, Row, Col, Button, Image } from 'react-bootstrap';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,useLocation } from 'react-router-dom';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -11,7 +11,14 @@ import "./AboutUs.css"
 
 const AboutUs = () => {
   const navigate = useNavigate();
+  const location=useLocation();
 
+useEffect(() => {
+    if(location.hash){
+      const element=document.querySelector(location.hash);
+      element?.scrollIntoView({behavior:"smooth"})
+    }
+  }, [location]);
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -93,13 +100,17 @@ const AboutUs = () => {
               <p>UDC is engaged in bringing new ways of simplifying corporate life. Our team provides consultation to companies with good conduct, right business techniques, and sensible rates. We help reduce running costs by implementing the latest technology.</p>
               <p>Our founder <strong>Mr. Deepak Kumar</strong> started Unique Design Consultant in 2021 and is now an expert in this sector.</p>
             </Col>
-             <Col md={7} className=''>
-                          <h2 className="form-headline">Send us a message</h2>
-                          <div id="b24form-container" />
-                        </Col>
+            
             <Col lg={4} data-aos="fade-left" className="mt-4 mt-lg-0 text-center goldBorder">
               <Image src={`${import.meta.env.BASE_URL}assets/img/Gold.jpg`} alt="About UDC" fluid rounded />
             </Col>
+           <section id="contact">
+             <Col md={7} className='mt-5 w-100'>
+                          <h2 className="form-headline">Send us a message</h2>
+                          <div id="b24form-container" />
+                        </Col>
+                        </section>
+                       
           </Row>
         </Container>
       </div>

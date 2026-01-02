@@ -42,87 +42,10 @@
   .sidebarContainer {
     width: 100%;
   }
+  
 }
 
-@media (max-width: 768px) {
-  /* Mobile: slide-in left drawer for better UX */
-  .sidebarContainer {
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 280px;
-    transform: translateX(-100%);
-    transition: transform 220ms ease;
-    z-index: 1200;
-    background: #fff;
-    box-shadow: 2px 0 12px rgba(0, 0, 0, 0.08);
-    overflow-y: auto;
-    padding-top: 18px;
-  }
 
-  .sidebarContainer.mobileOpen {
-    transform: translateX(0);
-  }
-
-  .sidebarNav {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    padding: 0 12px 24px 12px;
-  }
-
-  .sidebarNav .nav-item {
-    display: block;
-  }
-
-  .sideItemClick {
-    padding: 10px 12px !important;
-    border-radius: 8px !important;
-  }
-
-  .sideItemClick div {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    font-size: 15px;
-  }
-
-  .rotateArrow {
-    display: none;
-  }
-
-  /* Mobile controls */
-  .mobileToggle {
-    display: block;
-    position: fixed;
-    right: 14px;
-    bottom: 14px;
-    z-index: 1300;
-    background: #2b9bd7;
-    color: #fff;
-    border-radius: 50%;
-    width: 44px;
-    height: 44px;
-    border: none;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 6px 18px rgba(43, 155, 215, 0.16);
-  }
-
-  .mobileClose {
-    display: block;
-    position: absolute;
-    right: 8px;
-    top: 8px;
-    background: transparent;
-    border: none;
-    font-size: 20px;
-    color: #666;
-  }
-}
 
 /* Mobile UX improvements (overlay drawer) */
 @media (max-width: 768px) {

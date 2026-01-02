@@ -61,7 +61,7 @@ export default function ProductPage() {
           </p>
 
           <div className="dg-hero-ctas">
-            <a className="dg-btn primary" href="#contact">Get a Demo</a>
+            <Link className="dg-btn primary" to="/about#contact">Get a Demo</Link>
             <a className="dg-btn ghost" href="#compare"></a>
           </div>
         </div>
@@ -83,7 +83,7 @@ export default function ProductPage() {
             <h3></h3>
             <p className="dg-desc">Complete CRM, collaboration, telephony and automation in one unified suite.</p>
             <div className="dg-footer">
-              <a className="dg-cta" href="#demo">Request Demo</a>
+              <Link className="dg-cta" to="/about#contact">Request Demo</Link>
               <span className="dg-pill">ALL IN • ONE PLATFORM</span>
             </div>
             <div className="dg-shine" />
@@ -98,7 +98,7 @@ export default function ProductPage() {
             <h3></h3>
             <p className="dg-desc">Cloud-first apps for CRM, finance, HR and automation  modular & scalable.</p>
             <div className="dg-footer">
-              <a className="dg-cta" href="#demo">Request Demo</a>
+              <Link className="dg-cta" to="/about#contact">Request Demo</Link>
               <span className="dg-pill">Cloud • Automation</span>
             </div>
             <div className="dg-shine" />
@@ -113,7 +113,7 @@ export default function ProductPage() {
             <h3></h3>
             <p className="dg-desc">Modular ERP with extensive modules for inventory, accounting, and ecommerce.</p>
             <div className="dg-footer">
-              <a className="dg-cta" href="#demo">Request Demo</a>
+              <Link className="dg-cta" to="/about#contact">Request Demo</Link>
               <span className="dg-pill">ERP • Inventory</span>
             </div>
             <div className="dg-shine" />
@@ -128,7 +128,7 @@ export default function ProductPage() {
             <h3></h3>
             <p className="dg-desc">High-performance CAD tool compatible with DWG for architects and engineers.</p>
             <div className="dg-footer">
-              <a className="dg-cta" href="#demo">Request Demo</a>
+              <Link className="dg-cta" to="/about#contact">Request Demo</Link>
               <span className="dg-pill">CAD • DWG</span>
             </div>
             <div className="dg-shine" />
@@ -142,7 +142,7 @@ export default function ProductPage() {
             <h3>Want a tailored demo?</h3>
             <p>Tell us your stack we’ll configure and demo a solution in 48 hours.</p>
           </div>
-          <a className="dg-btn primary large" href="#contact">Book a Demo</a>
+          <Link className="dg-btn primary large" to="/about#contact">Book a Demo</Link>
         </div>
         <section id="faq" className="diamond-faq-section py-5">
   <div className="container">

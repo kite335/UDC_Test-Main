@@ -162,14 +162,23 @@
   background-color: #e1ebee;
   /* prevent horizontal overflow coming from wide children */
   overflow-x: hidden;
+   
+   width:100%;
+   /* outline:2px solid red  */
+}
+.row {
+  overflow-x: hidden!important;
+  /* width: 1000% !important; */
+   
 }
 .rowInner {
   max-width: 1140px;
-  margin: 0 auto;
+  margin: auto;
   width: 100%;
   box-sizing: border-box;
   padding-left: 15px;
   padding-right: 15px;
+   
 }
 
 .listGroupContainer {
@@ -429,5 +438,6 @@
   }
   .mediaContentWrapper li {
     margin-bottom: 20px;
+    margin-top: 20px;
   }
 }

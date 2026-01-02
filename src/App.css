@@ -2,9 +2,14 @@
     font-family: "Montserrat Variable", "Helvetica Neue", Verdana, "Helvetica CY", "Nimbus Sans L",sans-serif;
 }
 
-.customRow{
-    outline:2px solid red 
+html{
+  scroll-behavior: smooth;
 }
+
+/* .rowInner{
+    outline:2px solid red 
+} */
+
 .importedProducts{
   display:flex;
   position:absolute;

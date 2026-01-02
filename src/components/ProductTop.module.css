@@ -161,9 +161,12 @@
 }
 
 .section6ImgContainer {
-  margin-bottom: 10px;
+  
   max-width: 900px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px!important;
+  
 }
 .section6ImgContainer img {
   max-width: 900px;
@@ -175,26 +178,22 @@
   margin-bottom: 30px;
 }
 
-.productSection6 div p {
-}
+
 
 .productSection6 div {
   margin-bottom: 80px;
 }
 
 .section6Btn {
-  display: block;
-  min-width: 100px;
-  min-height: 50px;
-  margin: auto;
-
-  margin-top: 2px;
-  margin-bottom: 20px;
-  padding: 5px 10px;
-  border: none;
-  border-radius: 20px;
-  background-color: #bdf300;
+  
+  
+  padding:20px;
+  border-radius: 25px;
   font-weight: bold;
+  background-color: #bdf300;
+  
+  
+  
 }
 
 /* Responsive overrides: keep desktop styles unchanged above, only override below breakpoints */

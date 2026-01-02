@@ -117,7 +117,7 @@ const Landing = () => {
               <h1>5+</h1>
               <span>Years Experience</span>
             </div>
-            <Link to='/about' className={css.primaryBtn}>Book a Demo</Link>
+            <Link to='/about#contact' className={css.primaryBtn}>Book a Demo</Link>
           </div>
 
           <div className={css.growthRight}>

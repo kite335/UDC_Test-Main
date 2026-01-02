@@ -69,7 +69,7 @@ const Sidebar = () => {
                 
               </div>
             ))}
-            <Link to='/product-link' className="tools">See all tools &gt;</Link>
+            {/* <Link to='/product-link' className="tools">See all tools &gt;</Link> */}
             
           </ul>
         </div>

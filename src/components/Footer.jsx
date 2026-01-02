@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
           </Col>
 
-          <Col lg={2} md={6}>
+          {/* <Col lg={2} md={6}>
             <h6>Software</h6>
             <ul className="footer-menu">
               <li><a href="#">Bitrix24 CRM</a></li>
@@ -41,7 +41,7 @@ const Footer = () => {
               <li><a href="#">WhatsApp Business API</a></li>
               <li><a href="#">Wazzup</a></li>
             </ul>
-          </Col>
+          </Col> */}
 
         <Col lg={2} md={6}>
   <h6>Quick Links</h6>

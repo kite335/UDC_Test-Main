@@ -72,23 +72,29 @@ const serviceData = [
 
  const servicesFAQ = [
         {
-            query: "What is CRM",
-            answer: "CRM is a Customer Relationship Management Software",
-            unique_1:"headingOne",
-            unique_2:"collapseOne"
-        },
+query:"Which Bitrix24 Services do you provide?",
+answer:"We provide Bitrix24 implementation, account setup, CRM configuration, workflow automation, user training, system customization, and ongoing technical support."
+},
         {
-            query: "Who uses CRM software?",
-            answer: "CRM software is used by businesses of all sizes—from small startups to large enterprises—across industries like sales, marketing, real estate, finance, customer service, and more. Sales teams, marketers, support agents, and business owners rely on CRM systems to organize contacts, track interactions, automate workflows, and improve customer relationships.",
-            unique_1:"headingTwo",
-            unique_2:"collapseTwo"
-        },
-        {
-            query: "What integrations are available with Bitrix24 CRM?",
-            answer: "Bitrix24 integrates with popular email services (Gmail, Outlook), telephony providers, messengers (WhatsApp, Facebook Messenger), e-commerce platforms, and many third-party apps via REST API and Zapier. You can synchronize calendars, contacts, and automate data flows across tools.",
-            unique_1:"headingThree",
-            unique_2:"collapseThree"
-        }
+query:"Do you offer Bitrix24 CRM customization?",
+answer:"Yes, we customize Bitrix24 CRM by tailoring pipelines, fields, automation rules, reports, and integrations to match your specific sales and business processes."
+},
+  {
+query:"Can you migrate data to Bitrix24?",
+answer:"Yes, we offer secure data migration services, including contacts, leads, deals, tasks, and historical records from your existing systems to Bitrix24."
+},
+{
+query:"Who can benefit from Bitrix24 Services?",
+answer:"Bitrix24 Services are ideal for small, medium, and large businesses looking to streamline sales, marketing, project management, communication, and internal collaboration."
+},
+{
+query:"Do you provide third-party integrations with Bitrix24?",
+answer:"Yes, we integrate Bitrix24 with third-party tools such as payment gateways, email services, accounting software, marketing platforms, and custom APIs to ensure seamless data flow and extended functionality."
+},
+{
+query:"Do you provide ongoing Bitrix24 support and training?",
+answer:"Yes, we provide continuous support, troubleshooting, system optimization, and user training to ensure your team fully utilizes Bitrix24 efficiently."
+}      
     ];
 
 

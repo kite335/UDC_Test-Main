@@ -3,7 +3,7 @@ import { CommonDataContext } from "../store/CommonData";
 import { Link, useLocation } from "react-router-dom";
 import DropdownPanel from "./DropdownPanel";
 import Sidebar from "./Sidebar";
-import logo from "../assets/logo1 .png";
+import logo from "../assets/udc_logo.png";
 
 import "./Navbar.css";
 import whatsappicon from "../assets/option/whatsapp.png";
@@ -34,8 +34,8 @@ const Navbar = ({ onAuthOpen, onOpenForm, setMegaData }) => {
               to="/"
               onClick={handleNavClick}
             >
-              <img src={logo} alt="UDC Logo" className="me-3 size logoImg" />
-              <span className="custom-text d-none d-sm-inline">24</span>
+              <img src={logo} alt="UDC Logo" className="me-3 logoImg" />
+             
             </Link>
 
             <button

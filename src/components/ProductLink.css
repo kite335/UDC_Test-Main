@@ -1,5 +1,20 @@
+.outerContainer{
+    background-color: rgba(245, 245, 245, 0);
+    margin-bottom:50px;
+}
+
+.topParagraph{
+    margin-bottom:150px;
+    margin-top:50px;
+    font-size:20px;
+}
 .topImg{
     max-width:640px;
+}
+
+.custom-container{
+    background-color: #e1ebee!important;
+    padding-top:50px;
 }
 
 .cardItem{
@@ -61,7 +76,8 @@ border-radius:20px;
     padding:13px 30px;
     border-radius:15px;
     font-weight:bold;
-
+    
+    
 }
 
 @media (max-width: 600px) {

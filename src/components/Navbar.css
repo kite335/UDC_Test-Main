@@ -3,7 +3,7 @@
 -----------------------------*/
 
 .custom-navbar {
-  background-color: #87ceeb !important;
+  background-color:#0f3a4e !important;
 }
 
 .custom-navbar .nav-link {
@@ -12,7 +12,7 @@
 }
 
 .custom-navbar .nav-link:hover {
-  color: #0090c6 !important;
+  color: #eacd62 !important;
 }
 
 .firstContainer {
@@ -20,7 +20,7 @@
 }
 
 .logoImg {
-width: 6em;
+width: 4em;
 }
 .navLeft {
   display: flex;

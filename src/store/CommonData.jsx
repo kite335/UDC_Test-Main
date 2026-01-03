@@ -3844,6 +3844,7 @@ console.log(homeFAQ)
 
 const DataContextProvider = ({ children }) => {
   const navigate = useNavigate();
+   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
   const sides=[side_1,side_2,side_3,side_4,side_5]
 
  
@@ -4236,6 +4237,8 @@ const DataContextProvider = ({ children }) => {
           sidebarData:sidebarData,
           dropdown:dropdown,
           handleDropdownStatus,
+          isNavCollapsed,
+          setIsNavCollapsed,
           side_1:side_1,
           side_2:side_2,
           side_3:side_3,

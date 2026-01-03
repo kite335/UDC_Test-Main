@@ -3,7 +3,7 @@
 -----------------------------*/
 
 .custom-navbar {
-  background-color:#0f3a4e !important;
+  background-color: #0f3a4e !important;
 }
 
 .custom-navbar .nav-link {
@@ -20,7 +20,7 @@
 }
 
 .logoImg {
-width: 4em;
+  width: 4em;
 }
 .navLeft {
   display: flex;
@@ -50,19 +50,18 @@ width: 4em;
   font-weight: bold;
 }
 
-.whtsappImg{
-  width:35px;
+.whtsappImg {
+  width: 35px;
 }
 
-.mailImg{
-  width:50px;
+.mailImg {
+  width: 50px;
 }
 
-.linkdeinIcon{
-width:35px;
- height: 35px;
-  color: #1877F2
-
+.linkdeinIcon {
+  width: 35px;
+  height: 35px;
+  color: #1877f2;
 }
 /* .importedProducts{
   display:flex;
@@ -103,60 +102,140 @@ width:35px;
   min-width: 300px;
 }
 
+.hamburger {
+  display: inline-block;
+  width: 25px;
+  height: 20px;
+  position: relative;
+}
+
+.hamburger .bar {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #000;
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  transition: transform 0.3s ease, top 0.3s ease, opacity 0.2s ease;
+}
+
+.hamburger .bar:nth-child(1) {
+  top: 0;
+}
+.hamburger .bar:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hamburger .bar:nth-child(3) {
+  top: 100%;
+  transform: translateY(-100%);
+}
+
+/* when toggler has open class, morph to a cross */
+.navbar-toggler.open .bar:nth-child(1) {
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+.navbar-toggler.open .bar:nth-child(2) {
+  opacity: 0;
+}
+.navbar-toggler.open .bar:nth-child(3) {
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+.navbar-toggler {
+  background-color: #eacd62 !important;
+  border: none;
+}
+
 @media screen and (max-width: 1200px) {
-
-
-  .navLeft{
-    display:flex;
-    flex-direction: column;
-    max-width:100px
-
+  .navLeft {
+    max-width: 100px;
+    align-items: center;
   }
-   
-  
-   .container-fluid{
+  .navbar-collapse {
+    position: absolute;
+    top: 59px;
+    z-index: 999999;
+    width: 100%;
+    padding-left: 15px;
+    left: 0;
+    background-color: #0f3a4e !important;
+  }
+  .custom-navbar .container-fluid {
     display: flex;
-   align-items:start!important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+  }
 
-   
-    
+  .navbar-toggler {
+    order: 1;
+    max-height: 35px;
+  }
+
+  .navbar-brand {
+    order: 2;
   }
 
   .logoImg {
-    max-width: 5rem;
+    max-width: 200px;
   }
-
- 
-
 }
 
 @media screen and (max-width: 500px) {
   /* Do not hide the navbar links on small screens; let the collapse control visibility */
-  .navLeft{
-    max-width: 50px;
+  .custom-navbar .container-fluid {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+  }
+  .navLeft {
+    display: flex;
+    max-width: none;
+    align-items: center;
+  }
+  .navbar-brand {
+    order: 2;
+  }
+  .navbar-toggler {
+    order: 1;
+    max-height: 40px;
+  }
+  .navbar-collapse {
+    position: absolute;
+    top: 59px;
+    z-index: 999999;
+    width: 100%;
+    padding-left: 15px;
+    left: 0;
+    background-color: #0f3a4e !important;
   }
   .logoImg {
-    max-width: 5rem;
-  }
-  .whtsappImg{
-max-width: 30px;
+    max-width: 200px;
   }
 
-  .mailImg{
-max-width: 40px;
+  /* ensure navRight sits to the right on small screens */
+  .navRight {
+    order: 3;
+    gap: 8px;
   }
 
-  .linkdeinIcon{
-max-width: 30px;
+  .navRight {
+    column-gap: 20px;
   }
- 
+  .whtsappImg {
+    max-width: 20px;
+  }
 
- 
+  .mailImg {
+    max-width: 30px;
+  }
 
-  
-
-  
-
-
-  
+  .linkdeinIcon {
+    max-width: 20px;
+  }
 }

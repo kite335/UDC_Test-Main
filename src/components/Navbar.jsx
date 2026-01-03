@@ -3,50 +3,54 @@ import { CommonDataContext } from "../store/CommonData";
 import { Link, useLocation } from "react-router-dom";
 import DropdownPanel from "./DropdownPanel";
 import Sidebar from "./Sidebar";
-import logo from "../assets/udc_logo.png";
+import logo from "../assets/udc_logo1.png";
 
 import "./Navbar.css";
 import whatsappicon from "../assets/option/whatsapp.png";
 import mailIcon from "../assets/option/google.png";
 import { FaLinkedin } from "react-icons/fa";
 
-
 const Navbar = ({ onAuthOpen, onOpenForm, setMegaData }) => {
   const location = useLocation();
   const currentPath = location.pathname;
 
-  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+ 
 
   // Bitrix submenu click toggle[]
 
   // console.log(panelStatus);
 
   const handleNavClick = () => setIsNavCollapsed(true);
-  const { panelStatus, setPanelStatus } = useContext(CommonDataContext);
+  const { panelStatus, setPanelStatus ,isNavCollapsed,setIsNavCollapsed} = useContext(CommonDataContext);
   return (
     <>
       <nav className="navbar custom-navbar navbar-expand-xl px-3 px-lg-4 shadow sticky-top">
         <div className="container-fluid firstContainer">
           {/* Logo and sologon click redirect home page */}
           <div className="navLeft">
+            <div className='navbar-brand px-0 py-0 m-0'>
             <Link
-              className="navbar-brand d-flex align-items-center"
+              className="me-0"
               to="/"
               onClick={handleNavClick}
             >
-              <img src={logo} alt="UDC Logo" className="me-3 logoImg" />
-             
+              <img src={logo} alt="UDC Logo" className="logoImg" />
             </Link>
+            </div>
 
             <button
-              className="navbar-toggler "
+              className={`navbar-toggler ${!isNavCollapsed ? "open" : ""}`}
               type="button"
-              onClick={() => setIsNavCollapsed(!isNavCollapsed)}
+              onClick={() => {setIsNavCollapsed(!isNavCollapsed);
+                setPanelStatus(false);
+              }}
               aria-controls="navbarContent"
               aria-expanded={!isNavCollapsed}
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon">
+              <span className="hamburger">
+                <span className="bar" />
+                <span className="bar" />
                 <span className="bar" />
               </span>
             </button>
@@ -65,6 +69,7 @@ const Navbar = ({ onAuthOpen, onOpenForm, setMegaData }) => {
                     onClick={(e) => {
                       e.preventDefault();
                       setPanelStatus(!panelStatus);
+                      window.scrollTo({top:0,behavior:"smooth"});
                       // if (
                       //   typeof window !== "undefined" &&
                       //   window.innerWidth <= 1044
@@ -138,12 +143,12 @@ const Navbar = ({ onAuthOpen, onOpenForm, setMegaData }) => {
           <ul className="navRight">
             <li>
               <a href="https://wa.me/918958847686" target="_blank">
-                <img src={whatsappicon}  className="whtsappImg" />
+                <img src={whatsappicon} className="whtsappImg" />
               </a>
             </li>
             <li>
               <a href="mailto:info@uniquedesignconsultant.in" target="_blank">
-                <img src={mailIcon}  className="mailImg" />
+                <img src={mailIcon} className="mailImg" />
               </a>
             </li>
             <li>
@@ -151,9 +156,7 @@ const Navbar = ({ onAuthOpen, onOpenForm, setMegaData }) => {
                 href="https://www.linkedin.com/company/unique-design-consultant/posts/?feedView=all"
                 target="_blank"
               >
-                <FaLinkedin className="linkdeinIcon"
-                 
-                />
+                <FaLinkedin className="linkdeinIcon" />
               </a>
             </li>
           </ul>

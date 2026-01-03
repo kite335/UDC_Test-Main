@@ -137,16 +137,19 @@ const Landing = () => {
 
               <div className={css.productCard}>
                 <img src={zicon} width="70" />
+                 <div className={css.productHover}><img src="https://www.zoho.com/payroll/images/in/homepage/advance-feature.svg"/></div>
                 <p>Smart cloud software to run your entire business digitally.From CRM to finance everything connected, perfectly integrated.</p>
               </div>
 
               <div className={css.productCard}>
                 <img src={Odoo} width="70" />
+                 <div className={css.productHover}><img src="https://odoocdn.com/openerp_website/static/src/img/apps/crm/follow-up-example.svg"/></div>
                 <p>One powerful platform for all your business operations.Customize, automate, and scale effortlessly with Odoo.</p>
               </div>
 
               <div className={css.productCard}>
                 <img src={Zwcad} width="70" />
+                 <div className={css.productHover}><img src="https://zwcdn.zwsoft.com/web/images/zwcad_ov/da37.png"/></div>
                 <p>Fast, lightweight, and professional CAD drafting solution.Design with precision, speed, and complete reliability.</p>
               </div>
             </div>

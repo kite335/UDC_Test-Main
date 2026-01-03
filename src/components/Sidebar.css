@@ -1,5 +1,5 @@
 .select {
-  background-color: #87ceeb !important;
+  background-color: #0f3a4e !important;
   color: antiquewhite !important;
   border: none;
   border-radius: 20px !important;
@@ -20,7 +20,7 @@
 
 .sideItemClick:hover {
   color: white !important;
-  background-color: #87ceeb !important;
+  background-color: #0f3a4e !important;
 }
 
 .rotateArrow {

@@ -180,6 +180,9 @@
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
   text-align: center;
   position: relative;
+  cursor:pointer;
+  transition:0.3s ease,transform 0.5s ease;
+  
 }
 .productHover{
   display: none;
@@ -187,17 +190,20 @@
 }
 .productCard:hover .productHover{
 display:block;
-max-width:300px;
+max-width:900px;
+max-height:500px;
 position:absolute;
 top:50%;
 left: 50%;
 transform: translate(-50%, -50%);
 z-index:9999;
-background-color:#87CEEB
+background-color:#87CEEB;
+border-radius: 5px;
  
 }
 .productHover img{
   width: 100%;
+  
 }
 
 

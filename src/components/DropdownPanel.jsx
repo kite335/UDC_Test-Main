@@ -16,18 +16,12 @@ const DropdownPanel = () => {
     viewItem, 
     sidebarStatus, 
     handleDropdownStatus,
-    setDropdownStatus, 
-    sideId, 
-    setMegaData,
-    side_1,
-    side_2,
-    side_3,
-    side_4,
-    side_5,
+    setIsNavCollapsed,
+    
     
   } = useContext(CommonDataContext);
 
-    console.log(side_1)
+    
   const { 
     topicIcon, 
     topicHeading, 
@@ -84,6 +78,7 @@ const ClickDropdownStatus=(e,navPath,pageIndex)=>{
               className="d-flex align-items-center flex-shrink-0 p-0 link-dark text-decoration-none  "
               onClick={(e) => {
                 ClickDropdownStatus(e, navigateTo, null);
+                setIsNavCollapsed(true);
               }}
             >
               <img src={topicIcon} alt={"icon"}></img>
@@ -107,6 +102,7 @@ const ClickDropdownStatus=(e,navPath,pageIndex)=>{
                 aria-current="true"
                 onClick={(e) => {
                   ClickDropdownStatus(e, page.navigateTo, index);
+                  setIsNavCollapsed(true);
                 }}
               >
                 <div className="d-flex w-100 align-items-center justify-content-between">

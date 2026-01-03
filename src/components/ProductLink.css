@@ -1,3 +1,7 @@
+.topImg{
+    max-width:640px;
+}
+
 .cardItem{
     
     
@@ -26,6 +30,37 @@ font-size: 20px;
 
 .repeatP{
     text-align: start;
+
+}
+.outerMarginBox{
+margin-top:100px;
+margin-bottom:100px;
+background-color:rgba(0, 0, 0, 0.05);
+border-radius:20px;
+}
+
+.innerMarginBox{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    
+}
+
+.innerMarginBox h1{
+    margin-bottom:25px;
+}
+.innerMarginBox img{
+    max-width:340px;
+
+}
+
+
+.freeBtn{
+    background-color:#bdf300;
+    padding:13px 30px;
+    border-radius:15px;
+    font-weight:bold;
 
 }
 

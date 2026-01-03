@@ -54,6 +54,8 @@ const structure = [
         p:"AI-generated ideas and texts, phone call transcription, autocompleted fields in deals, and more"
       },
     ],
+    Image:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/bxw_blocks/bxw_block_try_picture/m-right-1.png.webp?1764863685915",
+    sh:"Ready to manage your sales and clients with Bitrix24?",
   },
 
   {
@@ -71,6 +73,9 @@ const structure = [
         p: "Leads,deals,contacts,piplines and more",
       },
     ],
+    Image:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/bxw_blocks/bxw_block_try_picture/m-right-1.png.webp?1764863685915",
+    sh:"Ready to manage your sales and clients with Bitrix24?",
+    
   },
 ];
 
@@ -78,12 +83,37 @@ const ProductLink = () => {
     const {handleDropdownStatus,setItemId}=useContext(CommonDataContext)
     const handleProductLink=(e,navPath,sideIndex,pageIndex)=>{
         setItemId(sideIndex);
-        handleDropdownStatus(e,navPath,pageIndex);
-        
-
+        handleDropdownStatus(e,navPath,pageIndex);    
     }
+
   return (
     <>
+    <section>
+   <div className='outerContainer'>
+    <div className='container'>
+      <div className='row'>
+        <div className='col-6'>
+          <div className='row g-4 mt-5' >
+            <div className='col-12 mt-5'>
+              <h1 className='mb-5'>The only business software you will ever need</h1>
+              <p className='mb-5'>Replace a multitude of services and apps with a single, AI-powered solution.</p>
+              <Link to='/about' className='freeBtn'>Start for free</Link>
+            </div>
+            
+          </div>
+        </div>
+        <div className='col-6'>
+          <div className='row'>
+            <div className='col-12 mt-5'>
+              <img src='https://www.bitrix24.in/upload/optimizer/converted/images/content_en/tools/index/img-tools-main.png.webp?1764863685915' className="topImg"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+    </section>
+
       <section>
         {structure.map((start, sideIndex) => (
           <div className="container">
@@ -105,12 +135,24 @@ const ProductLink = () => {
               </div>
             
                 ))}
+                <div className="outerMarginBox">
+                  <div className="innerMarginBox col-10 mx-auto">
+                   <div> 
+                  <h1>{start.sh}</h1>
+                  <Link to='/about' className='freeBtn'>Start for free</Link>
+                  </div>
+                  <img src={start.Image}/>
+                  
+                  </div>
+                  
+                </div>
+                
            </div>
           </div>
         ))}
       </section>
     </>
-  );
+  )
 };
 
 export default ProductLink;

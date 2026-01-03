@@ -102,23 +102,29 @@ const Pricing = ({status}) => {
 
     const pricingFAQ=[
         {
-            query: "What is CRM",
-            answer: "CRM is a Customer Relationship Management Software",
-            unique_1:"headingOne",
-            unique_2:"collapseOne"
-        },
+query:"What pricing plans are available for Bitrix24?",
+answer:"Bitrix24 offers multiple pricing plans, including Free, Basic, Standard, and Professional, designed to meet the needs of teams of different sizes and business requirements."
+},
+       {
+query:"Is there a free version of Bitrix24?",
+answer:"Yes, Bitrix24 provides a free plan with essential tools for CRM, tasks, communication, and collaboration, suitable for small teams and startups."
+},
         {
-            query: "Who uses CRM software?",
-            answer: "CRM software is used by businesses of all sizes—from small startups to large enterprises—across industries like sales, marketing, real estate, finance, customer service, and more. Sales teams, marketers, support agents, and business owners rely on CRM systems to organize contacts, track interactions, automate workflows, and improve customer relationships.",
-            unique_1:"headingTwo",
-            unique_2:"collapseTwo"
-        },
-        {
-            query: "What integrations are available with Bitrix24 CRM?",
-            answer: "Bitrix24 integrates with popular email services (Gmail, Outlook), telephony providers, messengers (WhatsApp, Facebook Messenger), e-commerce platforms, and many third-party apps via REST API and Zapier. You can synchronize calendars, contacts, and automate data flows across tools.",
-            unique_1:"headingThree",
-            unique_2:"collapseThree"
-        }
+query:"How is Bitrix24 pricing calculated?",
+answer:"Bitrix24 pricing is typically based on the number of users and the selected plan, with monthly or annual billing options available."
+},
+{
+query:"Can I upgrade or downgrade my Bitrix24 plan?",
+answer:"Yes, you can upgrade or downgrade your Bitrix24 plan at any time to match your evolving business needs."
+},
+{
+query:"Are there any hidden fees in Bitrix24 pricing?",
+answer:"No, Bitrix24 pricing is transparent, and there are no hidden charges beyond the selected plan and any optional add-on services."
+},
+{
+query:"Do you offer custom pricing or enterprise plans?",
+answer:"Yes, we offer custom pricing and enterprise-level solutions for organizations requiring advanced features, higher user limits, and tailored support."
+}
     ];
 
   return (

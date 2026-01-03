@@ -63,24 +63,45 @@ useEffect(() => {
   };
 
   const aboutFAQ= [
-        {
-            query: "What is CRM",
-            answer: "CRM is a Customer Relationship Management Software",
-            unique_1:"headingOne",
-            unique_2:"collapseOne"
-        },
-        {
-            query: "Who uses CRM software?",
-            answer: "CRM software is used by businesses of all sizes—from small startups to large enterprises—across industries like sales, marketing, real estate, finance, customer service, and more. Sales teams, marketers, support agents, and business owners rely on CRM systems to organize contacts, track interactions, automate workflows, and improve customer relationships.",
-            unique_1:"headingTwo",
-            unique_2:"collapseTwo"
-        },
-        {
-            query: "What integrations are available with Bitrix24 CRM?",
-            answer: "Bitrix24 integrates with popular email services (Gmail, Outlook), telephony providers, messengers (WhatsApp, Facebook Messenger), e-commerce platforms, and many third-party apps via REST API and Zapier. You can synchronize calendars, contacts, and automate data flows across tools.",
-            unique_1:"headingThree",
-            unique_2:"collapseThree"
-        }
+       {
+query:"What services does your company provide?",
+answer:"We provide CRM implementation, marketing automation, lead management, task & project workflow setup, communication integrations (WhatsApp, email), and custom business process automation."
+},
+
+{
+query:"Which industries have you worked with so far?",
+answer:"We have completed successful implementations in marketing, real estate, manufacturing, hospitality, education, and immigration sectors."
+},
+
+{
+query:"Do you offer industry-specific customized workflows?",
+answer:"Yes, we design and implement tailored CRM structures, pipelines, and automations based on the unique business flow of each sector."
+},
+
+{
+query:"Do you integrate WhatsApp and email into CRM systems?",
+answer:"Yes, we enable seamless WhatsApp and email integrations for lead communication, notifications, automation, and customer engagement inside the CRM."
+},
+
+{
+query:"Can you automate lead assignment to staff?",
+answer:"Yes, we implement automated lead distribution including round-robin routing, ensuring fair and efficient assignment across teams."
+},
+
+{
+query:"Do you provide support after implementation?",
+answer:"Yes, we provide training, deployment support, monitoring, troubleshooting, and workflow optimization after delivery."
+},
+
+{
+query:"Is your solution scalable for large businesses?",
+answer:"Yes, our implementations are built to scale for businesses of any size, handling high volumes of leads, customers, and automated processes."
+},
+
+{
+query:"Why should a company choose your implementation services?",
+answer:"Because we deliver fast deployment, industry-focused CRM design, deep automation, smooth integrations, reduced manual workload, and long-term system support."
+}
     ];
 
   return (
@@ -169,9 +190,7 @@ useEffect(() => {
           <p className="lead" data-aos="fade-up">
             Partner with Unique Design Consultant to transform your business with smart CRM and automation.
           </p>
-          <Button variant="danger" size="lg" onClick={() => navigate('/contact')} data-aos="zoom-in">
-            Contact Us
-          </Button>
+          
         </Container>
       </div>
       <FAQ faq={aboutFAQ}/>

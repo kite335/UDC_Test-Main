@@ -7,7 +7,7 @@ const Sidebar = () => {
   const { sidebarStatus, showDropDown, sidebarData, dropdown } =
     useContext(CommonDataContext);
 
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0);
   // console.log(classActive);
 
   const handleDropDown = (e, dropdown) => {
@@ -28,14 +28,14 @@ const Sidebar = () => {
   return (
     <>
       {sidebarStatus && (
-        <div class="d-flex flex-column flex-shrink-0 p-3 pt-3 bg-light sidebarContainer">
+        <div className="d-flex flex-column flex-shrink-0 p-3 pt-3 bg-light sidebarContainer">
           <ul
-            class="nav nav-pills flex-column mb-auto"
+            className="nav nav-pills flex-column mb-auto"
             style={{ rowGap: "3px" }}
           >
             {sidebarData.map((sideItem, index) => (
               <div key={index}>
-                <li class="nav-item">
+                <li className="nav-item">
                   <a
                     href="#"
                     className={`nav-link fw-bold fs-5 py-3 sideItemClick  ${
@@ -58,8 +58,8 @@ const Sidebar = () => {
                         }`}
                       ></img>
 
-                      <svg class="bi me-2" width="16" height="16">
-                        <use xlink:href="#home"></use>
+                      <svg className="bi me-2" width="16" height="16">
+                        <use xlinkHref="#home"></use>
                       </svg>
                       {sideItem.listItem}
                     </div>
@@ -69,7 +69,7 @@ const Sidebar = () => {
                 
               </div>
             ))}
-            {/* <Link to='/product-link' className="tools">See all tools &gt;</Link> */}
+            <Link to='/product-link' className="tools">See all tools &gt;</Link>
             
           </ul>
         </div>

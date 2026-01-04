@@ -15,7 +15,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer-area bg-dark text-light pt-5 pb-4">
+    <footer className="footer-area  text-light pt-5 pb-4">
       <Container>
         <Row>
           <Col lg={4} md={6}>

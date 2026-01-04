@@ -22,10 +22,10 @@ const MultiOptional = () => {
     <>
       {/* Section -1*/}
       <section>
-        <div className={css.containerWrapper}>
-          <div className={css.outerContainer_1}>
-            <div className={css.innerContainer_1}>
-              <div className={css.mediaLeft}>
+        <div className={` ${css.containerWrapper}`}>
+          <div className={`container ${css.outerContainer_1}`}>
+            <div className={`row ${css.innerContainer_1}`}>
+              <div className={`col-md-6 col-12 mt-5 ${css.mediaLeft}`}>
                 <div className={css.leftUpper}>
                   <span className={css.leftUpperIconBox}>
                     <span className={css.leftUpperIconSpan}>
@@ -43,8 +43,8 @@ const MultiOptional = () => {
                           fill="url(#paint0_linear_5551_1199)"
                         ></rect>
                         <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
+                          fillRule="evenodd"
+                          clipRule="evenodd"
                           d="M17.288 25.011c4.193 0 7.593-3.421 7.593-7.642 0-4.22-3.4-7.641-7.593-7.641-4.194 0-7.594 3.42-7.594 7.641 0 4.22 3.4 7.642 7.594 7.642zm-1.214-13.363a.212.212 0 0 0-.399 0l-.755 2.055a2.131 2.131 0 0 1-1.256 1.263l-2.042.761a.214.214 0 0 0 0 .401l2.042.76c.582.217 1.04.679 1.256 1.264l.755 2.056c.069.186.33.186.399 0l.756-2.056a2.131 2.131 0 0 1 1.255-1.263l2.043-.76a.214.214 0 0 0 0-.402l-2.043-.76a2.131 2.131 0 0 1-1.255-1.264l-.756-2.055zm4.34 5.94a.122.122 0 0 0-.23 0l-.438 1.188c-.124.338-.389.605-.725.73l-1.18.44a.124.124 0 0 0 0 .23l1.18.44c.336.126.6.392.725.73l.437 1.188c.04.108.19.108.23 0l.437-1.188c.124-.338.39-.604.725-.73l1.18-.44a.124.124 0 0 0 0-.23l-1.18-.44a1.232 1.232 0 0 1-.725-.73l-.437-1.188z"
                           fill="#fff"
                         ></path>
@@ -61,8 +61,8 @@ const MultiOptional = () => {
                             y2="34"
                             gradientUnits="userSpaceOnUse"
                           >
-                            <stop stop-color="#8B5BFF"></stop>
-                            <stop offset="1" stop-color="#D575FF"></stop>
+                            <stop stopColor="#8B5BFF"></stop>
+                            <stop offset="1" stopColor="#D575FF"></stop>
                           </linearGradient>
                         </defs>
                       </svg>
@@ -81,7 +81,7 @@ const MultiOptional = () => {
                   </Link>
                 </div>
               </div>
-              <div className={css.commanBackContainer}>
+              <div className={`col-md-6 mt-5 col-12 ${css.commonBackContainer}`}>
                 <div className={css.commanBackInnerContainer}>
                   <img src={data.i}></img>
                 </div>

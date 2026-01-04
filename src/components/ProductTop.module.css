@@ -1,6 +1,6 @@
 .productSection1 {
   display: flex;
-  background-color: #2fc7f7;
+  background-color: rgba(33, 42, 171, 0.274);;
   justify-content: space-around;
   height: 100vh;
   margin-bottom: 120px;
@@ -80,6 +80,7 @@
   margin-right: 150px;
   line-height: 1.5rem;
   font-size: 1.1rem;
+  
   font-family: "Montserrat Variable", "Helvetica Neue", Verdana, "Helvetica CY",
     "Nimbus Sans L", sans-serif;
   margin-top: "20px";
@@ -127,7 +128,9 @@
   font-weight: 400;
   font-family: "Montserrat Variable", "Helvetica Neue", Verdana, "Helvetica CY",
     "Nimbus Sans L", sans-serif;
-  text-align: justify;
+  text-align: start;
+  
+  
 }
 
 .section3Left p {
@@ -136,6 +139,10 @@
   font-size: 18px;
   font-weight: 400;
   text-align: justify;
+  hyphens: auto;
+  word-spacing: -0.5px;
+  text-align-last: left;
+  
 }
 
 .section3ImgContainer img {
@@ -176,6 +183,7 @@
 .productSection6 div h1 {
   text-align: center;
   margin-bottom: 30px;
+  
 }
 
 

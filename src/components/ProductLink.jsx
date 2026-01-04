@@ -78,34 +78,38 @@ const structure = [
         p: "Advanced task automation via REST API and webhooks",
       },
       {
-        navigateTo:"",
-        h2:"",
-        p:""
+        navigateTo:"/projects-management",
+        h2:"Project management",
+        p:"Anything and everything you need to plan and manage projects	"
       },
       {
-        navigateTo:"",
-        h2:"",
-        p:""
+        navigateTo:"/employee-performance",
+        h2:"Employee performance",
+        p:"Checklists, subtasks, task time tracking, supervisor mode, and more"
       },
       {
-        navigateTo:"",
-        h2:"",
-        p:""
+        navigateTo:"/mobile-tasks",
+        h2:"Mobile tasks",
+        p:"Manage your tasks, projects, and team on the go"
       },
       {
-        navigateTo:"",
-        h2:"",
-        p:""
+        navigateTo:"/project-collaboration",
+        h2:"Project collaboration",
+        p:"Team messenger, online meetings, file storage, online documents, and more."
       },
       {
-        navigateTo:"",
-        h2:"",
-        p:""
+        navigateTo:"/automation",
+        h2:"Automation",
+        p:"Recurring tasks, task templates, rules and triggers, RPA, and more"
+      },
+      {
+        navigateTo:"/cpilot",
+        h2:"CoPilot in Tasks & Projects",
+        p:"AI-generated task descriptions, checklists, task summaries, and more"
       },
     ],
-    Image:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/bxw_blocks/bxw_block_try_picture/m-right-1.png.webp?1764863685915",
-    sh:"Ready to manage your sales and clients with Bitrix24?",
-    
+    Image:"https://www.bitrix24.in/upload/optimizer/converted/images/content_en/bxw_blocks/bxw_block_try_picture/w-left-1.png.webp?1764863685915",
+    sh:"Ready to manage your tasks and projects with Bitrix24?"
   },
 ];
 
@@ -147,7 +151,7 @@ const ProductLink = () => {
       <section>
         {structure.map((start, sideIndex) => (
           <div className="custom-container">
-          <div className="container  custom-container">
+          <div className="container  ">
             <div className="col-lg-8 mx-auto">
               <h2 className="text-center mt-5 mb-2">{start.h}</h2>
               <p className="text-center text-muted mb-4">{start.p}</p>
@@ -156,7 +160,7 @@ const ProductLink = () => {
                 {start.repeat.map((innerStart,pageIndex)=>(
                     
                      <div className="col-12 col-md-4   cardItem">
-                     <div className="cardInner">
+                     <div className={`cardInner${sideIndex}`}>
                      <Link to={innerStart.navigateTo} onClick={(e)=>{handleProductLink(e,innerStart.navigateTo,sideIndex,pageIndex)}}>
                      <h3 className="px-5 pt-4 repeatH3 ">{innerStart.h2}</h3>
                     <p className="px-5 repeatP">{innerStart.p}</p>

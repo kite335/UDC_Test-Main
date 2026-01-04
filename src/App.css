@@ -14,7 +14,7 @@ html{
   display:flex;
   position:absolute;
   z-index:9999;
-  height:85vh;
+  height:92vh;
   box-shadow: 0 -5px 0 rgba(128, 128, 128, 0.055);
   width:100%;
   
@@ -22,7 +22,7 @@ html{
 @media screen and (max-width: 1200px) {
   .importedProducts{
     flex-direction:column;
-    top:320px;
+    top:315px;
     width:100%;
   }
  

@@ -28,7 +28,7 @@ const Faq = ({ faq }) => {
             <div className="accordion  insideAccordin py-5 " id="accordionExample ">
                 {
                     faq.map((Itemfaq,index) => (                  
-                        <div className="accordion-item mb-5 rounded-5">
+                        <div className="accordion-item mb-5 rounded-5" key={index}>
                             <h2 className="accordion-header" id={Itemfaq.unique_1}>
                                 <button
                                 className={`accordion-button border rounded-5 buttonAccordin ${openIndex === index ? '' : 'collapsed'}`}

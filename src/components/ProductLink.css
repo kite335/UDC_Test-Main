@@ -1,18 +1,19 @@
 .outerContainer{
-    background-color: rgba(245, 245, 245, 0);
-    margin-bottom:50px;
+    background-color: rgba(33, 42, 171, 0.274);
+    margin-bottom:60px;
 }
 
 .topParagraph{
-    margin-bottom:150px;
+    margin-bottom:100px;
     margin-top:50px;
     font-size:20px;
 }
 .topImg{
     max-width:640px;
+    margin-bottom: 15px;
 }
 
-.custom-container{
+.custom-container0{
     background-color: #e1ebee!important;
     padding-top:50px;
 }
@@ -23,13 +24,21 @@
     
    
 }
-.cardInner{
+.cardInner0{
 text-align:center;
  background-color:#e5f3ff!important;
  border-radius:20px ;
  height:30vh;
  position:relative;
 }
+.cardInner1{
+text-align:center;
+ background-color:#faffe9!important;
+ border-radius:20px ;
+ height:30vh;
+ position:relative;
+}
+
 
 .navigationArrow{
     font-size: 20px;

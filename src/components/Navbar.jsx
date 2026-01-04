@@ -61,6 +61,7 @@ const Navbar = ({ onAuthOpen, onOpenForm, setMegaData }) => {
               id="navbarContent"
             >
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                
                 {/* HOME */}
 
                 {/* PRODUCTS DROPDOWN (Mega menu) */}
@@ -70,12 +71,7 @@ const Navbar = ({ onAuthOpen, onOpenForm, setMegaData }) => {
                       e.preventDefault();
                       setPanelStatus(!panelStatus);
                       window.scrollTo({top:0,behavior:"smooth"});
-                      // if (
-                      //   typeof window !== "undefined" &&
-                      //   window.innerWidth <= 1044
-                      // ) {
-                      //   setIsNavCollapsed(true);
-                      // }
+                      
                     }}
                     className={`nav-link px-3 dropdown-toggle ${
                       panelStatus && "rotate"
@@ -162,12 +158,10 @@ const Navbar = ({ onAuthOpen, onOpenForm, setMegaData }) => {
           </ul>
           {/* MAIN MENU BAR END HERE */}
         </div>
+        
+    
       </nav>
-
-      {/* <div className="importedProducts">
-        <Sidebar sidebarStatus={panelStatus}  showDropDown={showDropdown} />
-        <DropdownPanel sidebarStatus={panelStatus} setDropdownStatus={setPanelStatus} viewItem={itemtoView} sideId={idStatus} setMegaData={setMegaData} />
-      </div> */}
+     
     </>
   );
 };

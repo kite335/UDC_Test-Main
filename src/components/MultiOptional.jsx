@@ -81,7 +81,7 @@ const MultiOptional = () => {
                   </Link>
                 </div>
               </div>
-              <div className={`col-md-6 mt-5 col-12 ${css.commonBackContainer}`}>
+              <div className={`col-md-6 mt-5 col-12 ${css.commanBackContainer}`}>
                 <div className={css.commanBackInnerContainer}>
                   <img src={data.i}></img>
                 </div>

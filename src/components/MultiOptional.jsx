@@ -94,7 +94,7 @@ const MultiOptional = () => {
       {/* Section-2 */}
 
       <section>
-        <div className={`row ${css.customRow}`}>
+        <div className={` ${css.customRow}`}>
           <div className={css.rowInner}>
             <div className="col-12">
               <div className={css.contentWrapper}>

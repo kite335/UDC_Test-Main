@@ -3,20 +3,18 @@ import "./App.css";
 import { useState, useRef, useEffect, useContext } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+
 import Footer from "./components/Footer";
-import BitrixShowcase from "./components/BitrixShowcase";
+
 import FeatureSlider from "./components/FeatureSlider";
 import Technology from "./components/Technology";
 import Pricing from "./components/Pricing";
-import Bitrix24CRM from "./pages/Bitrix24CRM";
-import WhyChooseUs from "./components/WhyChooseUs";
+
 import Testimonial from "./components/Testimonial";
 import Services from "./pages/Services";
 import BlogPage from "./pages/BlogPage";
 import AboutUs from "./pages/AboutUs";
-import IndustryVertical from "./components/IndustryVertical";
-import CoPilotAIPage from "./pages/CoPilotAIPage";
+
 
 import DepartmentSection from "./components/DepartmentSection";
 import BitrixPopupForm from "./components/BitrixPopupForm";
@@ -27,8 +25,7 @@ import SalesAutomationPage from "./pages/SalesAutomationPage";
 import CommunicationsPage from "./pages/CommunicationsPage";
 
 import ScrollToTop from "./ScrollToTop";
-import FeaturesSection from "./components/FeaturesSection";
-import Bitrix24IndustrySolutions from "./pages/Bitrix24IndustrySolutions";
+
 import TaskProjects from "./pages/TaskProJects";
 import CRM from "./pages/CRM";
 import HrAutomation from "./pages/HrAutomation";
@@ -50,7 +47,6 @@ import { CommonDataContext } from "./store/CommonData";
 import Sidebar from "./components/Sidebar";
 import DropdownPanel from "./components/DropdownPanel";
 import TermsConditions from "./pages/TermsConditions";
-
 import ProductPage from "./components/ProductPage";
 import ProductLink from "./components/ProductLink";
 

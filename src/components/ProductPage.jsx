@@ -55,7 +55,7 @@ export default function ProductPage() {
 
       <header className="dg-hero">
         <div className="dg-hero-inner">
-          <h1 class="dg-title">Smart Enterprise Tools</h1>
+          <h1 className="dg-title">Smart Enterprise Tools</h1>
           <p className="dg-tagline">
             At Unique Design Consultant, we deliver intelligent solutions that connect your business systems seamlessly. From workflow automation to enhanced collaboration, our offerings empower companies to scale efficiently while maintaining full control. Every solution is thoughtfully designed to drive measurable impact.
           </p>

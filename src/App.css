@@ -17,8 +17,16 @@ html{
   z-index:9999;
   height:92vh;
   width:100%;
- 
-  
+  /* Prevent this invisible container from intercepting clicks on the hero
+     while still allowing its interactive children to receive events. */
+  pointer-events: none;
+
+}
+
+/* Re-enable pointer events for interactive children inside the importedProducts wrapper */
+.importedProducts .sidebarContainer,
+.importedProducts .dropdownItems {
+  pointer-events: auto;
 }
 @media screen and (max-width: 1200px) {
   .importedProducts{

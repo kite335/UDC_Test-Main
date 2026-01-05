@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react'
-import { Link, useLocation } from "react-router-dom";
+
+import { Link } from "react-router-dom";
 import themeBack from '../assets/theme/themeback.jpg'
 import themeBack2 from '../assets/theme/themeback2.jpg'
 import themeBack3 from '../assets/theme/themeback3.jpg'
@@ -65,9 +65,11 @@ const Landing = () => {
                   <div className={css.heroButtons}>
                      <Link
                 to="/product-page"
+                className={css.learnBtn}
                 
               >
-                <button className={css.primaryBtn}>Learn More</button>
+                Learn More
+                
               </Link>
                     
                   </div>

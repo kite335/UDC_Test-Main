@@ -60,7 +60,7 @@ const ClickDropdownStatus=(e,navPath,pageIndex)=>{
                 to={page.navigateTo}
                 id={index}
                 key={index}
-                className="list-group-item list-group-item-action active py-3 lh-tight"
+                className="list-group-item list-group-item-action active py-1 lh-tight"
                 aria-current="true"
                 onClick={(e) => {
                   ClickDropdownStatus(e, page.navigateTo, index);
@@ -72,7 +72,7 @@ const ClickDropdownStatus=(e,navPath,pageIndex)=>{
                     {page.contentHeading}
                   </strong>
                 </div>
-                <div className="col-10 mb-1 small">{page.des}</div>
+                <div className="col-10 mb-1 small ">{page.des}</div>
               </Link>
             ))}
           </div>

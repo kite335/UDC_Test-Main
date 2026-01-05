@@ -83,8 +83,11 @@ function App() {
             onOpenForm={() => popupFormRef.current.open("Navbar")}
           />
           <div className="importedProducts">
+          
+          
             <Sidebar />
             <DropdownPanel />
+          
           </div>
           <ScrollToTop />
           <Routes>

@@ -12,15 +12,16 @@ html{
 
 .importedProducts{
   display:flex;
-  position:absolute;
-  z-index:10;
-  height:92vh;
+  position:fixed;
+  z-index:999999;
+  height:90vh;
   width:100%;
   /* Prevent this invisible container from intercepting clicks on the hero
      while still allowing its interactive children to receive events. */
   pointer-events: none;
 
 }
+
 
 .importedProducts .sidebarContainer, 
 .importedProducts .dropdownItems,

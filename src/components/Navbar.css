@@ -63,13 +63,7 @@
   height: 35px;
   color: #1877f2;
 }
-/* .importedProducts{
-  display:flex;
-  position:absolute;
-  z-index:9999;
-  height:85vh;
-  box-shadow: 0 -5px 0 rgba(128, 128, 128, 0.055);
-} */
+
 
 .custom-dropdown {
   position: relative;

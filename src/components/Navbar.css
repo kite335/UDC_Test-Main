@@ -157,7 +157,7 @@
   }
   .navbar-collapse {
     position: absolute;
-    top: 59px;
+    top: 96px;
     z-index: 999999;
     width: 100%;
     padding-left: 15px;
@@ -198,6 +198,7 @@
     display: flex;
     max-width: none;
     align-items: center;
+    justify-content: space-between;
   }
   .navbar-brand {
     order: 2;
@@ -208,7 +209,7 @@
   }
   .navbar-collapse {
     position: absolute;
-    top: 59px;
+    top: 80px;
     z-index: 999999;
     width: 100%;
     padding-left: 15px;
@@ -216,27 +217,25 @@
     background-color: #0f3a4e !important;
   }
   .logoImg {
-    max-width: 200px;
+    max-width:6rem;
   }
 
   /* ensure navRight sits to the right on small screens */
   .navRight {
     order: 3;
-    gap: 8px;
-  }
-
-  .navRight {
     column-gap: 20px;
   }
-  .whtsappImg {
-    max-width: 20px;
-  }
 
-  .mailImg {
+
+  .whtsappImg {
     max-width: 30px;
   }
 
+  .mailImg {
+    max-width: 40px;
+  }
+
   .linkdeinIcon {
-    max-width: 20px;
+    max-width: 30px;
   }
 }

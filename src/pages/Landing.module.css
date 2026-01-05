@@ -90,6 +90,7 @@
   border: none;
   text-align: center;
   cursor: pointer;
+  max-width:150px;
 }
 
 
@@ -254,6 +255,13 @@ border-radius: 5px;
   .growthGlass {
     flex-direction: column;
     text-align: center;
+  }
+
+  .growthLeft{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
   }
 
   .productGrid {

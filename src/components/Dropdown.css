@@ -8,6 +8,7 @@
 
 .headingPanel:hover{
  color:#eacd62;
+    cursor:pointer;
 }
 
 @media screen and (max-width: 1200px) {

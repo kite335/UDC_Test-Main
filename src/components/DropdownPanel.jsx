@@ -32,8 +32,8 @@ const ClickDropdownStatus=(e,navPath,pageIndex)=>{
   return (
     <>
       {sidebarStatus && (
-        <div className="d-flex w-100  flex-column align-items-stretch flex-shrink-0 bg-white">
-          <div className=" px-5 pt-3">
+        <div className="d-flex w-100  flex-column align-items-stretch flex-shrink-0 bg-white ">
+          <div className=" px-5 pt-3 upperDropdownSection">
             <Link
               to={navigateTo}
               className="d-flex align-items-center flex-shrink-0 p-0 link-dark text-decoration-none  "

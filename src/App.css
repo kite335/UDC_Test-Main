@@ -35,6 +35,8 @@ html{
     flex-direction:column;
     top:318px;
     width:100%;
+    position: absolute;
+    z-index: 10;
   }
  
 }
@@ -45,5 +47,7 @@ html{
     top:302px;
     box-shadow: none;
     border-top: none;
+    position: absolute;
+    z-index: 10;
   }
 }
